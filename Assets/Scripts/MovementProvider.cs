@@ -8,7 +8,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class MovementProvider : LocomotionProvider
 {
     public float speed = 1.0f;
-    public List<XRController> controllers = null;
+    public List<XRBaseController> controllers = null;
 
     private CharacterController characterController = null;
     private Camera head = null;
