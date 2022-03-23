@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/SimpleCameraController.cs" />
-    <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Navigation.cs" />
-    <Compile Include="Assets/Scripts/MovementProvider.cs" />
+    <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/CharacterMovementHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -647,6 +647,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
@@ -661,6 +664,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -713,6 +719,9 @@
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
@@ -725,17 +734,34 @@
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
+      <Project>{E3E9D881-DB49-4C08-EE36-5AF0234FB690}</Project>
+      <Name>Unity.XR.Management.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
+      <Project>{AA538CFA-32E1-E75E-DDE6-12716AA9FBBA}</Project>
+      <Name>Unity.XR.Management.Samples.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
