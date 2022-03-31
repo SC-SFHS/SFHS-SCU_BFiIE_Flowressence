@@ -1,0 +1,1572 @@
+Unity Editor version:    2020.3.25f1 (9b9180224418)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.1 (Build 20G224)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jscott1/Documents/GitHub/BFiIE-Spring2022/Main World
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60649
+Successfully changed project path to: /Users/jscott1/Documents/GitHub/BFiIE-Spring2022/Main World
+/Users/jscott1/Documents/GitHub/BFiIE-Spring2022/Main World
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 92.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 6.01 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jscott1/Documents/GitHub/BFiIE-Spring2022/Main World/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-29 13:46:06.201 Unity[7533:7684272] (null) preferred device: Apple M1 (high power)
+2022-03-29 13:46:06.201 Unity[7533:7684272] Metal devices available: 1
+2022-03-29 13:46:06.201 Unity[7533:7684272] 0: Apple M1 (high power)
+2022-03-29 13:46:06.202 Unity[7533:7684272] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56533
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002305 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.49 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2086ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1823ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (903ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (491ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004437 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 89.85 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.411 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4413ms)
+		BeginReloadAssembly (366ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (3917ms)
+			LoadAssemblies (285ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (2554ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (277ms)
+				ProcessInitializeOnLoadAttributes (2128ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.004648 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.003120 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Unloading 3890 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 300.7 MB.
+System memory in use after: 300.0 MB.
+
+Unloading 225 unused Assets to reduce memory usage. Loaded Objects now: 4382.
+Total: 6.485250 ms (FindLiveObjects: 0.282083 ms CreateObjectMapping: 0.126208 ms MarkObjects: 5.161667 ms  DeleteObjects: 0.912542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(7e9509d36a0dc4f4784b218dac888c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(7e9509d36a0dc4f4784b218dac888c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe9a019bfbe26f744268a07f3cbffdd') in 0.589702 seconds 
+  Import took 0.599494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(aca3a36f0536a894eb85eba0e6c365e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(aca3a36f0536a894eb85eba0e6c365e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ba7f1bcae61fd40a381b103a78690e') in 0.006761 seconds 
+  Import took 0.012017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd2c44ffeb50c574abb5d0c4453328') in 0.008489 seconds 
+  Import took 0.014098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(ee368cae0279a1541a936237b13eaf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(ee368cae0279a1541a936237b13eaf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcefc14d9cbe62fa6d791a422a68405b') in 0.005521 seconds 
+  Import took 0.011170 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  5.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5067ms)
+		BeginReloadAssembly (606ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (75ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (265ms)
+		EndReloadAssembly (4268ms)
+			LoadAssemblies (390ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (529ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (2299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (389ms)
+				ProcessInitializeOnLoadAttributes (1851ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (54ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Unloading 3828 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 302.1 MB.
+System memory in use after: 299.6 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 4488.
+Total: 4.883958 ms (FindLiveObjects: 0.251166 ms CreateObjectMapping: 0.112417 ms MarkObjects: 3.419125 ms  DeleteObjects: 1.099875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.89 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5812ms)
+		BeginReloadAssembly (604ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (137ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (226ms)
+		EndReloadAssembly (5026ms)
+			LoadAssemblies (517ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (592ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (2604ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (447ms)
+				ProcessInitializeOnLoadAttributes (2089ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (96ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Unloading 3847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 303.8 MB.
+System memory in use after: 301.3 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 4546.
+Total: 6.021792 ms (FindLiveObjects: 0.861833 ms CreateObjectMapping: 0.163042 ms MarkObjects: 3.831667 ms  DeleteObjects: 1.164209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.83 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.362 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6364ms)
+		BeginReloadAssembly (475ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (60ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (229ms)
+		EndReloadAssembly (5703ms)
+			LoadAssemblies (362ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (667ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (3215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (477ms)
+				ProcessInitializeOnLoadAttributes (2666ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (143ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.86 ms.
+Unloading 3847 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 307.7 MB.
+System memory in use after: 305.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 4560.
+Total: 6.099041 ms (FindLiveObjects: 0.337458 ms CreateObjectMapping: 0.177250 ms MarkObjects: 4.134500 ms  DeleteObjects: 1.448541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12172.107809 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Inside.mat
+  artifactKey: Guid(10b2c6882a7f6d36a950e534521a2202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Inside.mat using Guid(10b2c6882a7f6d36a950e534521a2202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a961fddd980dea86eb49a21b2416929b') in 1.599166 seconds 
+  Import took 1.788901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Stone_03.mat
+  artifactKey: Guid(3031e0df450808f9dbbf9caef3ff38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Stone_03.mat using Guid(3031e0df450808f9dbbf9caef3ff38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d4ec7347ff66d026111965c860c77e') in 0.028935 seconds 
+  Import took 0.034456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_11_Ring.mat
+  artifactKey: Guid(1a80791c90c9175e0a413bc58e152d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_11_Ring.mat using Guid(1a80791c90c9175e0a413bc58e152d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a71e5d2495876ee1db114ec1e375b3') in 0.009324 seconds 
+  Import took 0.014712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Flower_Inside.mat
+  artifactKey: Guid(4945e315394aa233795d45fea8e39b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Flower_Inside.mat using Guid(4945e315394aa233795d45fea8e39b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834d2b3502e29f2c5c8cd5cc01c314d9') in 0.009412 seconds 
+  Import took 0.014680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Points_Glowing.mat
+  artifactKey: Guid(a41a815bc9acc87469f4726ce1c2d899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Points_Glowing.mat using Guid(a41a815bc9acc87469f4726ce1c2d899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fbd0ab5a8c07f0adc49dbaf72c827f') in 0.009996 seconds 
+  Import took 0.015223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Stem_Ring.mat
+  artifactKey: Guid(fb1973a20c9f2371f82a908d4ceb17a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Stem_Ring.mat using Guid(fb1973a20c9f2371f82a908d4ceb17a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ade17fbc7e724a3d20567ea8f788f0f') in 0.008517 seconds 
+  Import took 0.014084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_2_Glowing.mat
+  artifactKey: Guid(25a9849ae71718ba28fb9269f6133076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_2_Glowing.mat using Guid(25a9849ae71718ba28fb9269f6133076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac457e6b9b25e09708f220a57e06714') in 0.009245 seconds 
+  Import took 0.014413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Flower.mat
+  artifactKey: Guid(1107f89cd6bb5b6c1b405c93de54e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Flower.mat using Guid(1107f89cd6bb5b6c1b405c93de54e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afccbc8b2f12f7d8179d216d5a8980b') in 0.009125 seconds 
+  Import took 0.013994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Stem.mat
+  artifactKey: Guid(61301a7604d0654d7ba779c84770a047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Stem.mat using Guid(61301a7604d0654d7ba779c84770a047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c655d496a0970d24455bbb5941aca3') in 0.009737 seconds 
+  Import took 0.014630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001156 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Stem.mat
+  artifactKey: Guid(d6814ab4fa9d95f4b9b33671da0a345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Stem.mat using Guid(d6814ab4fa9d95f4b9b33671da0a345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a1a0a513d27daff927a51370fe8ec7') in 0.008702 seconds 
+  Import took 0.013975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_6_Glowing.mat
+  artifactKey: Guid(82a01a8940a2f9225a36c9788e5e5f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_6_Glowing.mat using Guid(82a01a8940a2f9225a36c9788e5e5f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9118adcc240b1e417575677b54df110') in 0.007943 seconds 
+  Import took 0.012697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Spheres_Glowing.mat
+  artifactKey: Guid(52ade61a2d96bca8e9f09eefad3a49cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Spheres_Glowing.mat using Guid(52ade61a2d96bca8e9f09eefad3a49cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7d1858f7bd278124fdca07950b24c1') in 0.008083 seconds 
+  Import took 0.012979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Fruit.mat
+  artifactKey: Guid(fca48643f541fb99c8bc09f83ba07228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Fruit.mat using Guid(fca48643f541fb99c8bc09f83ba07228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2935f8a3735c9daba5a54d38d8d70f') in 0.008007 seconds 
+  Import took 0.013342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000712 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Cap_Upside.mat
+  artifactKey: Guid(2986ed8cb17077acc9d2292016083e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Cap_Upside.mat using Guid(2986ed8cb17077acc9d2292016083e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153c4a8f440cf9de5466dbbfd120f0e5') in 0.007736 seconds 
+  Import took 0.012726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Outside.mat
+  artifactKey: Guid(9a1b0dffd54f86a91b58aa607fd83286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Outside.mat using Guid(9a1b0dffd54f86a91b58aa607fd83286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83db5aa846ab9deba72e885607838e57') in 0.008129 seconds 
+  Import took 0.012699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Stamen.mat
+  artifactKey: Guid(7bb78819136180782ad0e366c45cc4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Stamen.mat using Guid(7bb78819136180782ad0e366c45cc4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb356a7c8b4536fc2ec4c33ba7f3bb8') in 0.007838 seconds 
+  Import took 0.012651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Cap.mat
+  artifactKey: Guid(36c007409e76bd71ca6684e02861a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Cap.mat using Guid(36c007409e76bd71ca6684e02861a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22008217fa400053a8f695aa8726dad') in 0.008462 seconds 
+  Import took 0.013867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Ball_Glowing.mat
+  artifactKey: Guid(70503777b0131961588aace39f64d572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Ball_Glowing.mat using Guid(70503777b0131961588aace39f64d572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6797ea80e9854713f6977b199612b91c') in 0.007638 seconds 
+  Import took 0.012479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Stem.mat
+  artifactKey: Guid(9fca834d88af0238b91ab7f1b35bd5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Stem.mat using Guid(9fca834d88af0238b91ab7f1b35bd5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f125488b15c6383109916b89378eb8') in 0.012354 seconds 
+  Import took 0.017533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Flower_Stamens_Glowing.mat
+  artifactKey: Guid(3cba9bd6e7f33bed4b28b58ae386eef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Flower_Stamens_Glowing.mat using Guid(3cba9bd6e7f33bed4b28b58ae386eef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0b2199c52eb6fb195ab94b139a5a9f') in 0.007478 seconds 
+  Import took 0.012120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_5_Glowing.mat
+  artifactKey: Guid(027691659cbfffe5491f3a1484e5ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_5_Glowing.mat using Guid(027691659cbfffe5491f3a1484e5ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35f27e2d04674dad640adc338d27d06') in 0.007446 seconds 
+  Import took 0.012037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Point_Glowing.mat
+  artifactKey: Guid(6deb54bcb03b3c4a5b52e8ba663a5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Point_Glowing.mat using Guid(6deb54bcb03b3c4a5b52e8ba663a5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00809a28ff40b6fdbc7d17bf8575a35e') in 0.007758 seconds 
+  Import took 0.012722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_4_Glowing.mat
+  artifactKey: Guid(70c96f26c33e27c9d98962ac6631260c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_4_Glowing.mat using Guid(70c96f26c33e27c9d98962ac6631260c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eac69e1c40a55b7d11373d67b234ed3') in 0.007596 seconds 
+  Import took 0.012601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Stem.mat
+  artifactKey: Guid(e8043854f9487774f952319370a6a03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Stem.mat using Guid(e8043854f9487774f952319370a6a03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92382de8685a45076f085758c2dc73c') in 0.007233 seconds 
+  Import took 0.012294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_11_Stem.mat
+  artifactKey: Guid(4dd525471b88f9f5fb5d4998b7d49e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_11_Stem.mat using Guid(4dd525471b88f9f5fb5d4998b7d49e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77647e1526c47554438346a93517a5e') in 0.007645 seconds 
+  Import took 0.012143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Stone_04.mat
+  artifactKey: Guid(b60123c8b027af621886c2df4e592506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Stone_04.mat using Guid(b60123c8b027af621886c2df4e592506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed094e9b7a29b643fe0a7a9ae6916b85') in 0.008091 seconds 
+  Import took 0.012600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Flower_Filament.mat
+  artifactKey: Guid(4f76a625276dbca15a1cc1326fb038c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Flower_Filament.mat using Guid(4f76a625276dbca15a1cc1326fb038c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e50ab1857abc9609a1615b382b2668f') in 0.007637 seconds 
+  Import took 0.012264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Cap_Up.mat
+  artifactKey: Guid(d67506a8b8b42471bae63995252450ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Cap_Up.mat using Guid(d67506a8b8b42471bae63995252450ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e307312dbaeb1f227550cf36815e02c') in 0.007469 seconds 
+  Import took 0.012850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000908 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Root.mat
+  artifactKey: Guid(2cabebbbbb9bf7075940405796b907b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Root.mat using Guid(2cabebbbbb9bf7075940405796b907b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb466ddfe926b61cf7a7712622a91de') in 0.008054 seconds 
+  Import took 0.013448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Cap_Ring.mat
+  artifactKey: Guid(cc1243c13453100d285a04376d216264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Cap_Ring.mat using Guid(cc1243c13453100d285a04376d216264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d8a0e0d314c24b811497bdb31d43ff') in 0.009523 seconds 
+  Import took 0.014880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Ring_01.mat
+  artifactKey: Guid(99c6ecad497f3ae4f8085d45b38b21e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Ring_01.mat using Guid(99c6ecad497f3ae4f8085d45b38b21e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b94c685cf433d009215dadbd5ed3ac4') in 0.008074 seconds 
+  Import took 0.012712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_3_Glowing.mat
+  artifactKey: Guid(984fec52483b690699d0e87a13ec2d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_3_Glowing.mat using Guid(984fec52483b690699d0e87a13ec2d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c4175d0f7e1d433ad00087deb5147') in 0.008946 seconds 
+  Import took 0.013801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Ring.mat
+  artifactKey: Guid(d7cddc3c0428c622e94e3c1329ae0fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_02_Ring.mat using Guid(d7cddc3c0428c622e94e3c1329ae0fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c65c8070712fe4095a0e6b10b5d058') in 0.009427 seconds 
+  Import took 0.014243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_1_Glowing.mat
+  artifactKey: Guid(98a63031db6d0da54b44e105fc0123e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_12_Point_1_Glowing.mat using Guid(98a63031db6d0da54b44e105fc0123e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a892c7b428eb5fe3aa3a1f1c1c21efb5') in 0.007462 seconds 
+  Import took 0.011780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Flower_Outside.mat
+  artifactKey: Guid(b68df91b6e0362e09bab980524637ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_10_Flower_Outside.mat using Guid(b68df91b6e0362e09bab980524637ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6ae8625f6e869408c405dac5ee6883') in 0.009053 seconds 
+  Import took 0.013416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Cap_Down.mat
+  artifactKey: Guid(7853cb61784345f898537459f5769e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Mushroom_03_Cap_Down.mat using Guid(7853cb61784345f898537459f5769e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd54e991fa9fc7cf917021d16be1ca8f') in 0.007650 seconds 
+  Import took 0.012078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Stem.mat
+  artifactKey: Guid(8727292c40e06855a97cdda8a8f76ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_09_Stem.mat using Guid(8727292c40e06855a97cdda8a8f76ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7179ec982b46ee33848a7dffb327dea') in 0.007146 seconds 
+  Import took 0.011246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_11_Ball_Glowing.mat
+  artifactKey: Guid(3c501ff960ecdf626afe3773e954244e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Plant_11_Ball_Glowing.mat using Guid(3c501ff960ecdf626afe3773e954244e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299929c54f036820dec395db080e8f13') in 0.007005 seconds 
+  Import took 0.011184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Ring_02.mat
+  artifactKey: Guid(3c17d94f96c12cd0996b0bf2b15effcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Materials/Tree_11_Ring_02.mat using Guid(3c17d94f96c12cd0996b0bf2b15effcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b0a23041fce192d88b12b8f0ac3d94') in 0.009474 seconds 
+  Import took 0.013726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.672391 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Postprocessing/Glow Profile.asset
+  artifactKey: Guid(800b44b21e9be43e9b8e45bddab6fce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Postprocessing/Glow Profile.asset using Guid(800b44b21e9be43e9b8e45bddab6fce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce0a49909f0a8c7dfe483901c9e218e') in 0.031835 seconds 
+  Import took 0.059445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.546916 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Glow_Postproccesing.prefab
+  artifactKey: Guid(71401e2b52551d09095a421375df9a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Glow_Postproccesing.prefab using Guid(71401e2b52551d09095a421375df9a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8cfe4551cfc9b8b4a2a888b8a0c90c') in 0.421130 seconds 
+  Import took 0.428395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_02.prefab
+  artifactKey: Guid(3a7edcd3dc756aec696a9892c7acfc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_02.prefab using Guid(3a7edcd3dc756aec696a9892c7acfc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f33bbdcecd217bd67f373b6e41d304d') in 0.066343 seconds 
+  Import took 0.071400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_04.prefab
+  artifactKey: Guid(53f17534a071b098daaaf91aac05a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_04.prefab using Guid(53f17534a071b098daaaf91aac05a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882297d5b102fc4e415040b1cbfc11db') in 0.017019 seconds 
+  Import took 0.022781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_07.prefab
+  artifactKey: Guid(99e7d254a3377d16b9482399afeb7f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_07.prefab using Guid(99e7d254a3377d16b9482399afeb7f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b13d794649526548667fad3b9b69c5') in 0.010228 seconds 
+  Import took 0.015152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_01.prefab
+  artifactKey: Guid(b1a0ae442ed076a2ca6f73b9c3e9ba07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_01.prefab using Guid(b1a0ae442ed076a2ca6f73b9c3e9ba07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5204620c6751de5b11db376e4a2ff9f4') in 0.010278 seconds 
+  Import took 0.015260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_01.prefab
+  artifactKey: Guid(83053eaa50ed689228be7979a42eabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_01.prefab using Guid(83053eaa50ed689228be7979a42eabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736522e919e24dbb98e27af114a0b5c9') in 0.009718 seconds 
+  Import took 0.014599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_01.prefab
+  artifactKey: Guid(e36a136124c195f9bb0097509f4cb4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_01.prefab using Guid(e36a136124c195f9bb0097509f4cb4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0babddbc19b94c2cdd6b98a8deb28cec') in 0.018834 seconds 
+  Import took 0.023944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_04.prefab
+  artifactKey: Guid(73c54910a208e50b2a4b9c0cc12782cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_04.prefab using Guid(73c54910a208e50b2a4b9c0cc12782cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dc8f45082df4f54543018e915c5996') in 0.009607 seconds 
+  Import took 0.014560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_12_Var_01.prefab
+  artifactKey: Guid(47607e0f119b7a759b54a3ac7a8cd74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_12_Var_01.prefab using Guid(47607e0f119b7a759b54a3ac7a8cd74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bec7e86499f736ad7693d524da93ec4') in 0.014164 seconds 
+  Import took 0.019810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_06.prefab
+  artifactKey: Guid(4254550a567771550a9980a9717aaf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_06.prefab using Guid(4254550a567771550a9980a9717aaf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e2f417cc99247c83551ad83e4173d7') in 0.011383 seconds 
+  Import took 0.016255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_01.prefab
+  artifactKey: Guid(c8680a75af67e57dca6d179e1619beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_01.prefab using Guid(c8680a75af67e57dca6d179e1619beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c101d888756160c0401ece533496dd') in 0.010161 seconds 
+  Import took 0.016004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_02.prefab
+  artifactKey: Guid(ae63517ea9ec260b8b3778e10c022532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_02.prefab using Guid(ae63517ea9ec260b8b3778e10c022532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30d051445dddc47c35babba41164bcb') in 0.011397 seconds 
+  Import took 0.017215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_05.prefab
+  artifactKey: Guid(6aa8a2774d1c320aeacc69eb9865642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_05.prefab using Guid(6aa8a2774d1c320aeacc69eb9865642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae4b77b9128e7f507a05aae43d15ca8') in 0.010333 seconds 
+  Import took 0.015365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_04.prefab
+  artifactKey: Guid(370ac54d6b54e824c9fe7cd11b54f2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_04.prefab using Guid(370ac54d6b54e824c9fe7cd11b54f2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05f6e0566a7aac93ca1a68a1047a67f') in 0.009866 seconds 
+  Import took 0.014678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_03.prefab
+  artifactKey: Guid(9f4c910e959570d958f9576f530edf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_03.prefab using Guid(9f4c910e959570d958f9576f530edf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664ac4dff2fd1107be339328ad7b6146') in 0.009624 seconds 
+  Import took 0.015364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_05.prefab
+  artifactKey: Guid(1e522f324f647e756a03f317d5dea09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_05.prefab using Guid(1e522f324f647e756a03f317d5dea09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7344d938befd8a9ed0b78cb556ed27') in 0.009564 seconds 
+  Import took 0.014392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_03.prefab
+  artifactKey: Guid(997f10e372766b26e81e2497d0d35f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_03.prefab using Guid(997f10e372766b26e81e2497d0d35f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3892853691b30495b48b11be7e4de3') in 0.009322 seconds 
+  Import took 0.014588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_01.prefab
+  artifactKey: Guid(270e97e54863a337bb18a66859d77820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_01.prefab using Guid(270e97e54863a337bb18a66859d77820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db050b3853605afc88edc5b8622be7bb') in 0.011915 seconds 
+  Import took 0.017102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_05.prefab
+  artifactKey: Guid(8be669a481a9f0147a01dca918e3ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_05.prefab using Guid(8be669a481a9f0147a01dca918e3ea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6eb96dae4bbe1e859e2208efa3d9750') in 0.010142 seconds 
+  Import took 0.014661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_09.prefab
+  artifactKey: Guid(ee8588dff9d6bcbf5bc6e2b77fa33a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_09.prefab using Guid(ee8588dff9d6bcbf5bc6e2b77fa33a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6512f1a6ffeab5727c63cc418929324b') in 0.012178 seconds 
+  Import took 0.016912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_03.prefab
+  artifactKey: Guid(91481a716559e7fa9a796c082779c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_03.prefab using Guid(91481a716559e7fa9a796c082779c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18b59be583266d9031a0f3ec4d14e43') in 0.009118 seconds 
+  Import took 0.013671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_12_Var_03.prefab
+  artifactKey: Guid(d9435f0d495dbaa4d862a3b82357fc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_12_Var_03.prefab using Guid(d9435f0d495dbaa4d862a3b82357fc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01bf26329178f8b369f3cb81532ea11') in 0.010830 seconds 
+  Import took 0.015287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_02.prefab
+  artifactKey: Guid(9ea4aab83c7fc762d9d06ca23d5e092f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_02.prefab using Guid(9ea4aab83c7fc762d9d06ca23d5e092f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89189136f942d27b393f7666636ab090') in 0.015139 seconds 
+  Import took 0.020553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_04.prefab
+  artifactKey: Guid(ecb347397cc27a32ab1e8f9fbcf93366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_04.prefab using Guid(ecb347397cc27a32ab1e8f9fbcf93366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a4dc88b30e2fe37343996f2ded806d') in 0.014800 seconds 
+  Import took 0.021129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_03.prefab
+  artifactKey: Guid(6a3314847f576f981b62b1707daed4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_03.prefab using Guid(6a3314847f576f981b62b1707daed4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25de0c52abe9a4bd6feebb2af7b48f71') in 0.011336 seconds 
+  Import took 0.016904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_05.prefab
+  artifactKey: Guid(98d481dde9b1972dea9f20596bb7cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_05.prefab using Guid(98d481dde9b1972dea9f20596bb7cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53258809ef49eeccafb919422990591f') in 0.009386 seconds 
+  Import took 0.015189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_02.prefab
+  artifactKey: Guid(03e14e3f5842a0d148c4d972cdbd2e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_02.prefab using Guid(03e14e3f5842a0d148c4d972cdbd2e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640dd65923795c08f518d4bed64d4938') in 0.018643 seconds 
+  Import took 0.024831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_07.prefab
+  artifactKey: Guid(d3d0dcf3ddffac9499d56e59d112812e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_07.prefab using Guid(d3d0dcf3ddffac9499d56e59d112812e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a98cc0ff275081cfee9f0eb80bc73c2') in 0.009066 seconds 
+  Import took 0.013522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_06.prefab
+  artifactKey: Guid(e7ef3cbb87b44f7bd9ef004f4d222bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_06.prefab using Guid(e7ef3cbb87b44f7bd9ef004f4d222bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12823348fa42ac14e71a03baead8a69b') in 0.009758 seconds 
+  Import took 0.014073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_05.prefab
+  artifactKey: Guid(5c8707537858c8718a2d7cd634c8dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_05.prefab using Guid(5c8707537858c8718a2d7cd634c8dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c9f0a1448f17c1085a9d376dd0fda2') in 0.009970 seconds 
+  Import took 0.014836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_02.prefab
+  artifactKey: Guid(fbba0404835127a3087b295c4f8b0fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_02.prefab using Guid(fbba0404835127a3087b295c4f8b0fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c680e231697e58c1d0da46352c3ae5') in 0.011007 seconds 
+  Import took 0.015790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_04.prefab
+  artifactKey: Guid(8451e4ec2608c6373888149e0a169857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_11_Var_04.prefab using Guid(8451e4ec2608c6373888149e0a169857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e283049874c19ad9a56b8957c8fb2f50') in 0.009423 seconds 
+  Import took 0.014047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_03.prefab
+  artifactKey: Guid(05a8bc8f993b55cb8950a282c3af2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_03.prefab using Guid(05a8bc8f993b55cb8950a282c3af2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392fb7e658b7e52de93e8810baf840c7') in 0.012349 seconds 
+  Import took 0.017657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_04.prefab
+  artifactKey: Guid(47427a37ab3ea2a45b2b3adb2c693a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_04.prefab using Guid(47427a37ab3ea2a45b2b3adb2c693a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5cda0975df46e586a35902224581a2') in 0.009810 seconds 
+  Import took 0.015143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_12_Var_02.prefab
+  artifactKey: Guid(13397350fc0e61bfa8415896b1e2fcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Plant_12_Var_02.prefab using Guid(13397350fc0e61bfa8415896b1e2fcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b197d6bd4db0ebb49509f806a644eeb') in 0.009245 seconds 
+  Import took 0.014085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_02.prefab
+  artifactKey: Guid(981648fca8c12b84f81197e76b009a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_02_Var_02.prefab using Guid(981648fca8c12b84f81197e76b009a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73976af87d194a0465fed4b008fb6d26') in 0.009498 seconds 
+  Import took 0.014692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_05.prefab
+  artifactKey: Guid(505ed5d0b4f0dae308f19f23db376e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_05.prefab using Guid(505ed5d0b4f0dae308f19f23db376e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caca9ba4a78b2f7f6fe1d83732013759') in 0.008857 seconds 
+  Import took 0.013280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_03.prefab
+  artifactKey: Guid(b4946d80c3d0e913c9acc2afb4235101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Mushroom_03_Var_03.prefab using Guid(b4946d80c3d0e913c9acc2afb4235101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b0a804d185b8e725023c0d65af8fdc') in 0.009802 seconds 
+  Import took 0.014129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_08.prefab
+  artifactKey: Guid(ce1a57856fca851bb899faf0bf1501f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_03_Var_08.prefab using Guid(ce1a57856fca851bb899faf0bf1501f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f810b4a3e391cb388a7b54d0ba6552a5') in 0.010167 seconds 
+  Import took 0.014861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_01.prefab
+  artifactKey: Guid(8c8821e8b458be647b1fc667e5d6588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Tree_09_Var_01.prefab using Guid(8c8821e8b458be647b1fc667e5d6588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3885e5ccdc0ba81e92de8946c6411128') in 0.010370 seconds 
+  Import took 0.015165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_06.prefab
+  artifactKey: Guid(72205e2cb85bcd0d580479ece0c7a84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs/Stone_04_Var_06.prefab using Guid(72205e2cb85bcd0d580479ece0c7a84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee782122f4989dcb49dde77e1175638b') in 0.010620 seconds 
+  Import took 0.015972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.945292 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_01.fbx
+  artifactKey: Guid(cd155547705aad700867596375ce8303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_01.fbx using Guid(cd155547705aad700867596375ce8303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95acf5d8cea48e3f4fdea1841ec91b6') in 0.681640 seconds 
+  Import took 0.691970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_04.fbx
+  artifactKey: Guid(c2b88e9d5fcd4455a90b2b8394259be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_04.fbx using Guid(c2b88e9d5fcd4455a90b2b8394259be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7decaf0896f03f363294ac5b261e67') in 0.025846 seconds 
+  Import took 0.036805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_05.fbx
+  artifactKey: Guid(37d34f6c64bd783d19e489ccaa4fc90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_05.fbx using Guid(37d34f6c64bd783d19e489ccaa4fc90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405872c180f47e482d04ddeb999dbf3d') in 0.015222 seconds 
+  Import took 0.021188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_08.fbx
+  artifactKey: Guid(de40e4c659d030eae9f237f76e460d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_08.fbx using Guid(de40e4c659d030eae9f237f76e460d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0843cbb65c8ee56832b23ec8b69d6c') in 0.012908 seconds 
+  Import took 0.018521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_09.fbx
+  artifactKey: Guid(db975aad9d8ac7c6791719a8773c32fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_09.fbx using Guid(db975aad9d8ac7c6791719a8773c32fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e166b1aab3d0c11607e25826fb5549') in 0.014686 seconds 
+  Import took 0.020098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_01.fbx
+  artifactKey: Guid(a8d15d6ff733c2aa8b06ff8e69b508e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_01.fbx using Guid(a8d15d6ff733c2aa8b06ff8e69b508e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81a5a563c8cf90744c760d7b169f66b') in 0.017271 seconds 
+  Import took 0.022575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_01.fbx
+  artifactKey: Guid(0508b2a0faf2a65da948b36488885715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_01.fbx using Guid(0508b2a0faf2a65da948b36488885715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c12ee65884319879a29e292f36b379') in 0.016863 seconds 
+  Import took 0.022142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_05.fbx
+  artifactKey: Guid(9550593faacc540889a8edd20beb1598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_05.fbx using Guid(9550593faacc540889a8edd20beb1598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4a27008106fef7d41a1ad9f7da23d7') in 0.013393 seconds 
+  Import took 0.017982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_03.fbx
+  artifactKey: Guid(568d9a9b761388ffa8888f9269b82f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_03.fbx using Guid(568d9a9b761388ffa8888f9269b82f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c77c3a8eaf0b4bbbe8029f9dcf9afc9') in 0.016837 seconds 
+  Import took 0.022076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_12_Var_03.fbx
+  artifactKey: Guid(2cf570f9305b040898e25b077439cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_12_Var_03.fbx using Guid(2cf570f9305b040898e25b077439cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dea775d3124b4b873260cb0b040219') in 0.014991 seconds 
+  Import took 0.020345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_03.fbx
+  artifactKey: Guid(d8b5c0c04b32a58929f2705f63744c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_03.fbx using Guid(d8b5c0c04b32a58929f2705f63744c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83493df86fe768b38d88cfb47d7e67c3') in 0.013972 seconds 
+  Import took 0.019380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_03.fbx
+  artifactKey: Guid(c60023e1ff113d1b8a79f2cb0eb2c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_03.fbx using Guid(c60023e1ff113d1b8a79f2cb0eb2c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421aee2481fac46c905ea8e27af9e348') in 0.017424 seconds 
+  Import took 0.023099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_03.fbx
+  artifactKey: Guid(3548e94e458a4809c96b5851bbcd43c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_03.fbx using Guid(3548e94e458a4809c96b5851bbcd43c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769b0cbb3704972fd147d80be9fe34b7') in 0.015492 seconds 
+  Import took 0.020824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_05.fbx
+  artifactKey: Guid(892546a0fb856f669bbed8c6215189b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_05.fbx using Guid(892546a0fb856f669bbed8c6215189b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a5a4dcf644849674e18d0f86b842e9') in 0.013365 seconds 
+  Import took 0.018878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_03.fbx
+  artifactKey: Guid(e44f9e2388c244daabd22fcfd705ed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_03.fbx using Guid(e44f9e2388c244daabd22fcfd705ed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427d578d7b0d402b06849ffc7fbd493d') in 0.020296 seconds 
+  Import took 0.026548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_01.fbx
+  artifactKey: Guid(7976e173402370a25930baa3c3ba6aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_01.fbx using Guid(7976e173402370a25930baa3c3ba6aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb92191a8098fa541e0f0266fec2d8d') in 0.014127 seconds 
+  Import took 0.019755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_04.fbx
+  artifactKey: Guid(db70f624e9502dcf69e73811bc9ec003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_04.fbx using Guid(db70f624e9502dcf69e73811bc9ec003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b710178edcdc2bb195f9c14a8a33d17') in 0.016326 seconds 
+  Import took 0.021264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_06.fbx
+  artifactKey: Guid(f6654e7ae34f45a43a5d4b44bf04aa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_06.fbx using Guid(f6654e7ae34f45a43a5d4b44bf04aa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ca7b9e8b2c13e24a86671db16726db') in 0.013026 seconds 
+  Import took 0.017787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_02.fbx
+  artifactKey: Guid(fa04bf97aa9a513e18248791fb0c1c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_02.fbx using Guid(fa04bf97aa9a513e18248791fb0c1c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a380d3716a5386ed247ea3ae8edf92') in 0.016570 seconds 
+  Import took 0.021904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_04.fbx
+  artifactKey: Guid(cee649bb8485c8e7f8279a7e76b3f519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_04.fbx using Guid(cee649bb8485c8e7f8279a7e76b3f519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8272060dae7eff2ed18c9a04762223ef') in 0.013027 seconds 
+  Import took 0.017854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_02.fbx
+  artifactKey: Guid(b5fcdb35ea9ea211c90e6a1e3b803d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_02.fbx using Guid(b5fcdb35ea9ea211c90e6a1e3b803d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c271ec03e794d1a93b9b81b8c1901d4') in 0.013673 seconds 
+  Import took 0.018583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_07.fbx
+  artifactKey: Guid(fc53876ea38d06b08bb0d99e8a32108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_07.fbx using Guid(fc53876ea38d06b08bb0d99e8a32108d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c174f27b300d693963ba62f5b5432f3e') in 0.014538 seconds 
+  Import took 0.019327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_06.fbx
+  artifactKey: Guid(b1e1be6af90daf1799762927834517da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_06.fbx using Guid(b1e1be6af90daf1799762927834517da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c960c99f40a5154ec99a67442b0e2c2') in 0.014568 seconds 
+  Import took 0.019283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_12_Var_02.fbx
+  artifactKey: Guid(1d601d703f2ea5fc7a5e17c76e4d86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_12_Var_02.fbx using Guid(1d601d703f2ea5fc7a5e17c76e4d86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a48480aa9a44eb42bcd6c79b8e99aa6') in 0.015446 seconds 
+  Import took 0.020490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_01.fbx
+  artifactKey: Guid(de263dd3d6bf04bcab2f2b55c1a8a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_09_Var_01.fbx using Guid(de263dd3d6bf04bcab2f2b55c1a8a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93046eb95c743b71aaa269636ca283ad') in 0.020778 seconds 
+  Import took 0.026224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_02.fbx
+  artifactKey: Guid(16d7a938bc9b78daea989df62e8bf312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_02.fbx using Guid(16d7a938bc9b78daea989df62e8bf312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d688c610c54e2a62cd4502fe6f0b22') in 0.013498 seconds 
+  Import took 0.018890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_04.fbx
+  artifactKey: Guid(273789c6db0bbe9da8cc2e1e9c509eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_04.fbx using Guid(273789c6db0bbe9da8cc2e1e9c509eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e1d78c45f96e464221a431a931fe46') in 0.015341 seconds 
+  Import took 0.020275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_02.fbx
+  artifactKey: Guid(db8e98d742c9d4dbf9559e925980546d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_02.fbx using Guid(db8e98d742c9d4dbf9559e925980546d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bc7b3c9c49dbb474a14066ee16b15e') in 0.012799 seconds 
+  Import took 0.017579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_03.fbx
+  artifactKey: Guid(b3fd3270a5c2d1f6d92c6fa41dd5f52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_03.fbx using Guid(b3fd3270a5c2d1f6d92c6fa41dd5f52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dab4fefec5d6b79366cdf7c4a1f797') in 0.014222 seconds 
+  Import took 0.019194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_02.fbx
+  artifactKey: Guid(0e10d919774519519abb8349fce620b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_02_Var_02.fbx using Guid(0e10d919774519519abb8349fce620b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac118402ce736192658778c97b38fc1d') in 0.015028 seconds 
+  Import took 0.019805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_05.fbx
+  artifactKey: Guid(522e5449846cfa01b88d8d7e4fe4c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_05.fbx using Guid(522e5449846cfa01b88d8d7e4fe4c649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4c47ff981515e52dfc5f3df330aed5') in 0.015450 seconds 
+  Import took 0.020680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_01.fbx
+  artifactKey: Guid(dd372552004a9863fa13a69eb2c44830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_01.fbx using Guid(dd372552004a9863fa13a69eb2c44830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dae1d792f6ca691ec3b380a1ed53f18') in 0.013218 seconds 
+  Import took 0.018886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_05.fbx
+  artifactKey: Guid(5a21825a5443466fbaa8c37e2f193b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_05.fbx using Guid(5a21825a5443466fbaa8c37e2f193b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8697393d999c81dffaedb0bc752edb') in 0.016010 seconds 
+  Import took 0.021109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_05.fbx
+  artifactKey: Guid(ea4c4a98ac386f591b6a76939b62b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_05.fbx using Guid(ea4c4a98ac386f591b6a76939b62b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff29b75fce4ae436eac1bd9cc1d9f99') in 0.012405 seconds 
+  Import took 0.016716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_07.fbx
+  artifactKey: Guid(ea64607aa7b54506d9e775a684e18e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_07.fbx using Guid(ea64607aa7b54506d9e775a684e18e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9613d336a40e307b129ea6a75ac7b418') in 0.018331 seconds 
+  Import took 0.023537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_06.fbx
+  artifactKey: Guid(692c38f28acd0714d884d406e91b0a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_06.fbx using Guid(692c38f28acd0714d884d406e91b0a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec8c44ed5a682f129e55da3f88a03c1') in 0.011850 seconds 
+  Import took 0.016246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_04.fbx
+  artifactKey: Guid(07eba79b86d6470fb81b5cc32dcbdc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Mushroom_03_Var_04.fbx using Guid(07eba79b86d6470fb81b5cc32dcbdc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feef04a1d840c8e604aab2d82f592737') in 0.013390 seconds 
+  Import took 0.017783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_12_Var_01.fbx
+  artifactKey: Guid(20488b2147b9bdc2ba859b9e98f60190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_12_Var_01.fbx using Guid(20488b2147b9bdc2ba859b9e98f60190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1c2cc58b9cad26e6f1bdadef501da9') in 0.012791 seconds 
+  Import took 0.017246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_04.fbx
+  artifactKey: Guid(6a49c9bb370056d38afcb71c343b2999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_04_Var_04.fbx using Guid(6a49c9bb370056d38afcb71c343b2999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf8f31ea0cf69f9600ebb29e22aaac8') in 0.014294 seconds 
+  Import took 0.019221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_01.fbx
+  artifactKey: Guid(8374af419338aa03ea9a84aea71d5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Plant_11_Var_01.fbx using Guid(8374af419338aa03ea9a84aea71d5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b40d41fe89441159d974029db5ba2f7') in 0.012223 seconds 
+  Import took 0.016422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_02.fbx
+  artifactKey: Guid(99692f5dace0814b09806c5b7288995a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Stone_03_Var_02.fbx using Guid(99692f5dace0814b09806c5b7288995a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c393d69431d0d6b10d3de38d5d665ccc') in 0.016241 seconds 
+  Import took 0.020731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 413.757116 seconds.
+  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6997b7b45768a0f0cb68fb82cf774c') in 0.256706 seconds 
+  Import took 0.276466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.046627 seconds.
+  path: Assets/Scenes/New Material.mat
+  artifactKey: Guid(519a80735d00895419788db0bfa1cdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Material.mat using Guid(519a80735d00895419788db0bfa1cdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b24864c7da02022bed324c2f18020bb') in 0.075726 seconds 
+  Import took 0.084549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/New Material.mat
+  artifactKey: Guid(177e9592bf3271746ab737b431f11ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/New Material.mat using Guid(177e9592bf3271746ab737b431f11ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818c2f4d1bb6ac5ee8475e27e6f8b4c2') in 0.010741 seconds 
+  Import took 0.017112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040302 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/New Terrain Material.mat
+  artifactKey: Guid(06cc2b4270719574cb615609dd5121fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/New Terrain Material.mat using Guid(06cc2b4270719574cb615609dd5121fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf8b404ed8eed722fe04843aa00c5c2') in 0.461962 seconds 
+  Import took 0.467343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Materials/OBS_Normal.mat
+  artifactKey: Guid(11e70acc0b94b9642935642503a40b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Materials/OBS_Normal.mat using Guid(11e70acc0b94b9642935642503a40b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e74581a0483702f603993f4d05330d') in 0.010641 seconds 
+  Import took 0.015712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd04199af43445cb2cc288251b06194') in 0.381488 seconds 
+  Import took 0.387564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.867062 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cc34955bdecde4681208cb4bf3a1e0') in 0.139998 seconds 
+  Import took 0.159645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
+  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1d94bab502ca3021b8842519c6e122') in 0.340958 seconds 
+  Import took 0.345971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
+  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057c629e9591e646e979d0fd0d9eba29') in 0.284919 seconds 
+  Import took 0.290277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(779426f5394292740babb428363f4158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue.mat using Guid(779426f5394292740babb428363f4158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2cb6759ccba4404e7f04e5b59a465c') in 0.011238 seconds 
+  Import took 0.016388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2d1a2d02e63559b261c66a147a1cfa') in 0.059516 seconds 
+  Import took 0.065657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97217d6a54e6f9fecd2c544f104457ed') in 0.120452 seconds 
+  Import took 0.126025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.599359 seconds.
+  path: Assets/ExampleAssets/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1cfc9a87186a9cfc8dd841d8e914e4') in 0.358086 seconds 
+  Import took 0.376805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/ExampleAssets/Models/safetygoggles_low.fbx
+  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9de345caebdf6e6e7bdc04e6a94b1b') in 0.056570 seconds 
+  Import took 0.062031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/ExampleAssets/Models/brush_low.fbx
+  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44442cb78c55a224979b8ede09b8f0e6') in 0.023439 seconds 
+  Import took 0.027911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/ExampleAssets/Models/paintbucket_low.fbx
+  artifactKey: Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/paintbucket_low.fbx using Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153995b30bf52e7771d035b58bdc5b40') in 0.075511 seconds 
+  Import took 0.080374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ab71af590679b32677dc30ed226a51') in 0.012113 seconds 
+  Import took 0.016733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ExampleAssets/Materials/PaintLabel_Mat.mat
+  artifactKey: Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintLabel_Mat.mat using Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c36a7279f016c98e6c23d7bc391d33c') in 0.259750 seconds 
+  Import took 0.264622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
+  artifactKey: Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat using Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec41258e50d7b0724bce6a1b02e69ab') in 0.009276 seconds 
+  Import took 0.014477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b31a38aa84ec72b691f75649480a6fe') in 0.691094 seconds 
+  Import took 0.696147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f8432233d9ceec849c9f270325d606') in 0.014358 seconds 
+  Import took 0.018895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.043880 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_02.fbx
+  artifactKey: Guid(f8141d28bff21e24ba23e2e14973c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_02.fbx using Guid(f8141d28bff21e24ba23e2e14973c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cc7f9839b790d8d28d6e22c5e1f1e1') in 0.049476 seconds 
+  Import took 0.076928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_04.fbx
+  artifactKey: Guid(d401d4f0b8f9a7daca62916f503e1b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_04.fbx using Guid(d401d4f0b8f9a7daca62916f503e1b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676c11edcfd2336009262b3e3b97c9c1') in 0.016228 seconds 
+  Import took 0.022028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_03.fbx
+  artifactKey: Guid(ba3c99c843bbc47cc947e98acc60b8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_03.fbx using Guid(ba3c99c843bbc47cc947e98acc60b8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff15d2c3cb67a727fa11ab98a0aeff29') in 0.019093 seconds 
+  Import took 0.024635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_03.fbx
+  artifactKey: Guid(7dc5d77c804515571907968f229f8d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_03.fbx using Guid(7dc5d77c804515571907968f229f8d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9613f5739d746bbf4e40bad8330c48') in 0.021476 seconds 
+  Import took 0.032086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_05.fbx
+  artifactKey: Guid(6484914898916edff9a63f2cf80163ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_10_Var_05.fbx using Guid(6484914898916edff9a63f2cf80163ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0bfcf6ccb8d027f6c4036e57f41454') in 0.021285 seconds 
+  Import took 0.027452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_04.fbx
+  artifactKey: Guid(ff4c4545de6aed756ba1ea621edae3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_04.fbx using Guid(ff4c4545de6aed756ba1ea621edae3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43756a76dc27eea482909d9fe15671c6') in 0.016226 seconds 
+  Import took 0.021938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_02.fbx
+  artifactKey: Guid(ee00eeb59ed71f1e2817f2c5f61a11a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_02.fbx using Guid(ee00eeb59ed71f1e2817f2c5f61a11a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05636056dcdba9457cf12acf9acabff0') in 0.017759 seconds 
+  Import took 0.022935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_01.fbx
+  artifactKey: Guid(cdd3fc38acb8053ceb0c8a0038faceb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_01.fbx using Guid(cdd3fc38acb8053ceb0c8a0038faceb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbe4b6f23137678c5fae273597f9e31') in 0.018041 seconds 
+  Import took 0.022649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_05.fbx
+  artifactKey: Guid(79e6b0a78e339c93d8ae2fc1b7037028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/Meshes/Tree_11_Var_05.fbx using Guid(79e6b0a78e339c93d8ae2fc1b7037028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faea0055c551a7e1d9aa417a3d3095e') in 0.013773 seconds 
+  Import took 0.018562 seconds .
+
