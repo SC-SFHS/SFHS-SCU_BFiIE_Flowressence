@@ -1,7 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CharacterMovementHelper
+    - Follower
+    - TimeManager
+    PathCreator.dll:
+    - PathCreation.GlobalDisplaySettings
+    - PathCreation.PathCreator
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -240,31 +244,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6638}
     - Class: 114
-      Script: {instanceID: 6720}
+      Script: {instanceID: 6704}
     - Class: 114
-      Script: {instanceID: 6748}
+      Script: {instanceID: 6722}
     - Class: 114
-      Script: {instanceID: 6836}
+      Script: {instanceID: 6838}
     - Class: 114
-      Script: {instanceID: 6990}
+      Script: {instanceID: 6992}
     - Class: 114
-      Script: {instanceID: 7124}
+      Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7142}
+      Script: {instanceID: 7144}
     - Class: 114
-      Script: {instanceID: 7178}
+      Script: {instanceID: 7180}
     - Class: 114
-      Script: {instanceID: 7868}
+      Script: {instanceID: 7870}
     - Class: 114
-      Script: {instanceID: 8148}
+      Script: {instanceID: 8150}
     - Class: 114
-      Script: {instanceID: 8196}
+      Script: {instanceID: 8198}
     - Class: 114
-      Script: {instanceID: 8252}
+      Script: {instanceID: 8254}
     - Class: 114
-      Script: {instanceID: 8354}
+      Script: {instanceID: 8356}
     - Class: 114
-      Script: {instanceID: 8452}
+      Script: {instanceID: 8454}
+    - Class: 114
+      Script: {instanceID: 21918}
+    - Class: 114
+      Script: {instanceID: 23088}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -752,12 +760,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
     className: InputActionAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Navigation
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -1264,6 +1266,12 @@ ScriptsOnlyBuild:
     className: XRRayInteractor
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimeManager
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1280,12 +1288,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterMovementHelper
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1640,6 +1642,54 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 1532436743ef194dbf67c97ed7b8e9f1
+    assemblyName: PathCreator.dll
+    namespaceName: PathCreation
+    className: GlobalDisplaySettings
+  - hash:
+      serializedVersion: 2
+      Hash: 5455126194c7fb60e2136719105446c8
+    assemblyName: PathCreator.dll
+    namespaceName: PathCreation
+    className: PathCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 14285c3bd5db9ec1880c467fd290624a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PathCreation.Examples
+    className: PathSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 0eaba8fcbfa6859be3e02bfe60166ccf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PathCreation.Examples
+    className: PathPlacer
+  - hash:
+      serializedVersion: 2
+      Hash: bfd0fa381ea0fbb32773b78e2b1e2c06
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PathCreation.Examples
+    className: RoadMeshCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 2023515a447b9089d205e8fe2ea2e7ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PathCreation.Examples
+    className: PathFollower
+  - hash:
+      serializedVersion: 2
+      Hash: b233df5c6f9cea11b87e4e515556b495
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PathCreation.Examples
+    className: GeneratePathExample
+  - hash:
+      serializedVersion: 2
+      Hash: cd7b0bb56c1277d59da5813f8a73d5a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Follower
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

@@ -995,7 +995,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832136083}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 919e39492806b334982b6b84c90dd927, type: 3}
   m_Name: 
@@ -1033,14 +1033,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832136083}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 832136085}
   m_TurnAmount: 45
-  m_DebounceTime: 0.5
+  m_DebounceTime: 0.2
   m_EnableTurnLeftRight: 1
   m_EnableTurnAround: 1
   m_LeftHandSnapTurnAction:
@@ -1211,6 +1211,108 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4354465822509128, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
   m_PrefabInstance: {fileID: 1556901916}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1301999008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1301999010}
+  - component: {fileID: 1301999009}
+  m_Layer: 0
+  m_Name: Path
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1301999009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301999008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5ac92bc18f545cc84cd886ece82b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorData:
+    _bezierPath:
+      points:
+      - {x: -2.9606335, y: 0, z: -0.9646301}
+      - {x: -2.3705878, y: 0, z: -0.77189404}
+      - {x: -2.092408, y: 0, z: -0.41627607}
+      - {x: -2.037011, y: 0, z: -0.05474797}
+      - {x: -1.9818344, y: 0, z: 0.30534098}
+      - {x: -1.6625888, y: 0, z: 0.18429855}
+      - {x: -3.2941527, y: 0, z: 0.33677572}
+      - {x: -4.47721, y: 0, z: 0.44733787}
+      - {x: -4.657851, y: 0, z: 0.2702291}
+      - {x: -4.4581127, y: 0, z: -0.6016576}
+      - {x: -4.3294086, y: 0, z: -1.163469}
+      - {x: -5.5731826, y: 0, z: -2.2977562}
+      - {x: -5.844787, y: 0, z: -1.9141183}
+      - {x: -7.2671328, y: 0, z: 0.09492635}
+      - {x: -5.6996155, y: 0, z: 0.086108565}
+      - {x: -4.4508715, y: 0, z: -0.6232295}
+      - {x: -3.8029757, y: 0, z: -0.9912611}
+      - {x: -3.5341165, y: 0, z: -1.1519561}
+      isClosed: 1
+      space: 0
+      controlMode: 0
+      autoControlLength: 0.3
+      boundsUpToDate: 0
+      bounds:
+        m_Center: {x: -5.579498, y: 0, z: 0.7764456}
+        m_Extent: {x: 3.2974114, y: 0, z: 2.8258572}
+      perAnchorNormalsAngle:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      globalNormalsAngle: 0
+      flipNormals: 0
+    vertexPathUpToDate: 1
+    vertexPathMaxAngleError: 0.3
+    vertexPathMinVertexSpacing: 0.01
+    showTransformTool: 1
+    showPathBounds: 0
+    showPerSegmentBounds: 0
+    displayAnchorPoints: 1
+    displayControlPoints: 1
+    bezierHandleScale: 1
+    globalDisplaySettingsFoldout: 0
+    keepConstantHandleSize: 0
+    showNormalsInVertexMode: 0
+    showBezierPathInVertexMode: 0
+    showDisplayOptions: 0
+    showPathOptions: 1
+    showVertexPathDisplayOptions: 1
+    showVertexPathOptions: 1
+    showNormals: 0
+    showNormalsHelpInfo: 0
+    tabIndex: 0
+  initialized: 1
+--- !u!4 &1301999010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301999008}
+  m_LocalRotation: {x: -0, y: -0.99976915, z: -0, w: -0.021488195}
+  m_LocalPosition: {x: -1.71, y: 1.11, z: -0.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: -182.463, z: 0}
 --- !u!1 &1458322688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,6 +1478,7 @@ GameObject:
   - component: {fileID: 1541470183}
   - component: {fileID: 1541470182}
   - component: {fileID: 1541470181}
+  - component: {fileID: 1541470187}
   - component: {fileID: 1541470186}
   m_Layer: 0
   m_Name: XR Origin
@@ -1455,15 +1558,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541470180}
-  m_LocalRotation: {x: -0, y: 0.9929059, z: -0, w: 0.11890303}
-  m_LocalPosition: {x: 2.56, y: 0.56, z: 0.79}
+  m_LocalRotation: {x: 0, y: 0.9121667, z: -0, w: -0.40981942}
+  m_LocalPosition: {x: 2.56, y: 0.56, z: 0.7899997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1816446925}
   - {fileID: 832136089}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 166.342, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 228.387, z: 0}
 --- !u!114 &1541470186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1473,7 +1576,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1541470180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4dcd340f292645eba15d27e09fcd0b9, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ae99ffbbddd0490a85e29f38c939a77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathCreator: {fileID: 1301999009}
+  speed: 0.9
+  m_LeftHandLocomotionMove: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &1541470187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541470180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1e8f08eb2bd453ebbd80cbd98fe45a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1556901916
@@ -2390,7 +2508,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 9.1835e-41, y: 2.0387484e-38, z: 4.5697343e-37, w: 4.1326e-40}
+  m_BoundingSphereOverride: {x: 1e-45, y: -4140, z: 4.5845e-41, w: 1.140855e-13}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
