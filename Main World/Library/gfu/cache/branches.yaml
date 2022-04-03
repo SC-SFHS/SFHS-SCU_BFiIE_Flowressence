@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-03-29T17:05:08.390-07:00
-  initializedAtString: 2022-03-29T17:05:08.351-07:00
+  lastUpdatedAtString: 2022-04-03T09:04:54.537-07:00
+  initializedAtString: 2022-04-03T09:04:54.385-07:00
   localBranches:
   - name: AdityaTomar
     tracking: origin/AdityaTomar
   - name: Brian-Wu
     tracking: origin/Brian-Wu
+  - name: caploath
+    tracking: origin/caploath
   - name: main
     tracking: origin/main
   remoteBranches:
@@ -43,6 +45,7 @@ MonoBehaviour:
     keys:
     - AdityaTomar
     - Brian-Wu
+    - caploath
     - main
     values:
     - name: AdityaTomar
@@ -55,6 +58,11 @@ MonoBehaviour:
         name: origin
         url: https://github.com/SC-SFHS/BFiIE-Spring2022.git
       trackingBranch: Brian-Wu
+    - name: caploath
+      remote:
+        name: origin
+        url: https://github.com/SC-SFHS/BFiIE-Spring2022.git
+      trackingBranch: caploath
     - name: main
       remote:
         name: origin
