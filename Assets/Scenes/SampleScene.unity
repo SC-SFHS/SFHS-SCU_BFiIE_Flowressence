@@ -1576,11 +1576,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1541470180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ae99ffbbddd0490a85e29f38c939a77, type: 3}
+  m_Script: {fileID: 11500000, guid: 854338a569b4b4d198d33dbb81a63395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 1301999009}
-  speed: 0.9
+  speed: 1
   m_LeftHandLocomotionMove: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!114 &1541470187
 MonoBehaviour:
@@ -2508,7 +2508,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1e-45, y: -4140, z: 4.5845e-41, w: 1.140855e-13}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0

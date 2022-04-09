@@ -56,16 +56,16 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/PathCreator/Examples/Scripts/PathSpawner.cs" />
     <Compile Include="Assets/Scripts/SimpleCameraController.cs" />
+    <Compile Include="Assets/PathCreator/Examples/Scripts/GeneratePathExample.cs" />
+    <Compile Include="Assets/PathCreator/Examples/Scripts/PathPlacer.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/TimeManager.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathSceneTool.cs" />
-    <Compile Include="Assets/PathCreator/Examples/Scripts/PathSpawner.cs" />
-    <Compile Include="Assets/PathCreator/Examples/Scripts/PathPlacer.cs" />
-    <Compile Include="Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathFollower.cs" />
-    <Compile Include="Assets/PathCreator/Examples/Scripts/GeneratePathExample.cs" />
-    <Compile Include="Assets/Scripts/Follower.cs" />
+    <Compile Include="Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs" />
+    <Compile Include="Assets/Scripts/PathFollower.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -734,11 +734,11 @@
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.Management">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR">
       <HintPath>Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
@@ -764,17 +764,17 @@
       <Project>{AA538CFA-32E1-E75E-DDE6-12716AA9FBBA}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{E3E9D881-DB49-4C08-EE36-5AF0234FB690}</Project>
-      <Name>Unity.XR.Management.Samples</Name>
+    <ProjectReference Include="PathCreator.csproj">
+      <Project>{122CA314-D345-0EB1-6059-C688F5397188}</Project>
+      <Name>PathCreator</Name>
     </ProjectReference>
     <ProjectReference Include="PathCreatorEditor.csproj">
       <Project>{343B5E41-7150-9817-A560-161FA6254C26}</Project>
       <Name>PathCreatorEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="PathCreator.csproj">
-      <Project>{122CA314-D345-0EB1-6059-C688F5397188}</Project>
-      <Name>PathCreator</Name>
+    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
+      <Project>{E3E9D881-DB49-4C08-EE36-5AF0234FB690}</Project>
+      <Name>Unity.XR.Management.Samples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

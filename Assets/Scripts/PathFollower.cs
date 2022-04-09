@@ -7,7 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit.Inputs;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.InputSystem;
 
-public class Follower : MonoBehaviour
+public class PathFollower : MonoBehaviour
 {
     public PathCreator pathCreator;
     public float speed;
