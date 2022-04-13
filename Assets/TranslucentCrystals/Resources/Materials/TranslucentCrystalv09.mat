@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: TranslucentCrystalv09
   m_Shader: {fileID: 4800000, guid: 39fe729f5dcad0d41bc1d8df009668cb, type: 3}
   m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP _RAMPENABLED_ON
@@ -75,7 +76,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ramp:
-        m_Texture: {fileID: 2800000, guid: c101f99da83d80d4db8cd526fb7aca89, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2efaa2ddf7595af4987d403f6a48a8bd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampMask:
@@ -124,4 +125,5 @@ Material:
     - _ColorTint: {r: 1, g: 0.13333334, b: 0.13333334, a: 1}
     - _ColorTint1: {r: 0, g: 0, b: 0, a: 1}
     - _ColorTint2: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0.21568629, g: 0.87843144, b: 0.9921569, a: 1}
+    - _EmissionColor: {r: 0.48627454, g: 0.5137255, b: 0.9960785, a: 1}
+  m_BuildTextureStacks: []
