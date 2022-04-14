@@ -29,22 +29,23 @@ public class TimeManager : MonoBehaviour
     void TeleportAfterTime()
     {
         // assuming 5 minutes
-        if (Time.time >= 300 && timeCheck)
-        {
-            gameObject.GetComponent<PathFollower>().speed = 10f;
+        if (Time.time >= 3 && timeCheck)
+            gameObject.GetComponent<PathFollower>().speed += 0.01f;
+        if (gameObject.GetComponent<PathFollower>().speed >= 10f)
             timeCheck = false;
-        }
     }
 
     void EndScene()
     {
         if (gameObject.transform.position[0] <= caveEndXCoord)
         {
-            gameObject.GetComponent<PathFollower>().speed = 5f;
+            if (gameObject.GetComponent<PathFollower>().speed > 5f)
+                gameObject.GetComponent<PathFollower>().speed -= 0.01f;
         }
         if (gameObject.transform.position[0] <= spiralEndXCoord)
         {
-            gameObject.GetComponent<PathFollower>().speed = 2f;
+            if (gameObject.GetComponent<PathFollower>().speed > 2f)
+                gameObject.GetComponent<PathFollower>().speed -= 0.01f;
         }
     }
 }
