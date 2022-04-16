@@ -15,11 +15,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 53
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 44
+  controlID: 114
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 45
+  controlID: 115
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 46
+  controlID: 116
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 525
-    y: 73
+    y: 83
     width: 920
     height: 601
   m_ViewDataDictionary: {fileID: 0}
@@ -368,11 +368,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.14977828, y: 0.7012293, z: -0.1545258, w: 0.67968166}
     speed: 2
-    m_Value: {x: 0.14875849, y: 0.7014598, z: -0.15347368, w: 0.6799051}
+    m_Value: {x: 0.14977817, y: 0.7012288, z: -0.1545257, w: 0.6796812}
   m_Size:
-    m_Target: 35.828556
+    m_Target: 58.236763
     speed: 2
-    m_Value: 35.828556
+    m_Value: 58.236763
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -418,16 +418,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73
+    y: 83
     width: 524
     height: 601
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 043c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: be59feffde59feff8878feff6ca3feff1ac2feff76e2feffb4ecfeff660bffff4a36fffffa54ffff1a55ffffc673ffff6892fffff6b1ffff62fe00008615010026190100
+      m_ExpandedIDs: 5c7cffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 525
-    y: 73
+    y: 83
     width: 920
     height: 601
   m_ViewDataDictionary: {fileID: 0}
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 695
+    y: 705
     width: 1446
     height: 304
   m_ViewDataDictionary: {fileID: 0}
@@ -603,22 +603,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/_Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022
+  m_LastProjectPath: /Users/adityatomar/BFiIE
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6d20000
-    m_LastClickedID: 53926
-    m_ExpandedIDs: 0000000082ce000084ce000086ce000088ce00008ace00008cce00008ece000090ce000092ce000094ce000096ce000098ce00009ace00009cce00009ece0000a0ce0000a2ce0000a4ce0000a6ce0000c0ce0000dace00009019010000ca9a3b
+    scrollPos: {x: 0, y: 136.99982}
+    m_SelectedIDs: 8a120100
+    m_LastClickedID: 70282
+    m_ExpandedIDs: 00000000821101008411010086110100881101008a1101008c1101008e11010090110100921101009411010096110100981101009a1101009c1101009e110100a0110100a2110100a4110100a6110100a8110100aa11010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -646,7 +646,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000082ce000084ce000086ce000088ce00008ace00008cce00008ece000090ce000092ce000094ce000096ce000098ce00009ace00009cce00009ece0000a0ce0000a2ce0000a4ce0000a6ce0000
+    m_ExpandedIDs: 00000000821101008411010086110100881101008a1101008c1101008e11010090110100921101009411010096110100981101009a1101009c1101009e110100a0110100a2110100a4110100a6110100a8110100aa110100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -748,7 +748,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1447
-    y: 73
+    y: 83
     width: 472
     height: 926
   m_ViewDataDictionary: {fileID: 0}
