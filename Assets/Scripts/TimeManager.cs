@@ -10,10 +10,10 @@ public class TimeManager : MonoBehaviour
     private float caveEndXCoord;
     private float spiralEndYCoord;
     private Vector3 gameEndCoord;
-    private float distanceTraveled;
     private bool timeCheck;
     public bool autoMove;
     public bool gameFinished;
+    public PathFollower pathFollower;
 
     void Start()
     {
@@ -37,19 +37,19 @@ public class TimeManager : MonoBehaviour
     void TeleportAfterTime()
     {
         // assuming 5 minutes
-        if (Time.time >= 3 && timeCheck)
+        if (Time.time >= 5 && timeCheck)
         {
-            gameObject.GetComponent<PathFollower>().speed += 1f;
+            pathFollower.speed += 1f;
             autoMove = true;
         }
 
-        if (gameObject.GetComponent<PathFollower>().speed >= 100f)
+        if (pathFollower.speed >= 100f)
             timeCheck = false;
 
         if (autoMove == true)
         {
-            distanceTraveled -= gameObject.GetComponent<PathFollower>().speed * Time.deltaTime;
-            gameObject.transform.position = gameObject.GetComponent<PathFollower>().pathCreator.path.GetPointAtDistance(distanceTraveled);
+            pathFollower.distanceTraveled -= pathFollower.speed * Time.deltaTime;
+            gameObject.transform.position = pathFollower.pathCreator.path.GetPointAtDistance(pathFollower.distanceTraveled);
         }
     }
 
@@ -57,13 +57,13 @@ public class TimeManager : MonoBehaviour
     {
         if (gameObject.transform.position[0] <= caveEndXCoord)
         {
-            if (gameObject.GetComponent<PathFollower>().speed > 100f)
-                gameObject.GetComponent<PathFollower>().speed -= 0.01f;
+            if (pathFollower.speed > 5f)
+                pathFollower.speed -= 0.01f;
         }
         if (gameObject.transform.position[1] <= spiralEndYCoord)
         {
-            if (gameObject.GetComponent<PathFollower>().speed > 90f)
-                gameObject.GetComponent<PathFollower>().speed -= 0.01f;
+            if (pathFollower.speed > 2f)
+                pathFollower.speed -= 0.01f;
         }
         if (gameObject.transform.position[0] <= gameEndCoord[0] & gameObject.transform.position[1] <= gameEndCoord[1])
         {

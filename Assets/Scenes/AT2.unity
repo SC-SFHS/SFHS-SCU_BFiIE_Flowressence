@@ -20373,6 +20373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 1489259076}
   speed: 5
+  distanceTraveled: 0
   m_LeftHandLocomotionMove: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   timeManager: {fileID: 1030093462}
 --- !u!114 &1030093462
@@ -20389,6 +20390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoMove: 0
   gameFinished: 0
+  pathFollower: {fileID: 1030093461}
 --- !u!114 &1030093463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37851,6 +37853,7 @@ MonoBehaviour:
   wormChild1: {fileID: 0}
   wormChild2: {fileID: 0}
   amount: 1000
+  pathCreator: {fileID: 0}
 --- !u!4 &1855642490
 Transform:
   m_ObjectHideFlags: 0

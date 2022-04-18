@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PathCreation;
 
 public class WormInstantiator : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class WormInstantiator : MonoBehaviour
     public GameObject wormChild1;
     public GameObject wormChild2;
     public int amount = 1000;
+    public PathCreator pathCreator;
 
     private float xDistance, yDistance, zDistance;
 

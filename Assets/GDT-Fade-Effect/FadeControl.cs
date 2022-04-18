@@ -30,6 +30,6 @@ public class FadeControl : MonoBehaviour
     {
         yield return new WaitForSeconds(4);
         gameObject.transform.position = gameObject.GetComponent<PathFollower>().pathCreator.path.GetPointAtDistance(-1f);
-        gameObject.transform.Rotate(0, -90, 0);
+        gameObject.transform.rotation = Quaternion.Euler(0, -90, 0);
     }
 }

@@ -11,7 +11,7 @@ public class PathFollower : MonoBehaviour
 {
     public PathCreator pathCreator;
     public float speed;
-    float distanceTraveled;
+    public float distanceTraveled;
     public InputActionReference m_LeftHandLocomotionMove;
     Vector2 leftHandJoystickValue;
     public TimeManager timeManager;
@@ -19,7 +19,8 @@ public class PathFollower : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        transform.position = pathCreator.path.GetPointAtDistance(-1f);
+        transform.rotation = Quaternion.Euler(0, -90, 0);
     }
 
     // Update is called once per frame
@@ -38,6 +39,12 @@ public class PathFollower : MonoBehaviour
                 distanceTraveled += Mathf.Sign(-leftHandJoystickValue.y) * speed * Time.deltaTime;
                 if (distanceTraveled <= 0)
                     transform.position = pathCreator.path.GetPointAtDistance(distanceTraveled);
+                else
+                {
+                    transform.position = pathCreator.path.GetPointAtDistance(-1f);
+                    transform.rotation = Quaternion.Euler(0, -90, 0);
+                    distanceTraveled = 0;
+                }
             }
         }
     }
