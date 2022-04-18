@@ -12,6 +12,7 @@ public class TimeManager : MonoBehaviour
     private Vector3 gameEndCoord;
     private bool timeCheck;
     public bool autoMove;
+    public bool gameStarted;
     public bool gameFinished;
     public PathFollower pathFollower;
 
@@ -23,6 +24,7 @@ public class TimeManager : MonoBehaviour
         gameEndCoord = gameObject.GetComponent<PathFollower>().pathCreator.path.GetPoint(0); // final point of the path (0 b/c the path is backward)
         timeCheck = true;
         autoMove = false;
+        gameStarted = false;
         gameFinished = false;
     }
 
@@ -31,7 +33,6 @@ public class TimeManager : MonoBehaviour
     {
         TeleportAfterTime();
         EndScene();
-        // StartCoroutine(UIScreen());
     }
 
     void TeleportAfterTime()
@@ -39,11 +40,11 @@ public class TimeManager : MonoBehaviour
         // assuming 5 minutes
         if (Time.time >= 300 && timeCheck)
         {
-            pathFollower.speed += 1f;
+            pathFollower.speed += 0.01f;
             autoMove = true;
         }
 
-        if (pathFollower.speed >= 100f)
+        if (pathFollower.speed >= 10f)
             timeCheck = false;
 
         if (autoMove == true)
@@ -62,13 +63,14 @@ public class TimeManager : MonoBehaviour
         }
         if (gameObject.transform.position[1] <= spiralEndYCoord)
         {
-            if (pathFollower.speed > 2f)
+            if (pathFollower.speed > 3f)
                 pathFollower.speed -= 0.01f;
         }
         if (gameObject.transform.position[0] <= gameEndCoord[0] & gameObject.transform.position[1] <= gameEndCoord[1])
         {
             autoMove = false;
             gameFinished = true;
+            gameStarted = false;
         }
     }
 }

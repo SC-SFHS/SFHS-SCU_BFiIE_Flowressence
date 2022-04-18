@@ -19,19 +19,28 @@ public class PathFollower : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = pathCreator.path.GetPointAtDistance(-1f);
+        ResetToStart();
         transform.rotation = Quaternion.Euler(0, -90, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
+        ResetToStart();
         JoystickInputManager();
+    }
+
+    void ResetToStart()
+    {
+        if (!timeManager.gameStarted && !timeManager.gameFinished)
+        {
+            transform.position = pathCreator.path.GetPointAtDistance(-1f);
+        }
     }
 
     void JoystickInputManager()
     {
-        if (!timeManager.autoMove && !timeManager.gameFinished)
+        if (!timeManager.autoMove && !timeManager.gameFinished && timeManager.gameStarted)
         {
             leftHandJoystickValue = m_LeftHandLocomotionMove.action?.ReadValue<Vector2>() ?? Vector2.zero;
             if (Mathf.Abs(leftHandJoystickValue.y) > 0)

@@ -75,6 +75,7 @@
     <Compile Include="Assets/PathCreator/Follower.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs" />
     <Compile Include="Assets/GDT-Fade-Effect/GDTFadeEffect.cs" />
+    <Compile Include="Assets/Scripts/UIScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt" />
@@ -822,6 +823,26 @@
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
       <Project>{D17FE52C-CBD0-E268-B28D-C14250FEE90D}</Project>
       <Name>Unity.XR.Management.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{EB45933F-0F3F-6CB8-9991-544A8598F06F}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanGUI.csproj">
+      <Project>{D0DF4774-378F-CFAC-9CB2-836071D12599}</Project>
+      <Name>LeanGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.Editor.csproj">
+      <Project>{32362104-A481-2EF6-B2C9-7EECDA6D8A8E}</Project>
+      <Name>LeanTransition.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CW.Common.csproj">
+      <Project>{EDE693CE-A0FA-4F94-78BE-50DE588DF9A3}</Project>
+      <Name>CW.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTransition.csproj">
+      <Project>{20397BCB-120B-4E45-F341-7C4720596F6C}</Project>
+      <Name>LeanTransition</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
