@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TranslucentCrystalv02Gamma
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 39fe729f5dcad0d41bc1d8df009668cb, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -96,7 +96,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissionPower: 0
+    - _EmissionPower: 4
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -125,5 +125,5 @@ Material:
     - _ColorTint: {r: 1, g: 0.13333334, b: 0.13333334, a: 1}
     - _ColorTint1: {r: 0.4044118, g: 0, b: 0, a: 1}
     - _ColorTint2: {r: 1, g: 0.22794116, b: 0.22794116, a: 1}
-    - _EmissionColor: {r: 0.026241222, g: 0.026241222, b: 0.026241222, a: 0}
+    - _EmissionColor: {r: 1, g: 0.227451, b: 0.227451, a: 0}
   m_BuildTextureStacks: []
