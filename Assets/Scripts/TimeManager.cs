@@ -31,7 +31,7 @@ public class TimeManager : MonoBehaviour
     {
         TeleportAfterTime();
         EndScene();
-        StartCoroutine(UIScreen());
+        // StartCoroutine(UIScreen());
     }
 
     void TeleportAfterTime()
@@ -39,7 +39,7 @@ public class TimeManager : MonoBehaviour
         // assuming 5 minutes
         if (Time.time >= 3 && timeCheck)
         {
-            gameObject.GetComponent<PathFollower>().speed += 0.1f;
+            gameObject.GetComponent<PathFollower>().speed += 1f;
             autoMove = true;
         }
 
@@ -57,27 +57,18 @@ public class TimeManager : MonoBehaviour
     {
         if (gameObject.transform.position[0] <= caveEndXCoord)
         {
-            if (gameObject.GetComponent<PathFollower>().speed > 80f)
-                gameObject.GetComponent<PathFollower>().speed -= 0.1f;
+            if (gameObject.GetComponent<PathFollower>().speed > 100f)
+                gameObject.GetComponent<PathFollower>().speed -= 0.01f;
         }
         if (gameObject.transform.position[1] <= spiralEndYCoord)
         {
-            if (gameObject.GetComponent<PathFollower>().speed > 50f)
-                gameObject.GetComponent<PathFollower>().speed -= 0.1f;
+            if (gameObject.GetComponent<PathFollower>().speed > 90f)
+                gameObject.GetComponent<PathFollower>().speed -= 0.01f;
         }
         if (gameObject.transform.position[0] <= gameEndCoord[0] & gameObject.transform.position[1] <= gameEndCoord[1])
         {
             autoMove = false;
             gameFinished = true;
-        }
-    }
-
-    IEnumerator UIScreen()
-    {
-        if (gameFinished)
-        {
-            yield return new WaitForSeconds(4);
-            Debug.Log("LOADING UI SCREEN");
         }
     }
 }
