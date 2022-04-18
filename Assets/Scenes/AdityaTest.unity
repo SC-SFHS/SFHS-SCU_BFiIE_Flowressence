@@ -20239,6 +20239,7 @@ MonoBehaviour:
   pathCreator: {fileID: 1489259076}
   speed: 5
   m_LeftHandLocomotionMove: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  timeManager: {fileID: 1030093462}
 --- !u!114 &1030093462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20251,6 +20252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e1e8f08eb2bd453ebbd80cbd98fe45a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoMove: 0
+  gameFinished: 0
 --- !u!114 &1030093463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20323,7 +20326,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030093460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1467.8, y: 0.7, z: 715.9}
+  m_LocalPosition: {x: 1458, y: 0.7, z: 715.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 919616502}
@@ -37591,6 +37594,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wormObject: {fileID: 1073490671}
+  wormChild1: {fileID: 0}
+  wormChild2: {fileID: 0}
   amount: 1000
 --- !u!4 &1855642490
 Transform:

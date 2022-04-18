@@ -14,6 +14,7 @@ public class PathFollower : MonoBehaviour
     float distanceTraveled;
     public InputActionReference m_LeftHandLocomotionMove;
     Vector2 leftHandJoystickValue;
+    public TimeManager timeManager;
 
     // Start is called before the first frame update
     void Start()
@@ -29,12 +30,15 @@ public class PathFollower : MonoBehaviour
 
     void JoystickInputManager()
     {
-        leftHandJoystickValue = m_LeftHandLocomotionMove.action?.ReadValue<Vector2>() ?? Vector2.zero;
-        if (Mathf.Abs(leftHandJoystickValue.y) > 0)
+        if (!timeManager.autoMove && !timeManager.gameFinished)
         {
-            distanceTraveled += Mathf.Sign(-leftHandJoystickValue.y) * speed * Time.deltaTime;
-            if (distanceTraveled <= 0)
-                transform.position = pathCreator.path.GetPointAtDistance(distanceTraveled);
+            leftHandJoystickValue = m_LeftHandLocomotionMove.action?.ReadValue<Vector2>() ?? Vector2.zero;
+            if (Mathf.Abs(leftHandJoystickValue.y) > 0)
+            {
+                distanceTraveled += Mathf.Sign(-leftHandJoystickValue.y) * speed * Time.deltaTime;
+                if (distanceTraveled <= 0)
+                    transform.position = pathCreator.path.GetPointAtDistance(distanceTraveled);
+            }
         }
     }
 }
