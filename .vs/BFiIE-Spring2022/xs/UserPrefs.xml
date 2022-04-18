@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{9FD2D85F-40E8-1C45-B15E-BE201F282168}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GDT-Fade-Effect/FadeControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WormInstantiator.cs">
     <Files>
       <File FileName="Assets/Plugins/CW/LeanTransition/Required/Methods/LeanJoin.cs" Line="17" Column="2" />
       <File FileName="Assets/Scripts/TimeManager.cs" />
       <File FileName="Assets/Scripts/PathFollower.cs" />
-      <File FileName="Assets/Scripts/WormInstantiator.cs" />
+      <File FileName="Assets/Scripts/WormInstantiator.cs" Line="28" Column="37" />
       <File FileName="Assets/Scripts/SimpleCameraController.cs" />
       <File FileName="Assets/Plugins/CW/LeanTransition/Required/Methods/LeanDelay.cs" />
       <File FileName="Assets/Plugins/CW/LeanTransition/Required/Methods/LeanEvent.cs" />
@@ -18,7 +18,7 @@
       <File FileName="Assets/Plugins/CW/LeanTransition/Required/Methods/LeanTimeScale.cs" />
       <File FileName="Assets/Plugins/CW/LeanGUI/Required/Scripts/LeanButton.cs" />
       <File FileName="Assets/Plugins/CW/LeanGUI/Required/Scripts/LeanJoystick.cs" />
-      <File FileName="Assets/Scripts/UIScreen.cs" Line="25" Column="6" />
+      <File FileName="Assets/Scripts/UIScreen.cs" />
       <File FileName="Assets/GDT-Fade-Effect/FadeControl.cs" Line="26" Column="40" />
       <File FileName="Assets/GDT-Fade-Effect/GDTFadeEffect.cs" />
       <File FileName="Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwFollow.cs" />
@@ -28,34 +28,19 @@
         <State name="__root__">
           <Node name="BFiIE-Spring2022" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="GDT-Fade-Effect" expanded="True">
-                <Node name="FadeControl.cs" selected="True" />
-              </Node>
+              <Node name="GDT-Fade-Effect" expanded="True" />
               <Node name="Plugins" expanded="True">
                 <Node name="CW" expanded="True">
                   <Node name="LeanTransition" expanded="True">
                     <Node name="Required" expanded="True">
-                      <Node name="Methods" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="Scripts" expanded="True" />
-            </Node>
-            <Node name="CW.Common" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Plugins" expanded="True">
-                  <Node name="CW" expanded="True">
-                    <Node name="Shared" expanded="True">
-                      <Node name="Common" expanded="True">
-                        <Node name="Examples" expanded="True">
-                          <Node name="Scripts" expanded="True" />
-                        </Node>
+                      <Node name="Methods" expanded="True">
+                        <Node name="LeanJoin.cs" selected="True" />
                       </Node>
                     </Node>
                   </Node>
                 </Node>
               </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -64,7 +49,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8afd20a8-8769-4bed-96fd-ace9c3d9a8f0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b8a25719-3cad-4a92-a3fa-05ecd9a1f6f4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

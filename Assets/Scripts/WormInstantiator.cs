@@ -24,8 +24,8 @@ public class WormInstantiator : MonoBehaviour
         for (int i = 1; i < amount; i++)
         {
             worms[i] = Instantiate(wormObject);
-            wormChild1 = Instantiate(wormObject);
-            wormChild2 = Instantiate(wormObject);
+            wormChild1 = Instantiate(wormChild1);
+            wormChild2 = Instantiate(wormChild2);
 
             xDistance = worms[i - 1].transform.localPosition[0] - 1f;
             yDistance = worms[i - 1].transform.localPosition[1];
