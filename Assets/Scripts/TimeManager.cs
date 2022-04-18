@@ -37,7 +37,7 @@ public class TimeManager : MonoBehaviour
     void TeleportAfterTime()
     {
         // assuming 5 minutes
-        if (Time.time >= 5 && timeCheck)
+        if (Time.time >= 300 && timeCheck)
         {
             pathFollower.speed += 1f;
             autoMove = true;

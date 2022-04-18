@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D88CCDE3-CB9F-3988-67F7-E96C23147C0C}</ProjectGuid>
+    <ProjectGuid>{9FD2D85F-40E8-1C45-B15E-BE201F282168}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -78,14 +78,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/TranslucentCrystals/Resources/Shaders/SkyboxProceduralDesaturated.shader" />
     <None Include="Assets/TranslucentCrystals/Readme.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/TranslucentCrystals/_SRP/!!!_ReadBeforeImport_!!!.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/Glitter_Waterfall/Glitter_Waterfall - Documentation.txt" />
     <None Include="Assets/FantasyHavenAssets/LowPoly Alien - Environment 04 - GLOWING/How to use it.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
     <None Include="Assets/TranslucentCrystals/Resources/Shaders/Crystal.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
     <None Include="Assets/BrokenVector/LowPolyTreePack/README.txt" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/Aquarius_Stylized_Poly_Rocks/FBX/Materials/Rock_Cover_Standard.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -787,19 +808,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
-      <Project>{AA538CFA-32E1-E75E-DDE6-12716AA9FBBA}</Project>
+      <Project>{EF4FD4A6-A4F4-CDBD-0DB4-B0EB1E2C7D20}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PathCreator.csproj">
-      <Project>{122CA314-D345-0EB1-6059-C688F5397188}</Project>
+      <Project>{A40D5438-52CF-7951-0F7A-EF48088370AC}</Project>
       <Name>PathCreator</Name>
     </ProjectReference>
     <ProjectReference Include="PathCreatorEditor.csproj">
-      <Project>{343B5E41-7150-9817-A560-161FA6254C26}</Project>
+      <Project>{127BB24E-960E-F490-E86D-5FD61A13E467}</Project>
       <Name>PathCreatorEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{E3E9D881-DB49-4C08-EE36-5AF0234FB690}</Project>
+      <Project>{D17FE52C-CBD0-E268-B28D-C14250FEE90D}</Project>
       <Name>Unity.XR.Management.Samples</Name>
     </ProjectReference>
   </ItemGroup>

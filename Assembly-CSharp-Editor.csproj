@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FF62964C-95BD-0146-F791-88E9B6F0243C}</ProjectGuid>
+    <ProjectGuid>{48DBC4D4-E4D1-6505-EDB9-D34E82A6CC24}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -792,23 +792,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D88CCDE3-CB9F-3988-67F7-E96C23147C0C}</Project>
+      <Project>{9FD2D85F-40E8-1C45-B15E-BE201F282168}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
-      <Project>{AA538CFA-32E1-E75E-DDE6-12716AA9FBBA}</Project>
+      <Project>{EF4FD4A6-A4F4-CDBD-0DB4-B0EB1E2C7D20}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PathCreator.csproj">
-      <Project>{122CA314-D345-0EB1-6059-C688F5397188}</Project>
+      <Project>{A40D5438-52CF-7951-0F7A-EF48088370AC}</Project>
       <Name>PathCreator</Name>
     </ProjectReference>
     <ProjectReference Include="PathCreatorEditor.csproj">
-      <Project>{343B5E41-7150-9817-A560-161FA6254C26}</Project>
+      <Project>{127BB24E-960E-F490-E86D-5FD61A13E467}</Project>
       <Name>PathCreatorEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{E3E9D881-DB49-4C08-EE36-5AF0234FB690}</Project>
+      <Project>{D17FE52C-CBD0-E268-B28D-C14250FEE90D}</Project>
       <Name>Unity.XR.Management.Samples</Name>
     </ProjectReference>
   </ItemGroup>
