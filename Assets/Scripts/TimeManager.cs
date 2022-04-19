@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.XR.CoreUtils;
-using UnityEngine.XR.Interaction.Toolkit;
+using System.Diagnostics;
 
 public class TimeManager : MonoBehaviour
 {
@@ -10,7 +10,9 @@ public class TimeManager : MonoBehaviour
     private float caveEndXCoord;
     private float spiralEndYCoord;
     private Vector3 gameEndCoord;
+    public Stopwatch timer;
     private bool timeCheck;
+    private bool timerStarted;
     public bool autoMove;
     public bool gameStarted;
     public bool gameFinished;
@@ -22,6 +24,8 @@ public class TimeManager : MonoBehaviour
         caveEndXCoord = -155f; // random value for end of cave and beginning of cavern
         spiralEndYCoord = -215f; // random value for y-coord of spiral path where rig starts slowing down
         gameEndCoord = gameObject.GetComponent<PathFollower>().pathCreator.path.GetPoint(0); // final point of the path (0 b/c the path is backward)
+        timer = new Stopwatch();
+        timerStarted = false;
         timeCheck = true;
         autoMove = false;
         gameStarted = false;
@@ -31,14 +35,25 @@ public class TimeManager : MonoBehaviour
 
     void Update()
     {
+        StartTime();
+        print(timer.Elapsed.Seconds);
         TeleportAfterTime();
         EndScene();
+    }
+
+    void StartTime()
+    {
+        if (gameStarted && !timerStarted)
+        {
+            timer.Start();
+            timerStarted = true;
+        }
     }
 
     void TeleportAfterTime()
     {
         // assuming 5 minutes
-        if (Time.time >= 300 && timeCheck)
+        if (timer.Elapsed.Seconds >= 300 && timeCheck && gameStarted)
         {
             pathFollower.speed += 0.01f;
             autoMove = true;
@@ -71,6 +86,7 @@ public class TimeManager : MonoBehaviour
             autoMove = false;
             gameFinished = true;
             gameStarted = false;
+            timer.Stop();
         }
     }
 }

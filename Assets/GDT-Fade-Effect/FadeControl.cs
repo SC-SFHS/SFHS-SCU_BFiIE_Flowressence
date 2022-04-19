@@ -30,10 +30,12 @@ public class FadeControl : MonoBehaviour
     }
     IEnumerator ReturnHome()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3.5f);
         gameObject.transform.position = gameObject.GetComponent<PathFollower>().pathCreator.path.GetPointAtDistance(-1f);
         gameObject.transform.rotation = Quaternion.Euler(0, -90, 0);
         uiScreen.canvas.SetActive(true);
+        uiScreen.ShowRayCaster();
+        yield return new WaitForSeconds(4);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

@@ -47,4 +47,10 @@ public class UIScreen : MonoBehaviour
         XRInteractorLeft.gameObject.SetActive(false);
         XRInteractorRight.gameObject.SetActive(false);
     }
+
+    public void ShowRayCaster()
+    {
+        XRInteractorLeft.gameObject.SetActive(true);
+        XRInteractorRight.gameObject.SetActive(true);
+    }
 }
