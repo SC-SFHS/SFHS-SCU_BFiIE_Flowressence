@@ -4,9 +4,8 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: TranslucentCrystalv06
   m_Shader: {fileID: 4800000, guid: 39fe729f5dcad0d41bc1d8df009668cb, type: 3}
   m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
@@ -75,14 +74,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Ramp:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RampMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _TranslucencyMask:
         m_Texture: {fileID: 2800000, guid: db56133bdb0993a40b90a1241d093e13, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -104,8 +95,6 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RampEnabled: 0
-    - _RampInverted: 0
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -125,5 +114,4 @@ Material:
     - _ColorTint: {r: 1, g: 0.13333334, b: 0.13333334, a: 1}
     - _ColorTint1: {r: 0, g: 0, b: 0, a: 1}
     - _ColorTint2: {r: 1, g: 0.39607844, b: 0.53333336, a: 1}
-    - _EmissionColor: {r: 1, g: 0.39607847, b: 0.53333336, a: 1}
-  m_BuildTextureStacks: []
+    - _EmissionColor: {r: 1, g: 0.39705884, b: 0.53428, a: 1}
