@@ -8,49 +8,50 @@ public class WormInstantiator : MonoBehaviour
     public GameObject wormObject;
     public GameObject wormChild1;
     public GameObject wormChild2;
-    public int amount = 1000;
-    public PathCreator pathCreator;
 
-    private float xDistance, yDistance, zDistance;
-
+    private int amount;
     GameObject[] worms;
+
+    public PathCreator pathCreator;
+    public PathCreator pathCreatorCurve;
+
     // Start is called before the first frame update
     void Start()
     {
-        if (wormObject == null)
-            wormObject = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        amount = (int)Mathf.Round(pathCreator.path.length) / 3;
         worms = new GameObject[amount];
-        worms[0] = wormObject;
+        worms[0] = Instantiate(wormObject);
+        float j = 0f;
+
         for (int i = 1; i < amount; i++)
         {
+            j -= Random.Range(2f, 4f);
+
             worms[i] = Instantiate(wormObject);
             wormChild1 = Instantiate(wormChild1);
             wormChild2 = Instantiate(wormChild2);
 
-            xDistance = worms[i - 1].transform.localPosition[0] - 1f;
-            yDistance = worms[i - 1].transform.localPosition[1];
-            zDistance = worms[i - 1].transform.localPosition[2] - Random.Range(-10f, 10f);
+            worms[i].transform.position = new Vector3(pathCreator.path.GetPointAtDistance(j)[0], wormObject.transform.position[1], pathCreator.path.GetPointAtDistance(j)[2] + Random.Range(-10f, 10f));
+            wormChild1.transform.position = new Vector3(worms[i].transform.position[0], worms[i].transform.position[1], worms[i].transform.position[2] + Random.Range(-20f, -10f));
+            wormChild2.transform.position = new Vector3(worms[i].transform.position[0], worms[i].transform.position[1], worms[i].transform.position[2] + Random.Range(10f, 20f));
+        }
 
-            if (worms[i - 1].transform.localPosition[2] < 350)
-                zDistance = worms[i - 1].transform.localPosition[2] + Random.Range(5f, 10f);
-            if (worms[i - 1].transform.localPosition[2] > 400)
-                zDistance = worms[i - 1].transform.localPosition[2] - Random.Range(5f, 10f);
+        amount = (int)Mathf.Round(pathCreatorCurve.path.length) / 3;
+        worms = new GameObject[amount];
+        worms[0] = Instantiate(wormObject);
+        j = 0f;
 
-            worms[i].transform.localPosition = new Vector3(
-                xDistance,
-                yDistance,
-                zDistance
-            );
-            wormChild1.transform.localPosition = new Vector3(
-                xDistance,
-                yDistance,
-                zDistance + 30f
-            );
-            wormChild2.transform.localPosition = new Vector3(
-                xDistance,
-                yDistance,
-                zDistance - 30f
-            );
+        for (int i = 1; i < amount; i++)
+        {
+            j -= Random.Range(2f, 4f);
+
+            worms[i] = Instantiate(wormObject);
+            wormChild1 = Instantiate(wormChild1);
+            wormChild2 = Instantiate(wormChild2);
+
+            worms[i].transform.position = new Vector3(pathCreatorCurve.path.GetPointAtDistance(j)[0] + Random.Range(0, 30f), wormObject.transform.position[1], pathCreatorCurve.path.GetPointAtDistance(j)[2]);
+            wormChild1.transform.position = new Vector3(worms[i].transform.position[0] + Random.Range(-20f, -10f), worms[i].transform.position[1], worms[i].transform.position[2]);
+            wormChild2.transform.position = new Vector3(worms[i].transform.position[0] + Random.Range(10f, 20f), worms[i].transform.position[1], worms[i].transform.position[2]);
         }
     }
 

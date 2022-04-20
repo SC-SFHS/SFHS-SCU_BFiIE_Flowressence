@@ -36,7 +36,6 @@ public class TimeManager : MonoBehaviour
     void Update()
     {
         StartTime();
-        print(timer.Elapsed.Seconds);
         TeleportAfterTime();
         EndScene();
     }
