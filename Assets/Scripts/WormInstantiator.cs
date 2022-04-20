@@ -5,17 +5,16 @@ using PathCreation;
 
 public class WormInstantiator : MonoBehaviour
 {
-    public GameObject wormObject;
-    public GameObject wormChild1;
-    public GameObject wormChild2;
+    public GameObject wormObject; // seed
+    public GameObject wormChild1; // child 1
+    public GameObject wormChild2; // child 2
 
     private int amount;
     GameObject[] worms;
 
-    public PathCreator pathCreator;
-    public PathCreator pathCreatorCurve;
+    public PathCreator pathCreator; // straight path
+    public PathCreator pathCreatorCurve; // curved path
 
-    // Start is called before the first frame update
     void Start()
     {
         amount = (int)Mathf.Round(pathCreator.path.length) / 3;
@@ -53,11 +52,5 @@ public class WormInstantiator : MonoBehaviour
             wormChild1.transform.position = new Vector3(worms[i].transform.position[0] + Random.Range(-20f, -10f), worms[i].transform.position[1], worms[i].transform.position[2]);
             wormChild2.transform.position = new Vector3(worms[i].transform.position[0] + Random.Range(10f, 20f), worms[i].transform.position[1], worms[i].transform.position[2]);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

@@ -14,23 +14,19 @@ public class UIScreen : MonoBehaviour
     public XRInteractorLineVisual XRInteractorLeft;
     public XRInteractorLineVisual XRInteractorRight;
 
-    // Start is called before the first frame update
     void Start()
     {
+        // positioning the UI screen based on the path
         canvas.transform.position = new Vector3(pathFollower.pathCreator.path.GetPointAtDistance(-1f)[0] - 10f, pathFollower.pathCreator.path.GetPointAtDistance(-1f)[1] + 3f, pathFollower.pathCreator.path.GetPointAtDistance(-1f)[2] + 1f);
         button.onClick.AddListener(HideUIScreen);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     void HideUIScreen()
     {
+        // if user clicks start
         if (text.text == "START")
         {
+            // hides UI screen
             canvas.SetActive(false);
             timeManager.gameStarted = true;
             HideRayCaster();

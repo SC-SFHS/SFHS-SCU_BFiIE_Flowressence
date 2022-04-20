@@ -16,14 +16,13 @@ public class PathFollower : MonoBehaviour
     Vector2 leftHandJoystickValue;
     public TimeManager timeManager;
 
-    // Start is called before the first frame update
     void Start()
     {
+        // positioning rig to start of the path
         ResetToStart();
         transform.rotation = Quaternion.Euler(0, -90, 0);
     }
 
-    // Update is called once per frame
     void Update()
     {
         ResetToStart();
@@ -38,8 +37,10 @@ public class PathFollower : MonoBehaviour
         }
     }
 
+    // gets input from the joystick and moves rig accordingly
     void JoystickInputManager()
     {
+        // if autonomous movement has not been enabled AND if the game has not finished AND the game has started
         if (!timeManager.autoMove && !timeManager.gameFinished && timeManager.gameStarted)
         {
             leftHandJoystickValue = m_LeftHandLocomotionMove.action?.ReadValue<Vector2>() ?? Vector2.zero;
@@ -50,6 +51,7 @@ public class PathFollower : MonoBehaviour
                     transform.position = pathCreator.path.GetPointAtDistance(distanceTraveled);
                 else
                 {
+                    // prevents rig to go off path backward - keeps it restricted to start of path
                     transform.position = pathCreator.path.GetPointAtDistance(-1f);
                     transform.rotation = Quaternion.Euler(0, -90, 0);
                     distanceTraveled = 0;
