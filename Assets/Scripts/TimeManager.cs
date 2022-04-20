@@ -18,6 +18,7 @@ public class TimeManager : MonoBehaviour
     public PathFollower pathFollower;
     public PathCreator pathCave;
     public PathCreator pathSpiral;
+    public GameObject waterfallGlitter;
 
     void Start()
     {
@@ -31,6 +32,7 @@ public class TimeManager : MonoBehaviour
         autoMove = false;
         gameStarted = false;
         gameFinished = false;
+        waterfallGlitter.SetActive(false);
         RenderSettings.fogDensity = 0.008f;
         RenderSettings.fog = true;
     }
@@ -57,7 +59,7 @@ public class TimeManager : MonoBehaviour
     {
         // assuming 5 minutes (300 seconds)
         // if time elapsed is greater than 300 seconds AND the speed hasn't incremented to 10 km/hr yet AND the game has started
-        if (timer.Elapsed.Seconds >= 3 && timeCheck && gameStarted)
+        if (timer.Elapsed.Seconds >= 300 && timeCheck && gameStarted)
         {
             pathFollower.speed += 0.01f;
             autoMove = true;
@@ -79,7 +81,10 @@ public class TimeManager : MonoBehaviour
     {
         // if the user has reached the end of the cave, decrease density of fog
         if (gameObject.transform.position[0] <= caveEndCoord[0] && RenderSettings.fogDensity >= 0.001f)
+        {
+            waterfallGlitter.SetActive(true);
             RenderSettings.fogDensity -= 0.00001f;
+        }
 
         // if the user has reached the end of the cave and autonomous move is disabled (user has not run out of time yet)
         if (gameObject.transform.position[0] <= caveEndCoord[0] && !autoMove)
