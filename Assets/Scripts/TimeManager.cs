@@ -17,7 +17,7 @@ public class TimeManager : MonoBehaviour
     public bool gameFinished;
     public PathFollower pathFollower;
     public PathCreator pathCave;
-    public PathCreator pathSpiral;
+    public PathCreator pathWhole;
     public GameObject waterfallGlitter;
 
     void Start()
@@ -25,7 +25,7 @@ public class TimeManager : MonoBehaviour
         // coordinate of the path where the cave ends and cavern begins
         caveEndCoord = pathCave.path.GetPoint(0);
         // final point of the path at the end of the cavern (0 because the path is backward)
-        gameEndCoord = pathSpiral.path.GetPoint(0);
+        gameEndCoord = pathWhole.path.GetPoint(0);
         timer = new Stopwatch();
         timerStarted = false;
         timeCheck = true;
