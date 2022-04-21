@@ -83,7 +83,7 @@ public class TimeManager : MonoBehaviour
         if (gameObject.transform.position[0] <= caveEndCoord[0] && RenderSettings.fogDensity >= 0.001f)
         {
             waterfallGlitter.SetActive(true);
-            RenderSettings.fogDensity -= 0.00001f;
+            RenderSettings.fogDensity -= 0.0001f;
         }
 
         // if the user has reached the end of the cave and autonomous move is disabled (user has not run out of time yet)
