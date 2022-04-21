@@ -1,40 +1,44 @@
-[api-updater (non-obsolete-error-filter)] 3/17/2022 12:05:27 AM : Starting C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
-[api-updater (non-obsolete-error-filter)] 
-----------------------------------
-jit/startup time      : 839.7761ms
-moved types parse time: 58ms
-candidates parse time : 1ms
-C# parse time         : 616ms
-candidates check time : 29ms
-console write time    : 1ms
+[api-updater (non-obsolete-error-filter)] 4/20/2022 9:49:52 PM : Starting /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/nitishgourishetty/BFIEE Super New Copy/BFiIE-Spring2022/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <6358200448ef46218e7be4a1b6be469f>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
 
-[api-updater (non-obsolete-error-filter)] 3/18/2022 10:14:14 PM : Starting C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/nitishgourishetty/BFIEE Super New Copy/BFiIE-Spring2022/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <6358200448ef46218e7be4a1b6be469f>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
 [api-updater (non-obsolete-error-filter)] 
 ----------------------------------
-jit/startup time      : 618.0156ms
-moved types parse time: 60ms
+jit/startup time      : 129.049ms
+moved types parse time: 67ms
 candidates parse time : 1ms
-C# parse time         : 567ms
-candidates check time : 27ms
+C# parse time         : 406ms
+candidates check time : 70ms
 console write time    : 0ms
 
-[api-updater (non-obsolete-error-filter)] 4/19/2022 2:59:10 PM : Starting /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 4/20/2022 9:52:47 PM : Starting /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
 [api-updater (non-obsolete-error-filter)] 
 ----------------------------------
-jit/startup time      : 123.557ms
-moved types parse time: 49ms
+jit/startup time      : 140.707ms
+moved types parse time: 72ms
 candidates parse time : 1ms
-C# parse time         : 251ms
-candidates check time : 37ms
+C# parse time         : 374ms
+candidates check time : 72ms
 console write time    : 0ms
 
-[api-updater (non-obsolete-error-filter)] 4/19/2022 2:59:33 PM : Starting /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 4/20/2022 9:57:58 PM : Starting /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
 [api-updater (non-obsolete-error-filter)] 
 ----------------------------------
-jit/startup time      : 43.475ms
-moved types parse time: 37ms
-candidates parse time : 0ms
-C# parse time         : 191ms
-candidates check time : 26ms
+jit/startup time      : 117.97ms
+moved types parse time: 78ms
+candidates parse time : 1ms
+C# parse time         : 332ms
+candidates check time : 48ms
 console write time    : 0ms
 
