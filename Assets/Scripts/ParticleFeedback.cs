@@ -29,7 +29,7 @@ ParticleFeedback: MonoBehaviour
 
         main.startSize = (float)HRCollector.sigmoidHeartRate * 3;
         main.startSpeed = (float)HRCollector.sigmoidHeartRate * 2;
-        main.duration = 5f;
+        // main.duration = 5f;
 
         //arc mode random or birst spread for circle
 
