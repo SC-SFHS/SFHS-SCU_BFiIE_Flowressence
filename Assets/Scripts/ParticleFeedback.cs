@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class
-ParticleFeedback: MonoBehaviour
+public class ParticleFeedback : MonoBehaviour
 {
     public Mesh myMesh;
     private ParticleSystem ps;
@@ -24,34 +23,31 @@ ParticleFeedback: MonoBehaviour
         var main = ps.main;
         var em = ps.emission;
         var sz = ps.sizeOverLifetime;
-        var col = ps.colorOverLifetime;
+        var col = ps.colorBySpeed;
         var shape = ps.shape;
 
         main.startSize = (float)HRCollector.sigmoidHeartRate * 3;
         main.startSpeed = (float)HRCollector.sigmoidHeartRate * 2;
+        em.rateOverTime = (float)HRCollector.sigmoidHeartRate * 5;
         // main.duration = 5f;
 
-        //arc mode random or birst spread for circle
+        //arc mode random or burst spread for circle
 
         shape.shapeType = ParticleSystemShapeType.Circle;
-        shape.radiusMode = ParticleSystemShapeMultiModeValue.Random; //can alter with biofeedback, burst for other one!!!!
-
+        shape.radius = (float)HRCollector.sigmoidHeartRate * 2;
+        //shape.radiusMode = ParticleSystemShapeMultiModeValue.Random; //can alter with biofeedback, burst for other one!!!!
         shape.enabled = true;
-        //sh.enabled = true;
-        em.rateOverTime = (float)HRCollector.sigmoidHeartRate; // can change
-        sz.enabled = true;
-        col.enabled = true;
 
-        //add bursts later if want
-        //radius of shape change with variability
-
-        //dampen (limit velocity over lifetime)
-
+        Color color = new Color((float)HRCollector.sigmoidHeartRate, (float)HRCollector.sigmoidHeartRate, (float)HRCollector.sigmoidHeartRate * 255, (float)HRCollector.sigmoidHeartRate); //constants for other colors
         Gradient grad = new Gradient();
-        grad.SetKeys(new GradientColorKey[] { new GradientColorKey(Color.blue, 0f), new GradientColorKey(Color.white, 0.2f) }, new GradientAlphaKey[] { new GradientAlphaKey(1f, 0.0f), new GradientAlphaKey(0.0f, 1.0f) });
+        //grad.SetKeys(
+        //    new GradientColorKey[] { new GradientColorKey(Color.white, 0.0f), new GradientColorKey(Color.blue, 1.0f) },
+        //    new GradientAlphaKey[] { new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(1.0f, 1.0f) }
+        //);
 
-        col.color = grad;
+
+        main.startColor = color;
+        col.enabled = true;
+        em.enabled = true;
     }
 }
-
-

@@ -11,7 +11,7 @@ public class AddToEachChild : MonoBehaviour
         {
             if (child.name[0] != 'P')
             {
-                child.gameObject.AddComponent<EmissionHRV>();
+                child.gameObject.AddComponent<RandomEmissionHRV>();
             }
                 
         }
