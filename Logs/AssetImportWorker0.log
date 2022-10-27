@@ -15,12 +15,12 @@ C:/Users/vradmin/Downloads/BFiIE-Spring2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55478
+59412
 Successfully changed project path to: C:/Users/vradmin/Downloads/BFiIE-Spring2022
 C:/Users/vradmin/Downloads/BFiIE-Spring2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.07 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.85 ms.
+Refreshing native plugins compatible for Editor in 116.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.65 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/vradmin/Downloads/BFiIE-Spring2022/Assets
@@ -35,52 +35,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001783 seconds.
+Registered in 0.001688 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.85 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 88.02 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.600 seconds
+- Completed reload, in  0.932 seconds
 Domain Reload Profiling:
-	ReloadAssembly (601ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (477ms)
-			LoadAssemblies (50ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (194ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (217ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (354ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (72ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003502 seconds.
+Registered in 0.003662 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.00 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 91.08 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -101,45 +101,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.735 seconds
+- Completed reload, in  1.834 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1736ms)
-		BeginReloadAssembly (180ms)
+	ReloadAssembly (1835ms)
+		BeginReloadAssembly (320ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1499ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1445ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
+			SetupTypeCache (327ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (863ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (845ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (627ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 4156 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 211.3 MB.
-System memory in use after: 211.4 MB.
+System memory in use after: 211.5 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4644.
-Total: 4.448000 ms (FindLiveObjects: 0.375200 ms CreateObjectMapping: 0.255100 ms MarkObjects: 3.633800 ms  DeleteObjects: 0.182800 ms)
+Total: 5.318600 ms (FindLiveObjects: 0.390500 ms CreateObjectMapping: 0.350100 ms MarkObjects: 4.379400 ms  DeleteObjects: 0.197600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -154,7 +154,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs
-  artifactKey: Guid(71e8210467bb29a43bab3f6068530022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs using Guid(71e8210467bb29a43bab3f6068530022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0661885f3260d51ca94af466e78570b0') in 0.010589 seconds 
+  path: Assets/Scenes/New Cave.unity
+  artifactKey: Guid(485231a93a5076f4fbb95cea645a17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Cave.unity using Guid(485231a93a5076f4fbb95cea645a17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90183e0276d47acbb3f74b24891f0ea8') in 0.022625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 655.532096 seconds.
+  path: Assets/Scenes/Main Scene.unity
+  artifactKey: Guid(5d0ae63f98cea614ca6fb60f991f4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene.unity using Guid(5d0ae63f98cea614ca6fb60f991f4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599f02e41d3df7259c1eafa42c927ff2') in 0.009277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 566.177327 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_large_spike_01.prefab
+  artifactKey: Guid(3dd8ad26b7f705d4a8ed3b4c31578f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_large_spike_01.prefab using Guid(3dd8ad26b7f705d4a8ed3b4c31578f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0a497b7ef669fb10d55c64a76d9d6d') in 0.080086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.554595 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_07.prefab
+  artifactKey: Guid(90bd8f159ef9d6f489942a840c40a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_07.prefab using Guid(90bd8f159ef9d6f489942a840c40a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc808b0d7df4ca4f2d1552790838e50') in 0.015476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.086605 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_entry_01.prefab
+  artifactKey: Guid(7199b59d2629ce44496aceba07487df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_entry_01.prefab using Guid(7199b59d2629ce44496aceba07487df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3112bd515d532c6347d18abb51063c6') in 0.015600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.419187 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_08.prefab
+  artifactKey: Guid(b38ef6bd92a2b954ca662b9336a717a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_08.prefab using Guid(b38ef6bd92a2b954ca662b9336a717a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f316300466172298ced84dda4c00c3') in 0.017696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 640.786712 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_04.prefab
+  artifactKey: Guid(8212049b76661a643bb05940e3e2d0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_04.prefab using Guid(8212049b76661a643bb05940e3e2d0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b55779c7adc0c7f10ad130b1078452') in 0.022165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.670110 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_04.prefab
+  artifactKey: Guid(7371864311e4220459100da016693480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_04.prefab using Guid(7371864311e4220459100da016693480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7984a2e5b391c29b5d7f3a01de429298') in 0.017408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.105187 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_08.prefab
+  artifactKey: Guid(d61af1ea249919245bd0c9971d4d0f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_08.prefab using Guid(d61af1ea249919245bd0c9971d4d0f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4fbcae339a69d9260da63e0411a9d5') in 0.015979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.261287 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_02.prefab
+  artifactKey: Guid(86693e31d3272dd4eaa038597353e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_02.prefab using Guid(86693e31d3272dd4eaa038597353e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb8c78ffba7ede0f3c8976a423d7695') in 0.014345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.867711 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_01.prefab
+  artifactKey: Guid(bd46b5cdeac6a6f428e97b72683e65c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_01.prefab using Guid(bd46b5cdeac6a6f428e97b72683e65c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc1249bc21c1d34d7dbd309075a1b7e') in 0.014837 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
