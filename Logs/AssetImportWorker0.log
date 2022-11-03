@@ -15,12 +15,12 @@ C:/Users/vradmin/Downloads/BFiIE-Spring2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59412
+49986
 Successfully changed project path to: C:/Users/vradmin/Downloads/BFiIE-Spring2022
 C:/Users/vradmin/Downloads/BFiIE-Spring2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 116.92 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 1.65 ms.
+Refreshing native plugins compatible for Editor in 139.02 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.50 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/vradmin/Downloads/BFiIE-Spring2022/Assets
@@ -35,52 +35,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001688 seconds.
+Registered in 0.001510 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 88.02 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 154.49 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
+- Completed reload, in  0.899 seconds
 Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (716ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
+			SetupTypeCache (214ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (354ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003662 seconds.
+Registered in 0.010704 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.08 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 114.60 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -101,45 +101,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.834 seconds
+- Completed reload, in  1.963 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1835ms)
-		BeginReloadAssembly (320ms)
+	ReloadAssembly (1965ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1445ms)
-			LoadAssemblies (145ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1745ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
+			SetupTypeCache (376ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (845ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1074ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (609ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (767ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
 Unloading 4156 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 211.3 MB.
 System memory in use after: 211.5 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4644.
-Total: 5.318600 ms (FindLiveObjects: 0.390500 ms CreateObjectMapping: 0.350100 ms MarkObjects: 4.379400 ms  DeleteObjects: 0.197600 ms)
+Total: 7.329700 ms (FindLiveObjects: 0.543000 ms CreateObjectMapping: 0.377000 ms MarkObjects: 6.080500 ms  DeleteObjects: 0.327700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -154,67 +154,475 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/New Cave.unity
-  artifactKey: Guid(485231a93a5076f4fbb95cea645a17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Cave.unity using Guid(485231a93a5076f4fbb95cea645a17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90183e0276d47acbb3f74b24891f0ea8') in 0.022625 seconds 
+  path: Assets/Scenes/cave-Mesh-shorten.fbx
+  artifactKey: Guid(647854b89776fe041a54cac8205ac602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cave-Mesh-shorten.fbx using Guid(647854b89776fe041a54cac8205ac602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fadd8fc0616f1024464f188787a296') in 0.487131 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 655.532096 seconds.
+  Time since last request: 55.049506 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_06.prefab
+  artifactKey: Guid(dfea1a2d4f4582e4e99e6ab7eda8e9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_06.prefab using Guid(dfea1a2d4f4582e4e99e6ab7eda8e9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d057db44042ce43a28daee23d14f80c') in 0.024879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.222801 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_entry_02.prefab
+  artifactKey: Guid(b8462c4e448e3994f8bd8f057363cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_entry_02.prefab using Guid(b8462c4e448e3994f8bd8f057363cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebd6495364691ddc354f50161673d96') in 0.033038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_cavity.prefab
+  artifactKey: Guid(fb15113b08f412f4489b86383c51e1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_cavity.prefab using Guid(fb15113b08f412f4489b86383c51e1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4a09f5626d680b235e04b9687ca4fe') in 0.020641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_18.prefab
+  artifactKey: Guid(cefb2f27c16fc8241bfb7fc55e75a8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_18.prefab using Guid(cefb2f27c16fc8241bfb7fc55e75a8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f568ef41cebf48437c5254e8df3b57bd') in 0.022743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_14.prefab
+  artifactKey: Guid(d869fda0f83c0d249965926da94ee2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_14.prefab using Guid(d869fda0f83c0d249965926da94ee2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103d361d4cf87261316b66dd8f8efcb6') in 0.017945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_platform_03.prefab
+  artifactKey: Guid(b1729fb48db6e124baf2496833388c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_platform_03.prefab using Guid(b1729fb48db6e124baf2496833388c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fe6e413ce3152aa6f212d3f49629d1') in 0.044563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_20.prefab
+  artifactKey: Guid(c6b89ce4a0de6d745a724da9206f3cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_20.prefab using Guid(c6b89ce4a0de6d745a724da9206f3cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caa258d7d1191502f36eeddedb094a3') in 0.030867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_snow_dune_01.prefab
+  artifactKey: Guid(0182ee6dfa5ac9249bf18521d432efb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_snow_dune_01.prefab using Guid(0182ee6dfa5ac9249bf18521d432efb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559aae0b004a18997a67e1636a202eda') in 0.029201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_05.prefab
+  artifactKey: Guid(fbb24da00b16df04d9f46f32f867c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_05.prefab using Guid(fbb24da00b16df04d9f46f32f867c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92788ea87af4a5e6d4b18ea1a3caaa0') in 0.019312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_02.prefab
+  artifactKey: Guid(dca280344eaa52b4296333f978657900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_02.prefab using Guid(dca280344eaa52b4296333f978657900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bda6b93e05a30c0004d6ad64345b1b4') in 0.018556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_01.prefab
+  artifactKey: Guid(f4dff6f221e8bae48af795b566ec0365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_01.prefab using Guid(f4dff6f221e8bae48af795b566ec0365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64277f935ba7b46914a736ee0b241224') in 0.012767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_16.prefab
+  artifactKey: Guid(0406967968ae7f04eaea1f94a259b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_16.prefab using Guid(0406967968ae7f04eaea1f94a259b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0e3bb45b600c20172db202ca6170fb') in 0.017826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_01.prefab
+  artifactKey: Guid(74792b26d4a59e04993003f04f7d74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_01.prefab using Guid(74792b26d4a59e04993003f04f7d74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3d2cfa78e62c9e0f440435fad25efb') in 0.017288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_15.prefab
+  artifactKey: Guid(b69a11e45b6096640ada6803af4b09e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_15.prefab using Guid(b69a11e45b6096640ada6803af4b09e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92767f5e00cd139b9860dd6f90cad9f') in 0.017331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_05.prefab
+  artifactKey: Guid(f7f2faf0d96bf3e42a31a4875e6ed3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_05.prefab using Guid(f7f2faf0d96bf3e42a31a4875e6ed3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4b2947b15941d6507ebce97790b4ae') in 0.017781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_12.prefab
+  artifactKey: Guid(9489dd0273382c243afef51a25cfdce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_12.prefab using Guid(9489dd0273382c243afef51a25cfdce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dad326f849158fb7875749e96b065f') in 0.018534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_08.prefab
+  artifactKey: Guid(1ee6b494ef30ac1499404685d452d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_08.prefab using Guid(1ee6b494ef30ac1499404685d452d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c10e2fd0271decec418c1bfa8a7609') in 0.018502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_02.prefab
+  artifactKey: Guid(1c7b6f8ed3b798a489fdbeffc112248e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_02.prefab using Guid(1c7b6f8ed3b798a489fdbeffc112248e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd901793e1f5f47346973ade6d62d0fe8') in 0.017756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_01.prefab
+  artifactKey: Guid(654a037d40fc3af44a99bb872727bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_01.prefab using Guid(654a037d40fc3af44a99bb872727bf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b37789f6704e0142353681c5569cc7') in 0.018151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_03.prefab
+  artifactKey: Guid(58d86c08f66743844b6b37482a8fde98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_03.prefab using Guid(58d86c08f66743844b6b37482a8fde98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ff218dbc2f4fca3b39c427155ef891') in 0.017180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_11.prefab
+  artifactKey: Guid(298714c3d3b6b1a4cada2067aa96f1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_11.prefab using Guid(298714c3d3b6b1a4cada2067aa96f1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5df52e95169f2518dc173cde77a0bb1') in 0.016749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_06.prefab
+  artifactKey: Guid(fc59e8b25b3d5104fb94b32c468dd36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_06.prefab using Guid(fc59e8b25b3d5104fb94b32c468dd36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99189de4c86bbec350178708ab54ac28') in 0.016750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_02.prefab
+  artifactKey: Guid(0ad533a754ec37f49bedc90340ab9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_02.prefab using Guid(0ad533a754ec37f49bedc90340ab9090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98400ec849d27100f42357ce7a0df0e3') in 0.017729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_09.prefab
+  artifactKey: Guid(4a555240bd65e6e45a1652cae72b3b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_09.prefab using Guid(4a555240bd65e6e45a1652cae72b3b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9f18c2a7c1c1ef3856c1eb90e71636') in 0.017021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_05.prefab
+  artifactKey: Guid(80261856d16007247876c267b6ebf01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_05.prefab using Guid(80261856d16007247876c267b6ebf01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89ce4bfd9d0377ab8832145f94cfec7') in 0.017484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_04.prefab
+  artifactKey: Guid(79f377c988f114d439f10be4a33607c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_04.prefab using Guid(79f377c988f114d439f10be4a33607c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6882ada15405569de3a522a7b9f61985') in 0.016806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_03.prefab
+  artifactKey: Guid(76c1175516788b74d81f798f873ed088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_03.prefab using Guid(76c1175516788b74d81f798f873ed088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec6afcbfc8e51e12d34c0da802cc0ef') in 0.017475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_05.prefab
+  artifactKey: Guid(2b68a32d7f75fee4abafea5ed2e6d8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_05.prefab using Guid(2b68a32d7f75fee4abafea5ed2e6d8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffbce5ad1dc5dbdbfa9cd36987bc095') in 0.017004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_10.prefab
+  artifactKey: Guid(463588952be1cdb49b6903c80f8d5f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_10.prefab using Guid(463588952be1cdb49b6903c80f8d5f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc41f24dac8a92b8bbacb7096ea0262') in 0.018179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_torchstone_02.prefab
+  artifactKey: Guid(3b85545006e82c2479dee9f10e920f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_torchstone_02.prefab using Guid(3b85545006e82c2479dee9f10e920f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95982ecd21013b4c9df0d71392fac57e') in 0.017316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_04.prefab
+  artifactKey: Guid(dab5ad931b5a55c4381b2e96f617c06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_04.prefab using Guid(dab5ad931b5a55c4381b2e96f617c06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d600625ad9047a3d234fa2d64a1f5b2') in 0.016485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_08.prefab
+  artifactKey: Guid(3ec33685279962d4387d5f2258690bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_08.prefab using Guid(3ec33685279962d4387d5f2258690bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df23105a2abc3be9b50eff99e68c1b67') in 0.017917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ritual_brick_02.prefab
+  artifactKey: Guid(3b4f70dfa15546742ae3b3a402fbfef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ritual_brick_02.prefab using Guid(3b4f70dfa15546742ae3b3a402fbfef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c845a20e0e1daa53a65101c0e9aacb3c') in 0.017175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_11.prefab
+  artifactKey: Guid(8dfe3de1fff84d04294de1ab5c169ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_11.prefab using Guid(8dfe3de1fff84d04294de1ab5c169ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e3d9777a19fcc393203d8dcc6b8c23') in 0.017048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_05.prefab
+  artifactKey: Guid(489759987bd8cb74eac4110078dd5ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_05.prefab using Guid(489759987bd8cb74eac4110078dd5ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781723ebc435b7520f52ea166cbfc4b2') in 0.018259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_03.prefab
+  artifactKey: Guid(d8c1624a56a7a6747ab1c27e84447b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_03.prefab using Guid(d8c1624a56a7a6747ab1c27e84447b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95214c4160e5295e601f72adc3bdcc1') in 0.017417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_04.prefab
+  artifactKey: Guid(612c8b614bf3b4b479e77c39a759f05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_04.prefab using Guid(612c8b614bf3b4b479e77c39a759f05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2058b02eacec0075cc99d6c451dd2e') in 0.016856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_large_spike_02.prefab
+  artifactKey: Guid(4c618693b9e945d4496e4913cf0847b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_large_spike_02.prefab using Guid(4c618693b9e945d4496e4913cf0847b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6afa62f39654ba312a820ee478e3ac') in 0.018095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_02.prefab
+  artifactKey: Guid(7b2f0c64f8f433444a6e75d4549b9f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_02.prefab using Guid(7b2f0c64f8f433444a6e75d4549b9f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521140ae532def3a22b050cf5ca3c016') in 0.017048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_06.prefab
+  artifactKey: Guid(01c1d8445f4860340803ded538ed5f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_06.prefab using Guid(01c1d8445f4860340803ded538ed5f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54443ec6293eb6e607a5c746d5072023') in 0.017955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_hill_02.prefab
+  artifactKey: Guid(45018e24f310e1042ba4725fbd916448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_hill_02.prefab using Guid(45018e24f310e1042ba4725fbd916448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ab6183a09014a430924f45343be30b') in 0.017469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_platform_01.prefab
+  artifactKey: Guid(278c3570dc7899e41b9e14c89bda2895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_platform_01.prefab using Guid(278c3570dc7899e41b9e14c89bda2895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292442f60802a34de60ba8599b1d545c') in 0.017081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_19.prefab
+  artifactKey: Guid(7328cad10bc76dd4bad6ec334f5c5c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_19.prefab using Guid(7328cad10bc76dd4bad6ec334f5c5c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53dfca7e57f0e52cd96e69b2f80050c') in 0.017129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_01.prefab
+  artifactKey: Guid(103de16743c2bc741ac7c629df6c8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_01.prefab using Guid(103de16743c2bc741ac7c629df6c8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82d1ae42ee109b3112c6dc671ccd57e') in 0.017706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_06.prefab
+  artifactKey: Guid(df53cc42e81430247b75d50353d591c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_06.prefab using Guid(df53cc42e81430247b75d50353d591c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee22bd401a808cc37451baf2fb9cd64e') in 0.018003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_13.prefab
+  artifactKey: Guid(8bd6e16e20c9709468d77a053475cce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_13.prefab using Guid(8bd6e16e20c9709468d77a053475cce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f01a00f00b300142f752f48a60438ad') in 0.016294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_12.prefab
+  artifactKey: Guid(a51e9e47d8ade894e817bf8145365a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_12.prefab using Guid(a51e9e47d8ade894e817bf8145365a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5576470b1ea182e27e9a8e6f16791c') in 0.017702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_07.prefab
+  artifactKey: Guid(1160b81f1ba938840a562f141fd1cd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_07.prefab using Guid(1160b81f1ba938840a562f141fd1cd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c8168eee698e0b5247105d73c00ef0') in 0.019533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_13.prefab
+  artifactKey: Guid(715fa55e8b5f03644b1e9077b013c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_13.prefab using Guid(715fa55e8b5f03644b1e9077b013c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac806f0b436c8c12d1d6ba92c830b8cc') in 0.017284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_01.prefab
+  artifactKey: Guid(9add001f5698cbc4a8726673fa19852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_01.prefab using Guid(9add001f5698cbc4a8726673fa19852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93bd2d28401e8013ee8596be3c33dde') in 0.018529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ritual_brick_01.prefab
+  artifactKey: Guid(d328a57ec5f46fc4bb85802d22ead841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ritual_brick_01.prefab using Guid(d328a57ec5f46fc4bb85802d22ead841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c858f6a80d130532f307c0c993128bce') in 0.019097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_high_cliff.prefab
+  artifactKey: Guid(58c468a35c7767c45b83f027924df03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_high_cliff.prefab using Guid(58c468a35c7767c45b83f027924df03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4f97d70167bde0791f7aa1d621c0d2') in 0.019849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_hill_01.prefab
+  artifactKey: Guid(c585c93041600bf459f934618008ebb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_hill_01.prefab using Guid(c585c93041600bf459f934618008ebb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddc90ac83cf86640acb7420a8bfba64') in 0.019409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_torchstone_01.prefab
+  artifactKey: Guid(f26e3abcf6ee6074b9a724406173def8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_torchstone_01.prefab using Guid(f26e3abcf6ee6074b9a724406173def8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fb9727f2f198c3c70ba1af04c212ec') in 0.017488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_03.prefab
+  artifactKey: Guid(451d9a1d00fade440be279328f95978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_03.prefab using Guid(451d9a1d00fade440be279328f95978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6b5cfdd077d9ee7f98d2a275baf489') in 0.018557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_03.prefab
+  artifactKey: Guid(2a59f1ea3ba1e25488c312f875d89052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_03.prefab using Guid(2a59f1ea3ba1e25488c312f875d89052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642a1b62bc9b2b4bfa46d6113d53416e') in 0.017541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_03.prefab
+  artifactKey: Guid(ce9cff8a62aa2cd49a5fd0f1978f02eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_03.prefab using Guid(ce9cff8a62aa2cd49a5fd0f1978f02eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4589b88a93018370ac11468bc97ecf93') in 0.017084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_04.prefab
+  artifactKey: Guid(70886b1b534906140bf12ea2cdf6f83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_04.prefab using Guid(70886b1b534906140bf12ea2cdf6f83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880b28991270584ad3485d4656d1ac8c') in 0.018596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_04.prefab
+  artifactKey: Guid(64f8a32b1b646b041aca4f63247e4714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_04.prefab using Guid(64f8a32b1b646b041aca4f63247e4714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b298a2fd6a79ada4794ec5d2484e385b') in 0.016718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_platform_02.prefab
+  artifactKey: Guid(32bca71ba6107744bb8818f616729d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_platform_02.prefab using Guid(32bca71ba6107744bb8818f616729d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cee0fb1f2c662adb41ba259b374828') in 0.018169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_07.prefab
+  artifactKey: Guid(796ec60149f13ad449731ff441fb1f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_07.prefab using Guid(796ec60149f13ad449731ff441fb1f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ec788d1bec86d3433774f6aa2d7f7d') in 0.016805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_17.prefab
+  artifactKey: Guid(b56ddbba260c8384c923b9084511aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_17.prefab using Guid(b56ddbba260c8384c923b9084511aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e093cc8c4d9c8b93251486ec5084fcd3') in 0.016324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_07.prefab
+  artifactKey: Guid(9fe3d664f5c248141a06507de3c5398b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_07.prefab using Guid(9fe3d664f5c248141a06507de3c5398b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e864c025c4740cdbc3961d2f860e5fe') in 0.016928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_06.prefab
+  artifactKey: Guid(fac7accf72926734f90cab20425c1c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_06.prefab using Guid(fac7accf72926734f90cab20425c1c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0bf478895aaab8f2eb1db5f5a4e019') in 0.017756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_09.prefab
+  artifactKey: Guid(7e332eae1b4da7b4781475128bf2ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_single_spike_09.prefab using Guid(7e332eae1b4da7b4781475128bf2ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c784bc8d86eb52d25bf5fb23cb7ab4e3') in 0.019141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_snow_dune_02.prefab
+  artifactKey: Guid(1a6af2eff59fdab40aa250bffe63f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_snow_dune_02.prefab using Guid(1a6af2eff59fdab40aa250bffe63f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7064e883e97cc2102753b364d3235d') in 0.019246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_10.prefab
+  artifactKey: Guid(d3cd5610da182c940bd1c9342efeb1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_10.prefab using Guid(d3cd5610da182c940bd1c9342efeb1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d71cac4d26b954724c407b52e25855') in 0.016385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_02.prefab
+  artifactKey: Guid(cdda7cef64288bd488f9944b6b981def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_rock_02.prefab using Guid(cdda7cef64288bd488f9944b6b981def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fc77584094ba719e918b36bcdda4b9') in 0.016983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1149.913043 seconds.
+  path: Assets/Scenes/Main Scene_Profiles/Main Camera Profile.asset
+  artifactKey: Guid(cbd517437a6b81d489b696827084c3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene_Profiles/Main Camera Profile.asset using Guid(cbd517437a6b81d489b696827084c3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ab7c648cf42efc75824d536473631d') in 0.016094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.204720 seconds.
   path: Assets/Scenes/Main Scene.unity
   artifactKey: Guid(5d0ae63f98cea614ca6fb60f991f4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Scene.unity using Guid(5d0ae63f98cea614ca6fb60f991f4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599f02e41d3df7259c1eafa42c927ff2') in 0.009277 seconds 
+Start importing Assets/Scenes/Main Scene.unity using Guid(5d0ae63f98cea614ca6fb60f991f4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be844491df153bae01f453bba5825d31') in 0.007631 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 566.177327 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_large_spike_01.prefab
-  artifactKey: Guid(3dd8ad26b7f705d4a8ed3b4c31578f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_large_spike_01.prefab using Guid(3dd8ad26b7f705d4a8ed3b4c31578f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0a497b7ef669fb10d55c64a76d9d6d') in 0.080086 seconds 
+  Time since last request: 174.285770 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Textures/T_icemountain_ground.png
+  artifactKey: Guid(ef4cbd51bd6044a42a97a0f717697b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Textures/T_icemountain_ground.png using Guid(ef4cbd51bd6044a42a97a0f717697b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098feb3db9b3ce27fa113023c19ff04a') in 0.022733 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.554595 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_07.prefab
-  artifactKey: Guid(90bd8f159ef9d6f489942a840c40a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_07.prefab using Guid(90bd8f159ef9d6f489942a840c40a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc808b0d7df4ca4f2d1552790838e50') in 0.015476 seconds 
+  Time since last request: 0.000156 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Textures/T_snow.png
+  artifactKey: Guid(f7c346c24bb5a864bb74146c2f67f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Textures/T_snow.png using Guid(f7c346c24bb5a864bb74146c2f67f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed34edb1397836b606a104b9fa9f0304') in 0.026111 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.086605 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_entry_01.prefab
-  artifactKey: Guid(7199b59d2629ce44496aceba07487df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_entry_01.prefab using Guid(7199b59d2629ce44496aceba07487df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3112bd515d532c6347d18abb51063c6') in 0.015600 seconds 
+  Time since last request: 1.281369 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Materials/M_colorpallet_01.mat
+  artifactKey: Guid(fe529bf92da40dd41b512a7f543efd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Materials/M_colorpallet_01.mat using Guid(fe529bf92da40dd41b512a7f543efd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccf83774b5acb6ecdc6ffa5f5dd529a') in 0.015281 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.419187 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_08.prefab
-  artifactKey: Guid(b38ef6bd92a2b954ca662b9336a717a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cave_monument_08.prefab using Guid(b38ef6bd92a2b954ca662b9336a717a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f316300466172298ced84dda4c00c3') in 0.017696 seconds 
+  Time since last request: 0.000216 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Materials/M_ice.mat
+  artifactKey: Guid(eb9bc3b700cea154c9f8289f09d2efd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Materials/M_ice.mat using Guid(eb9bc3b700cea154c9f8289f09d2efd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97146849999409136289d75c11e876d7') in 0.016475 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 640.786712 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_04.prefab
-  artifactKey: Guid(8212049b76661a643bb05940e3e2d0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_cliff_high_04.prefab using Guid(8212049b76661a643bb05940e3e2d0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b55779c7adc0c7f10ad130b1078452') in 0.022165 seconds 
+  Time since last request: 0.000202 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Materials/M_snow.mat
+  artifactKey: Guid(52d5c61f6055d144eb534a340cdc3bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Materials/M_snow.mat using Guid(52d5c61f6055d144eb534a340cdc3bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a1d1b898219e20a0af146cf322b46d') in 0.021459 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.670110 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_04.prefab
-  artifactKey: Guid(7371864311e4220459100da016693480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_ice_spike_04.prefab using Guid(7371864311e4220459100da016693480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7984a2e5b391c29b5d7f3a01de429298') in 0.017408 seconds 
+  Time since last request: 0.000217 seconds.
+  path: Assets/Ice Dominion Pack (Low Poly)/Materials/M_icemountains.mat
+  artifactKey: Guid(d1d155b2dd211b84c85243c23b63a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Dominion Pack (Low Poly)/Materials/M_icemountains.mat using Guid(d1d155b2dd211b84c85243c23b63a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a440e034c065e7b357ef3bb50c7ba33') in 0.014575 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.105187 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_08.prefab
-  artifactKey: Guid(d61af1ea249919245bd0c9971d4d0f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_08.prefab using Guid(d61af1ea249919245bd0c9971d4d0f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4fbcae339a69d9260da63e0411a9d5') in 0.015979 seconds 
+  Time since last request: 222.217672 seconds.
+  path: Assets/Scenes/New Cave.unity
+  artifactKey: Guid(485231a93a5076f4fbb95cea645a17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Cave.unity using Guid(485231a93a5076f4fbb95cea645a17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbf19a553dd467f6d81f1a318c10ea7') in 0.007376 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.261287 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_02.prefab
-  artifactKey: Guid(86693e31d3272dd4eaa038597353e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_flat_rock_02.prefab using Guid(86693e31d3272dd4eaa038597353e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb8c78ffba7ede0f3c8976a423d7695') in 0.014345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.867711 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_01.prefab
-  artifactKey: Guid(bd46b5cdeac6a6f428e97b72683e65c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Prefabs/SM_long_stone_01.prefab using Guid(bd46b5cdeac6a6f428e97b72683e65c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc1249bc21c1d34d7dbd309075a1b7e') in 0.014837 seconds 
+  Time since last request: 9.699424 seconds.
+  path: Assets/Scenes/Main Scene.unity
+  artifactKey: Guid(5d0ae63f98cea614ca6fb60f991f4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene.unity using Guid(5d0ae63f98cea614ca6fb60f991f4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd331e9537e417daf78e41bc8429fcf8f') in 0.003160 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
