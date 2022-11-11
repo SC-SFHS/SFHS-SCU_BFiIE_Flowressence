@@ -13,9 +13,7 @@ public class LightManager : MonoBehaviour
     public float normThreshHigh;
     public float normThreshLow;
 
-    public float red;
-    public float green;
-    public float blue;
+    public float baseIntensity;
 
     public float k;
 
@@ -24,12 +22,10 @@ public class LightManager : MonoBehaviour
     {
         pointLight.color = Color.white;
         pointLight.range = 50;
-        pointLight.intensity = 0.5f;
+        pointLight.intensity = baseIntensity = 0.5f;
 
         normThreshHigh = 0.05f;
         normThreshLow = -0.02f;
-
-        red = green = blue = 0.0f;
 
         // constant of proportionality
         k = 5;
@@ -43,12 +39,12 @@ public class LightManager : MonoBehaviour
         if (normHRDelta > normThreshHigh)
         {
             if (changeColorTo(Color.red))
-                pointLight.intensity = k * normHRDelta + 0.5f;
+                pointLight.intensity = k * normHRDelta + baseIntensity;
         }
         else if (normHRDelta < normThreshLow)
         {
             if (changeColorTo(Color.blue))
-                pointLight.intensity = k * -normHRDelta + 0.5f;
+                pointLight.intensity = k * -normHRDelta + baseIntensity;
         }
         else
             changeColorTo(Color.white);
@@ -59,15 +55,19 @@ public class LightManager : MonoBehaviour
         // first, fade intensity out to 0, at a rate proportional to the intensity (as intensity decreases, rate of change will also decrease)
         if (pointLight.color != color && pointLight.intensity > 0)
             pointLight.intensity = pointLight.intensity - pointLight.intensity * 0.01f - 0.01f;
+
         // second, when the fade is complete (intensity = 0) set the point light's color to the desired color
         if (pointLight.intensity == 0)
             pointLight.color = color;
+
         // third, once the new color has been set, raise the intensity back up
-        if (pointLight.color == color && pointLight.intensity < 0.5f)
+        if (pointLight.color == color && pointLight.intensity < baseIntensity)
             pointLight.intensity += 0.01f;
+
         // lastly, if the intensity has been maxed out for the new color, return true
-        if (pointLight.color == color && pointLight.intensity >= 0.5f)
+        if (pointLight.color == color && pointLight.intensity >= baseIntensity)
             return true;
+
         return false;
     }
 }
