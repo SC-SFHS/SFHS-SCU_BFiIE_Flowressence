@@ -69,6 +69,7 @@
     <Compile Include="Assets\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
     <Compile Include="Assets\Scripts\EmissionHRV.cs" />
     <Compile Include="Assets\Scripts\PathFollower.cs" />
+    <Compile Include="Assets\Scripts\LightManager.cs" />
     <Compile Include="Assets\emission.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathPlacer.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
@@ -82,7 +83,7 @@
     <Compile Include="Assets\PathCreator\Follower.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
     <Compile Include="Assets\GDT-Fade-Effect\GDTFadeEffect.cs" />
-    <Compile Include="Assets\Scripts\LightManager.cs" />
+    <Compile Include="Assets\XRPlatformControllerSetup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
@@ -850,6 +851,10 @@
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
       <Project>{D17FE52C-CBD0-E268-B28D-C14250FEE90D}</Project>
       <Name>Unity.XR.Management.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{08D9AAF7-5E5E-E0F7-4FA9-C7CFE75B5E68}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
