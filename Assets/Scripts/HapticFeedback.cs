@@ -24,6 +24,9 @@ public class HapticFeedback : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        normThreshHigh = 0.05f;
+        normThreshLow = -0.02f;
+
         lowHRIntensity = 0.2f;
         lowHRDuration = 0.1f;
 
