@@ -11,6 +11,10 @@ public class HapticFeedback : MonoBehaviour
     public InputActionReference leftHandReference;
     public InputActionReference rightHandReference;
 
+    public float normHRDelta;
+    public float normThreshHigh;
+    public float normThreshLow;
+
     public float lowHRIntensity;
     public float lowHRDuration;
 
@@ -30,12 +34,12 @@ public class HapticFeedback : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (leftHandReference.action.triggered)
+        if (normHRDelta < normThreshLow)
         {
             StartCoroutine(lowHRHaptics());
         }
 
-        if (rightHandReference.action.triggered)
+        if (normHRDelta > normThreshHigh)
         {
             leftHand.SendHapticImpulse(highHRIntensity, highHRDuration);
             rightHand.SendHapticImpulse(highHRIntensity, highHRDuration);
