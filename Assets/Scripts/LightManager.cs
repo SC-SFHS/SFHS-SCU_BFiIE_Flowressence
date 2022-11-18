@@ -2,11 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.XR.CoreUtils;
+using PathCreation;
 
 public class LightManager : MonoBehaviour
 {
     public Light pointLight;
     public XROrigin rig;
+    public PathCreator lanternPath;
+    public GameObject lantern;
+
+    public float distance;
+    public float distanceThreshold;
 
     [Range(-1, 1)]
     public float normHRDelta;
@@ -17,11 +23,14 @@ public class LightManager : MonoBehaviour
 
     public float k;
 
+    public PathFollower pathFollower;
+    public float distanceTraveled;
+
     // Start is called before the first frame update
     void Start()
     {
         pointLight.color = Color.white;
-        pointLight.range = 50;
+        pointLight.range = 100;
         pointLight.intensity = baseIntensity = 0.5f;
 
         normThreshHigh = 0.05f;
@@ -29,13 +38,15 @@ public class LightManager : MonoBehaviour
 
         // constant of proportionality
         k = 5;
+
+        distanceThreshold = 30f;
+        pointLight.transform.position = lanternPath.path.GetPointAtDistance(-1f);
+        lantern.transform.position = pointLight.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        pointLight.transform.position = rig.transform.position;
-
         if (normHRDelta > normThreshHigh)
         {
             if (changeColorTo(Color.red))
@@ -48,6 +59,8 @@ public class LightManager : MonoBehaviour
         }
         else
             changeColorTo(Color.white);
+
+        updatePosition();
     }
 
     private bool changeColorTo(Color color)
@@ -69,5 +82,16 @@ public class LightManager : MonoBehaviour
             return true;
 
         return false;
+    }
+
+    private void updatePosition()
+    {
+        distance = (pointLight.transform.position - rig.transform.position).magnitude;
+        if (distance <= distanceThreshold)
+        {
+            distanceTraveled += pathFollower.speed * Time.deltaTime;
+            pointLight.transform.position = lanternPath.path.GetPointAtDistance(-distanceTraveled);
+        }
+        lantern.transform.position = pointLight.transform.position;
     }
 }
