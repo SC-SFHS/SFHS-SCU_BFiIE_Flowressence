@@ -41,7 +41,7 @@ public class TimeManager : MonoBehaviour
     {
         StartTime();
         TeleportAfterTime();
-        EndScene();
+        // EndScene();
     }
 
     void StartTime()

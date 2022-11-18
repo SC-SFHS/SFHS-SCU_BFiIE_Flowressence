@@ -17,7 +17,7 @@ public class WormInstantiator : MonoBehaviour
 
     void Start()
     {
-        amount = (int)Mathf.Round(pathCreator.path.length) / 3;
+        amount = (int)Mathf.Round(pathCreator.path.length) / 6;
         worms = new GameObject[amount];
         worms[0] = Instantiate(wormObject);
         float j = 0f;
