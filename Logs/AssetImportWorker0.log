@@ -15,12 +15,12 @@ C:/Users/brian/OneDrive/Desktop/GitHub/BFiIE-Spring2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63152
+54229
 Successfully changed project path to: C:/Users/brian/OneDrive/Desktop/GitHub/BFiIE-Spring2022
 C:/Users/brian/OneDrive/Desktop/GitHub/BFiIE-Spring2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 118.24 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.81 ms.
+Refreshing native plugins compatible for Editor in 106.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.11 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/brian/OneDrive/Desktop/GitHub/BFiIE-Spring2022/Assets
@@ -35,51 +35,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003919 seconds.
+Registered in 0.003811 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 163.98 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 115.67 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
+- Completed reload, in  0.805 seconds
 Domain Reload Profiling:
-	ReloadAssembly (893ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (805ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (706ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (338ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (280ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (164ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006753 seconds.
+Registered in 0.007846 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.33 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 117.33 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
@@ -97,392 +97,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.341 seconds
+- Completed reload, in  2.293 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2342ms)
-		BeginReloadAssembly (194ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (2076ms)
-			LoadAssemblies (147ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (412ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (1269ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (162ms)
-				ProcessInitializeOnLoadAttributes (956ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 4162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.0 MB.
-System memory in use after: 212.1 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4652.
-Total: 4.373900 ms (FindLiveObjects: 0.285000 ms CreateObjectMapping: 0.193300 ms MarkObjects: 3.641800 ms  DeleteObjects: 0.252400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/lamplight-v1.fbx
-  artifactKey: Guid(15621ffab41fa9a42b46e23c2398a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lamplight-v1.fbx using Guid(15621ffab41fa9a42b46e23c2398a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c95b390364c6f62087fde3afa2a877') in 0.409713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_MetallicSmoothness.png
-  artifactKey: Guid(78dbd2e2ed813e04dbbeab6d982981d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_MetallicSmoothness.png using Guid(78dbd2e2ed813e04dbbeab6d982981d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd988c799d556290910b2a8bdf4edcb9d') in 0.045495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Normal.png
-  artifactKey: Guid(fbacd829ce7fbb14ea63d4c6afcc5f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Normal.png using Guid(fbacd829ce7fbb14ea63d4c6afcc5f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1357f6f2420ca04b30d254457e5fefb9') in 0.024748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/BrokenVector/LowPolyRockPack/Materials/Green.mat
-  artifactKey: Guid(58580be5a1ee44d42a9966d48abb8758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyRockPack/Materials/Green.mat using Guid(58580be5a1ee44d42a9966d48abb8758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caead9ab97022094df1e2567e010766b') in 0.025603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Emission.png
-  artifactKey: Guid(c4cb56ed45fb93d428f0b362c9985f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Emission.png using Guid(c4cb56ed45fb93d428f0b362c9985f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a15e821284b43d332218ced6570422') in 0.016133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Mask.png
-  artifactKey: Guid(db56133bdb0993a40b90a1241d093e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Mask.png using Guid(db56133bdb0993a40b90a1241d093e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc61d0fcec860050e7da0b917c275e7') in 0.014842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Ice Dominion Pack (Low Poly)/Materials/M_ice.mat
-  artifactKey: Guid(eb9bc3b700cea154c9f8289f09d2efd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ice Dominion Pack (Low Poly)/Materials/M_ice.mat using Guid(eb9bc3b700cea154c9f8289f09d2efd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04097c6d630eff950dee254a00e4b77') in 0.016789 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018096 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.000 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2000ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1769ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (387ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (1013ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (817ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Unloading 3999 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 200.5 MB.
-System memory in use after: 200.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4702.
-Total: 6.923500 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.288400 ms MarkObjects: 6.049000 ms  DeleteObjects: 0.190700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 151.223053 seconds.
-  path: Assets/TESTING GLOW.mat
-  artifactKey: Guid(c728cc27f2affbe47a1c58f14a62bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TESTING GLOW.mat using Guid(c728cc27f2affbe47a1c58f14a62bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46094651652cdea202714a9dd76cfc4') in 0.095837 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005539 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.940 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1941ms)
-		BeginReloadAssembly (170ms)
+	ReloadAssembly (2295ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1694ms)
-			LoadAssemblies (137ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (2025ms)
+			LoadAssemblies (147ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (376ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (1000ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (1212ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (815ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3999 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 200.6 MB.
-System memory in use after: 200.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4706.
-Total: 4.061600 ms (FindLiveObjects: 0.385800 ms CreateObjectMapping: 0.306200 ms MarkObjects: 3.196800 ms  DeleteObjects: 0.172000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 529.938993 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.012579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.587460 seconds.
-  path: Assets/Glass Testing.mat
-  artifactKey: Guid(96324d8cee26e3b4d80769f6e1562d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass Testing.mat using Guid(96324d8cee26e3b4d80769f6e1562d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b572f86e522e36f7a6942ab65d56f9') in 0.089882 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.044 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2045ms)
-		BeginReloadAssembly (170ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1796ms)
-			LoadAssemblies (148ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (1096ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (907ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.41 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 3999 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 200.7 MB.
-System memory in use after: 200.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4710.
-Total: 4.960400 ms (FindLiveObjects: 0.359800 ms CreateObjectMapping: 0.322200 ms MarkObjects: 4.127100 ms  DeleteObjects: 0.150200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006126 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.768 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1769ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1568ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (927ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (763ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (899ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 4002 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 200.9 MB.
-System memory in use after: 201.0 MB.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.8 MB.
+System memory in use after: 212.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4715.
-Total: 4.641200 ms (FindLiveObjects: 0.308100 ms CreateObjectMapping: 0.218600 ms MarkObjects: 3.911900 ms  DeleteObjects: 0.201400 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4655.
+Total: 5.825500 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.228500 ms MarkObjects: 4.841400 ms  DeleteObjects: 0.458500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -496,1220 +149,151 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 549.016671 seconds.
-  path: Assets/Laterns and candles/Meshes/Materials/No Name.mat
-  artifactKey: Guid(cae27ed0c2a472f4aa2ff73acdc66d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Materials/No Name.mat using Guid(cae27ed0c2a472f4aa2ff73acdc66d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052c661fde9c35287136c9f891bfc1ef') in 0.125974 seconds 
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type1 01.dae
+  artifactKey: Guid(beb8ceccb376f684095ae1a93f088717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type1 01.dae using Guid(beb8ceccb376f684095ae1a93f088717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323648a75b7b6247d3bb8efc5784ce3c') in 0.283213 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.113951 seconds.
-  path: Assets/Laterns and candles/Materials
-  artifactKey: Guid(da5ea4106d53eae4a8e9534bfefdca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials using Guid(da5ea4106d53eae4a8e9534bfefdca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1569fb7c5f5f3cbc9d574ef00b3d3cfa') in 0.005436 seconds 
+  Time since last request: 0.000206 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type3 04.dae
+  artifactKey: Guid(f50da248aa3fb334ab1caff0974120bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type3 04.dae using Guid(f50da248aa3fb334ab1caff0974120bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a4e979b15551b1d424f811b236b823') in 0.147538 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.420720 seconds.
-  path: Assets/Laterns and candles/Meshes
-  artifactKey: Guid(50a833d9122d3c5428c84384c9b5aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes using Guid(50a833d9122d3c5428c84384c9b5aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd229a9d4bfd9bab96d4c6a9b379c596') in 0.009619 seconds 
+  Time since last request: 0.000257 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type3 02.dae
+  artifactKey: Guid(5ccad72751160e341ad0b43ec43a620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type3 02.dae using Guid(5ccad72751160e341ad0b43ec43a620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7249e06056163dea7ab549fbe4dd7105') in 0.025403 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.253209 seconds.
-  path: Assets/Laterns and candles/Prefabs
-  artifactKey: Guid(733f39f22c8fb0d42ae34470a89f6bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs using Guid(733f39f22c8fb0d42ae34470a89f6bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03e2755458556d490c867fa71f9940') in 0.006713 seconds 
+  Time since last request: 0.000429 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type2 04.dae
+  artifactKey: Guid(19497d68b37d2594fb3e269601d333be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type2 04.dae using Guid(19497d68b37d2594fb3e269601d333be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c84eb5add7ad6b6fd1356030d854ea') in 0.022095 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010575 seconds.
-  path: Assets/Laterns and candles/Prefabs/Candle1.prefab
-  artifactKey: Guid(86d84285ef39db64c986f37878b14861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Candle1.prefab using Guid(86d84285ef39db64c986f37878b14861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8274654605ea12e1ab3d762dabdad8b7') in 0.306355 seconds 
+  Time since last request: 0.000262 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type5 01.dae
+  artifactKey: Guid(e6630d62478f89847ba57d087ab513c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type5 01.dae using Guid(e6630d62478f89847ba57d087ab513c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36eb7312a23f6c6f0610f6acf3de7b5') in 0.141210 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Laterns and candles/Prefabs/CarvedPost2.prefab
-  artifactKey: Guid(94f10da449387134eb5a2276906ccdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/CarvedPost2.prefab using Guid(94f10da449387134eb5a2276906ccdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423314b62dcd30de85225c42936bf3a8') in 0.248903 seconds 
+  Time since last request: 0.000215 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type4 03.dae
+  artifactKey: Guid(b8ebafa78dff0064cb20deada72cb631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type4 03.dae using Guid(b8ebafa78dff0064cb20deada72cb631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5210eb8178c087ce79e99f90b3f6424d') in 0.019128 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Laterns and candles/Prefabs/candlestick.prefab
-  artifactKey: Guid(b02c5020824fa574d88a101f9b790908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/candlestick.prefab using Guid(b02c5020824fa574d88a101f9b790908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46ee562206c6b736e4ab4f8078f1946') in 0.040696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Laterns and candles/Prefabs/ceiling chain.prefab
-  artifactKey: Guid(24b4d8ad04155c244b2b776c5532e76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/ceiling chain.prefab using Guid(24b4d8ad04155c244b2b776c5532e76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d65c6cb59f516e1d175c75f6db8812') in 0.041783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000722 seconds.
-  path: Assets/Laterns and candles/Prefabs/Candle3 1.prefab
-  artifactKey: Guid(42612f8b6c0dce8468648f3f08db6d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Candle3 1.prefab using Guid(42612f8b6c0dce8468648f3f08db6d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3970a3db2a6fe7074ce706119a5326') in 0.026766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Laterns and candles/Prefabs/Candle2.prefab
-  artifactKey: Guid(6b93fd896c90c094c8577de7399669b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Candle2.prefab using Guid(6b93fd896c90c094c8577de7399669b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144560ace3802bb5b203b4dd18e97bef') in 0.018812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern3.prefab
-  artifactKey: Guid(d17bd81f00e4eb843a71e73358112786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern3.prefab using Guid(d17bd81f00e4eb843a71e73358112786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463f8a7c9a2eaabae93933fd4c2e1573') in 0.026126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Laterns and candles/Prefabs/CarvedPost2_double.prefab
-  artifactKey: Guid(cd6ef13c75034bc4d820dfaf562e4a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/CarvedPost2_double.prefab using Guid(cd6ef13c75034bc4d820dfaf562e4a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d99fa590a61b6dcd1ea8a8b22d4d054') in 0.296791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern5.prefab
-  artifactKey: Guid(5cc22dee4f3a39f48bbb851c41003c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern5.prefab using Guid(5cc22dee4f3a39f48bbb851c41003c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4dba58736daaeb45956df324eb4358') in 0.028550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Laterns and candles/Prefabs/LampPost_double.prefab
-  artifactKey: Guid(6d2bb9154d502fd46a5faf6e3b55f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/LampPost_double.prefab using Guid(6d2bb9154d502fd46a5faf6e3b55f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75c13bbb92b01d200c918172a37d913') in 0.035113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern4.prefab
-  artifactKey: Guid(263b26f2316871f46a4bda232a61ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern4.prefab using Guid(263b26f2316871f46a4bda232a61ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1495a98f2f295173a39747125bf17f') in 0.026491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern2.prefab
-  artifactKey: Guid(68f8cf3372c588f4a94bf2c9bd255d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern2.prefab using Guid(68f8cf3372c588f4a94bf2c9bd255d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e010727b2f8e3f02c331bacff187adbd') in 0.030208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern1.prefab
-  artifactKey: Guid(56c82061e6c4de742a208837848be55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern1.prefab using Guid(56c82061e6c4de742a208837848be55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e68a5bd1aa37d5d958704c673f51cab') in 0.032964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.097441 seconds.
-  path: Assets/Laterns and candles/textures/albedo_transparent.psd
-  artifactKey: Guid(ab754629dd160a140bd57bb516736b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/albedo_transparent.psd using Guid(ab754629dd160a140bd57bb516736b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acc0b9793fbb61af382a6330b1d2821') in 0.022229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Laterns and candles/textures/LampPostWaLL [Normal].png
-  artifactKey: Guid(5ca9b7fd68e98c448967172681179979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/LampPostWaLL [Normal].png using Guid(5ca9b7fd68e98c448967172681179979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0a219d30c725dbf3de27a8cca66e09') in 0.020245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Laterns and candles/textures/LampPost [Albedo].png
-  artifactKey: Guid(813ba24223f316b469db57300a957156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/LampPost [Albedo].png using Guid(813ba24223f316b469db57300a957156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4742fcb149a7b13bcba0958952c8080b') in 0.013141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Laterns and candles/textures/Glass2 [Normal].png
-  artifactKey: Guid(fe2ad94daa0a12a4da4b1068441f64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Glass2 [Normal].png using Guid(fe2ad94daa0a12a4da4b1068441f64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ab43e2de7e44016c16337f8c614076') in 0.012887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Laterns and candles/textures/CarvedLampPost [Normal].png
-  artifactKey: Guid(182d8cf2696018f438b0324013039ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/CarvedLampPost [Normal].png using Guid(182d8cf2696018f438b0324013039ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771539001e3b986d87478e471955c7d5') in 0.014736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Laterns and candles/textures/chandelier [Albedo].png
-  artifactKey: Guid(393bfb2b1fe18cf499e9f1ff5615fc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/chandelier [Albedo].png using Guid(393bfb2b1fe18cf499e9f1ff5615fc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40eb0d6692bb601f60b91b2ec577b398') in 0.015672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Laterns and candles/textures/Candle2 [Specular].tif
-  artifactKey: Guid(2488b7231f29a604b846afaf2cadfd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle2 [Specular].tif using Guid(2488b7231f29a604b846afaf2cadfd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9940c65d8d7aff7aa2032947d126cf8b') in 0.018380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Laterns and candles/textures/Candle2 emission.png
-  artifactKey: Guid(6545dea8da10a374f899fc0228757015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle2 emission.png using Guid(6545dea8da10a374f899fc0228757015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98a11b6712ea23d6874667a6d9ff1a4') in 0.012845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Laterns and candles/textures/CarvedLampPost2 [Normal].png
-  artifactKey: Guid(db32dc5877f14134fbe0a6fb5d233db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/CarvedLampPost2 [Normal].png using Guid(db32dc5877f14134fbe0a6fb5d233db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd51fe1198ad4aab81d0d1fe975ce1e3') in 0.018747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Laterns and candles/textures/Candle3_blueEmission.png
-  artifactKey: Guid(e8402a70e478d0e4c89f76d5ca018e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle3_blueEmission.png using Guid(e8402a70e478d0e4c89f76d5ca018e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8716b5083a5ce3516b90c8f8c7d995bf') in 0.013168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Laterns and candles/textures/LampPostWaLL [Albedo].png
-  artifactKey: Guid(54eab09900d4cc5439f446b8ba302dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/LampPostWaLL [Albedo].png using Guid(54eab09900d4cc5439f446b8ba302dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af149a733251bad8f288810376216220') in 0.014577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Laterns and candles/textures/Candle3_greenEmission.png
-  artifactKey: Guid(6f8a47ba753be0c44bb0f7e9e36bb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle3_greenEmission.png using Guid(6f8a47ba753be0c44bb0f7e9e36bb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f5784a5234a70944892251a898765f') in 0.016634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Laterns and candles/textures/candlestick [Albedo].png
-  artifactKey: Guid(90fb4d2695f0ed14682bd476db425b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/candlestick [Albedo].png using Guid(90fb4d2695f0ed14682bd476db425b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7b6827ac32f4b7bb899c3d453497d4') in 0.014592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Laterns and candles/textures/CarvedLampPost2 [Albedo].png
-  artifactKey: Guid(1f35c83ac2332574aae42ce893a0d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/CarvedLampPost2 [Albedo].png using Guid(1f35c83ac2332574aae42ce893a0d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ff334e0ae443357aa0d3dd868cca50') in 0.015668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Laterns and candles/textures/candlestick_wall [Albedo].png
-  artifactKey: Guid(b5cb6487340b3e140b0269f2edb8d653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/candlestick_wall [Albedo].png using Guid(b5cb6487340b3e140b0269f2edb8d653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4ac69245f9f24c241fc53da605f172') in 0.016505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Laterns and candles/textures/LampPost [Specular].tif
-  artifactKey: Guid(cc4b2301e9c21ca478bce007107b42d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/LampPost [Specular].tif using Guid(cc4b2301e9c21ca478bce007107b42d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c5f416d01ced8c6dacfcaac144de00') in 0.014251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Laterns and candles/textures/Candle [Albedo].png
-  artifactKey: Guid(77669392726e9a04095c087eed8b533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle [Albedo].png using Guid(77669392726e9a04095c087eed8b533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299aafb43510a76c0aeb203a8736a696') in 0.013975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Laterns and candles/textures/Candle emission_blue.png
-  artifactKey: Guid(73e66a3a2209d5443816b0ba7adf9025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle emission_blue.png using Guid(73e66a3a2209d5443816b0ba7adf9025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5cae074074724c012d3cbf624f5ba9') in 0.014705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Laterns and candles/textures/CarvedLampPost2 [Specular].tif
-  artifactKey: Guid(d12d4b4596e1af848a9ba0f3f003a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/CarvedLampPost2 [Specular].tif using Guid(d12d4b4596e1af848a9ba0f3f003a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ba5496afadaad7061c28bd5b005a33') in 0.024981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Laterns and candles/textures/Candle3 [Normal].png
-  artifactKey: Guid(50e46385f77553a408afed2a0a5cb0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle3 [Normal].png using Guid(50e46385f77553a408afed2a0a5cb0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc3af083567ad91f95d2f7bcc25c307') in 0.018334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Laterns and candles/textures/Candle3_Emission.png
-  artifactKey: Guid(e021051f746d881459b36adb6f6f4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle3_Emission.png using Guid(e021051f746d881459b36adb6f6f4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ddde44de3286bd5f2d4f541bfe6545') in 0.014637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Laterns and candles/textures/Glass5 [Normal].png
-  artifactKey: Guid(20de9cc9282ab1c41a5672fad2d095a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Glass5 [Normal].png using Guid(20de9cc9282ab1c41a5672fad2d095a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5113d5fc601f4e33761daa237bf4abc') in 0.013522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Laterns and candles/textures/Candle emission_blue 1.png
-  artifactKey: Guid(95da4a33523967a429a3bf4ff71ced48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle emission_blue 1.png using Guid(95da4a33523967a429a3bf4ff71ced48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15663ce351aa1cc19ee876d9226bd17') in 0.018724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000670 seconds.
-  path: Assets/Laterns and candles/textures/Candle2 [Normal].png
-  artifactKey: Guid(119fa3bb4e4e6c647aea2a4bfe0a2d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle2 [Normal].png using Guid(119fa3bb4e4e6c647aea2a4bfe0a2d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba31fca507df3a083f4b1285667392f') in 0.015043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Laterns and candles/textures/CarvedLampPost [Specular].tif
-  artifactKey: Guid(93997d9efb46915458ae8da4dd7c9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/CarvedLampPost [Specular].tif using Guid(93997d9efb46915458ae8da4dd7c9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6a138dd59aad0e5aa7ff7b4a9f7298') in 0.012473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Laterns and candles/textures/Candle2 greenemission.png
-  artifactKey: Guid(f724cc538f830e94daf2bf05fd90fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle2 greenemission.png using Guid(f724cc538f830e94daf2bf05fd90fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1c4d03102d39039bc06f23c22d50fc') in 0.015958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Laterns and candles/textures/Candle [Normal].png
-  artifactKey: Guid(a95106e16ef6d234f81030c5607b0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle [Normal].png using Guid(a95106e16ef6d234f81030c5607b0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bea5b076c6d481849a47022943c453') in 0.013108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Laterns and candles/textures/Candle emission.png
-  artifactKey: Guid(f3987315d65d54948bf8f409601d7f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle emission.png using Guid(f3987315d65d54948bf8f409601d7f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8b52f678663def07c03222594ae6c7') in 0.013315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Laterns and candles/textures/Glass2 [Albedo].psd
-  artifactKey: Guid(e4be82f6cd8407948b0dc9afd5888253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Glass2 [Albedo].psd using Guid(e4be82f6cd8407948b0dc9afd5888253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7a24e9e10bc9d49fc608b7cc102719') in 0.018652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Laterns and candles/textures/candlestick [Normal].png
-  artifactKey: Guid(47d9300afc0335a4aa30bb58d346e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/candlestick [Normal].png using Guid(47d9300afc0335a4aa30bb58d346e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c66328cee9dd4d7415a6f1dfda73ce2') in 0.011654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Laterns and candles/textures/LampPost [Normal].png
-  artifactKey: Guid(f481ca6f17839344581ad9db7c1c0246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/LampPost [Normal].png using Guid(f481ca6f17839344581ad9db7c1c0246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90da866322de5463d418838b164f7ef') in 0.013700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Laterns and candles/textures/CarvedLampPost [Albedo].png
-  artifactKey: Guid(fe360e8cd6fb08f4db6a59a22161a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/CarvedLampPost [Albedo].png using Guid(fe360e8cd6fb08f4db6a59a22161a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec184e69865ff73e764353b122bf3a30') in 0.015285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Laterns and candles/textures/LampPostWaLL [Specular].tif
-  artifactKey: Guid(39538eac28a2a6d43b68dd10cb659e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/LampPostWaLL [Specular].tif using Guid(39538eac28a2a6d43b68dd10cb659e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d2694a48ff62e95a8bd8dadd6c2c2c') in 0.013302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Laterns and candles/textures/candlestick [Specular].tif
-  artifactKey: Guid(f455c18315cd2a447b8e3224dbc13180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/candlestick [Specular].tif using Guid(f455c18315cd2a447b8e3224dbc13180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa713c9079dd2f045498e01eb8467e9') in 0.014366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Laterns and candles/textures/candlestick_wall [Normal].png
-  artifactKey: Guid(1dc7197b9448c3d499f1fd46f3ecaa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/candlestick_wall [Normal].png using Guid(1dc7197b9448c3d499f1fd46f3ecaa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73ee0193508168484250cb2463f4cb1') in 0.015217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Laterns and candles/textures/Glass3 [Albedo].psd
-  artifactKey: Guid(bb8a24cf1ddf7e34c90620135691cd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Glass3 [Albedo].psd using Guid(bb8a24cf1ddf7e34c90620135691cd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec13f2c790ca3b8f4fb2802a241d122') in 0.014577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Laterns and candles/textures/Candle2 [Albedo].png
-  artifactKey: Guid(e21011fce7663c14b86d62e5dac457ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle2 [Albedo].png using Guid(e21011fce7663c14b86d62e5dac457ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd645ce36bd2e2de565f03915c5721a') in 0.015429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Laterns and candles/textures/Glass3 [Normal].png
-  artifactKey: Guid(00206b558d9a358438511cb4d5014466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Glass3 [Normal].png using Guid(00206b558d9a358438511cb4d5014466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c75e9af6b83b7643d78adf50bcbc97') in 0.016074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Laterns and candles/textures/Candle2 blueemission.png
-  artifactKey: Guid(e5ac39a1629538847b64e266fbaf8a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle2 blueemission.png using Guid(e5ac39a1629538847b64e266fbaf8a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad4324f00d1e764075854d81c0a48c1') in 0.017019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Laterns and candles/textures/Candle emission_green.png
-  artifactKey: Guid(e9dcea0376a985e40925fb4556b8287a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle emission_green.png using Guid(e9dcea0376a985e40925fb4556b8287a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670d2acce30147e4a73f38b3ee53db68') in 0.017148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Laterns and candles/textures/Candle3 [Specular].tif
-  artifactKey: Guid(93fcb0abb7c119a42a554faef8e44dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle3 [Specular].tif using Guid(93fcb0abb7c119a42a554faef8e44dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e2483a9076539b2387d328f0d70e9e') in 0.012868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Laterns and candles/textures/Candle3 [Albedo].png
-  artifactKey: Guid(6d4c95f2ed44b624bba9035788c5f883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle3 [Albedo].png using Guid(6d4c95f2ed44b624bba9035788c5f883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1928a8e1fee7e470041b635fe82e5f77') in 0.014458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Laterns and candles/textures/Candle emission_green 1.png
-  artifactKey: Guid(aacd4e2ad027859479c951b93b2e67f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle emission_green 1.png using Guid(aacd4e2ad027859479c951b93b2e67f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea16d57054ed8bb81473c1fa4faacaa') in 0.013862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Laterns and candles/textures/chandelier [Normal].png
-  artifactKey: Guid(2636ad4310111324e91cf0c665715d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/chandelier [Normal].png using Guid(2636ad4310111324e91cf0c665715d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027a41c0aeb8614a8ddb91accec64868') in 0.013367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Laterns and candles/textures/Candle [Specular].tif
-  artifactKey: Guid(acf89a61fce384b4aa08863c75014119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Candle [Specular].tif using Guid(acf89a61fce384b4aa08863c75014119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c6a7cb9a2005d5ecceaf455939bb47') in 0.015456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Laterns and candles/textures/glass [Normal].png
-  artifactKey: Guid(447d88049f478c8458968723d760ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/glass [Normal].png using Guid(447d88049f478c8458968723d760ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b1a0db2998a41577723324cb919753') in 0.012516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Laterns and candles/textures/Glass5 [Albedo].psd
-  artifactKey: Guid(7cd45e54184b5d4439ae89c44b3886ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Glass5 [Albedo].psd using Guid(7cd45e54184b5d4439ae89c44b3886ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c4f96505e3b8546abf67ba8c09810a') in 0.015127 seconds 
+  Time since last request: 0.000224 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type5 04.dae
+  artifactKey: Guid(63d2b0fa33464ad49bcded49a4303d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type5 04.dae using Guid(63d2b0fa33464ad49bcded49a4303d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a95fd80a8cc65836fc88fecee4c03ce') in 0.019086 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000230 seconds.
-  path: Assets/Laterns and candles/textures/candlestick_wall [Specular].tif
-  artifactKey: Guid(3d21931203b8d054c8496f0d02214ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/candlestick_wall [Specular].tif using Guid(3d21931203b8d054c8496f0d02214ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024914f34539ef61a7ad3f22fe40012d') in 0.017082 seconds 
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type1 04.dae
+  artifactKey: Guid(50c02f0fd54eb9f4f8869a398c63d3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type1 04.dae using Guid(50c02f0fd54eb9f4f8869a398c63d3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d8bc14d45b06f80ef432c930dd810d') in 0.017342 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Laterns and candles/textures/chandelier [specular].tif
-  artifactKey: Guid(70dd84a0bf2516745aaecd70432b5f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/chandelier [specular].tif using Guid(70dd84a0bf2516745aaecd70432b5f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2a9d9b5b5d70f20968f52372b91c7e') in 0.018165 seconds 
+  Time since last request: 0.000251 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type3 03.dae
+  artifactKey: Guid(08d02c187472d684096f88c67beb6890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type3 03.dae using Guid(08d02c187472d684096f88c67beb6890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769198c0da913dceafda6fafa0b7e22b') in 0.017282 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.759078 seconds.
-  path: Assets/Laterns and candles/textures/Latern [Albedo].png
-  artifactKey: Guid(b821c237bc4f72b46b88946bb5dcb4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern [Albedo].png using Guid(b821c237bc4f72b46b88946bb5dcb4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0f025852ac49130c8244703ada3b97') in 0.014730 seconds 
+  Time since last request: 0.000221 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type4 01.dae
+  artifactKey: Guid(4f025ccab8429664ea3422a254c221ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type4 01.dae using Guid(4f025ccab8429664ea3422a254c221ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6169800825670a720c84d64eec8b6c40') in 0.018993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type4 02.dae
+  artifactKey: Guid(2aeea187d4a9dce4da2f26d62f5bbc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type4 02.dae using Guid(2aeea187d4a9dce4da2f26d62f5bbc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbea4a500fefb72ddd841b5aa4b9acb7') in 0.018672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type2 01.dae
+  artifactKey: Guid(6425f5e52f03e4340a3afa5f62f57a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type2 01.dae using Guid(6425f5e52f03e4340a3afa5f62f57a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b02aa563d828b4b526c64feafef6e20') in 0.143910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type6 03.dae
+  artifactKey: Guid(a2cba2c95720877468327b3f6924f8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type6 03.dae using Guid(a2cba2c95720877468327b3f6924f8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72230527d59a0556f3819659fe694b78') in 0.016626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type1 02.dae
+  artifactKey: Guid(110d2d66b09076d4e88fb91dc58961ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type1 02.dae using Guid(110d2d66b09076d4e88fb91dc58961ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0031c10b4677db2eb888f536fae4cc2') in 0.016748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type4 04.dae
+  artifactKey: Guid(4ae004581940d5b4893d1326d72ca2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type4 04.dae using Guid(4ae004581940d5b4893d1326d72ca2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545c6759b939966aa182a76ef0272d8b') in 0.016067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type6 02.dae
+  artifactKey: Guid(d9a37c1e81c2edd418eab77179043eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type6 02.dae using Guid(d9a37c1e81c2edd418eab77179043eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b91775bc2fb8eef1f17ccea7ecce34c') in 0.142410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type5 02.dae
+  artifactKey: Guid(ee344ff51e4ffbb41949e122c861e46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type5 02.dae using Guid(ee344ff51e4ffbb41949e122c861e46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7df020064a623e15f96ccf0ce344aa4') in 0.138393 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000238 seconds.
-  path: Assets/Laterns and candles/textures/Latern4 [Albedo].png
-  artifactKey: Guid(c7e6f1cbc617b3d40a9aa26d6f57d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern4 [Albedo].png using Guid(c7e6f1cbc617b3d40a9aa26d6f57d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3081e5359beede0cc82f530b88e4d0') in 0.016199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Laterns and candles/textures/Lattice [Albedo].png
-  artifactKey: Guid(2c13fcfe313a99441a58728ebac3d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Lattice [Albedo].png using Guid(2c13fcfe313a99441a58728ebac3d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fca60d357432f3069b6b7725df63e7') in 0.014878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Laterns and candles/textures/Latern2 [Albedo].png
-  artifactKey: Guid(81d417afa0a09af4eb65f1415a4547b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern2 [Albedo].png using Guid(81d417afa0a09af4eb65f1415a4547b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba25b86cfd706aa0fcef12565469d55') in 0.016984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Laterns and candles/textures/Latern3 [Normal].png
-  artifactKey: Guid(21598aa9209b98a47bfe19c70935fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern3 [Normal].png using Guid(21598aa9209b98a47bfe19c70935fe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b9cd4321eead6d4ddb9be18a036aac') in 0.016018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Laterns and candles/textures/Latern4 [Specular].tif
-  artifactKey: Guid(f1e95e7a1ddb541458450278b642bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern4 [Specular].tif using Guid(f1e95e7a1ddb541458450278b642bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45f673c56d2943bfffbb9780ea71ede') in 0.016001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Laterns and candles/textures/Latern [Normal].png
-  artifactKey: Guid(1f3f961ddbf6ab1498c610ce7f2b91cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern [Normal].png using Guid(1f3f961ddbf6ab1498c610ce7f2b91cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae4798ad07a161f5f2e807b624aa6f4') in 0.018082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Laterns and candles/textures/Latern5 [Specular].tif
-  artifactKey: Guid(1ffad570bb0c5f241b3193d441583c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern5 [Specular].tif using Guid(1ffad570bb0c5f241b3193d441583c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4648a51c689a4dbee4279fb2ff1c1c5f') in 0.015483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Laterns and candles/textures/Latern3 [Albedo].png
-  artifactKey: Guid(2a7dd559d5a40074fb5444a8a72efad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern3 [Albedo].png using Guid(2a7dd559d5a40074fb5444a8a72efad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34b7fa626493d8ebc7e3b9922592477') in 0.014746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Laterns and candles/textures/Latern4 [Normal].png
-  artifactKey: Guid(3267ac2ad410381479482265c7a8379c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern4 [Normal].png using Guid(3267ac2ad410381479482265c7a8379c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5e27c85caecc37b994c39f3eab1511') in 0.018060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Laterns and candles/textures/Latern3 [Specular].tif
-  artifactKey: Guid(13ac542462456054da64dcb50ee6e204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern3 [Specular].tif using Guid(13ac542462456054da64dcb50ee6e204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858672bcd9e200b6588b2faaffefddc1') in 0.016382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Laterns and candles/textures/Latern5 [Albedo].png
-  artifactKey: Guid(21ba25856046e6944ab974c8af30660a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern5 [Albedo].png using Guid(21ba25856046e6944ab974c8af30660a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e2235b8995943031d97254c82e388b') in 0.014693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Laterns and candles/textures/Latern2 [Specular].tif
-  artifactKey: Guid(4af55a2e9db758341b9990acd5cb7a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern2 [Specular].tif using Guid(4af55a2e9db758341b9990acd5cb7a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dea921041b9aeee575435cdf3588e1') in 0.015252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Laterns and candles/textures/Latern2 [Normal].png
-  artifactKey: Guid(17f4317bfae6ff544ab6cf01f2c65c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern2 [Normal].png using Guid(17f4317bfae6ff544ab6cf01f2c65c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4a603d69698c0141c815cd62ea8dea') in 0.016865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Laterns and candles/textures/Latern5 [Normal].png
-  artifactKey: Guid(47dc268b0b8621f46b71f2d393047e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern5 [Normal].png using Guid(47dc268b0b8621f46b71f2d393047e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7ae1cd4d5eea71697f518dcb1325c7') in 0.017990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Laterns and candles/textures/Latern [Specular].tif
-  artifactKey: Guid(ef6df256c6fad64479a78accd2bcecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Latern [Specular].tif using Guid(ef6df256c6fad64479a78accd2bcecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670c834af6d19edc8b3844b0f3163818') in 0.020899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.905859 seconds.
-  path: Assets/Laterns and candles/Materials/Candle1blue.mat
-  artifactKey: Guid(54bade3501df1bb458909304810a4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Candle1blue.mat using Guid(54bade3501df1bb458909304810a4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a543d78f497cc85a52521b9dfd6dada4') in 0.018922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Laterns and candles/Materials/Latern1.mat
-  artifactKey: Guid(05b01ea2579be9f4ebed435fb445e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Latern1.mat using Guid(05b01ea2579be9f4ebed435fb445e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9171267f1eae5ba142ec47f86cc78a8') in 0.019188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Laterns and candles/Materials/LittleLamp.mat
-  artifactKey: Guid(149cfb782cd2a5042a78354976abafc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/LittleLamp.mat using Guid(149cfb782cd2a5042a78354976abafc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a982298ea539c9873769320ec76f9f') in 0.017285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Laterns and candles/Materials/Flame.mat
-  artifactKey: Guid(b89178c9821ece842b4a7a4fed42d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Flame.mat using Guid(b89178c9821ece842b4a7a4fed42d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958cf79ec46f6094bbd69e72c669db36') in 0.018756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Laterns and candles/Materials/Candle3_greenEmission.mat
-  artifactKey: Guid(1a7fe1134bbe65f48b85c1c566b4c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Candle3_greenEmission.mat using Guid(1a7fe1134bbe65f48b85c1c566b4c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52dc8a882f806b9bd3082ab9478a050') in 0.024456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Laterns and candles/Materials/Lamp2colormap.mat
-  artifactKey: Guid(b5468ab085cc2a04b8f560aff873e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Lamp2colormap.mat using Guid(b5468ab085cc2a04b8f560aff873e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e7ce9c5217f3dbab7271be53433aad') in 0.029938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Laterns and candles/Materials/Candle2_colormap.mat
-  artifactKey: Guid(e8a238b982fb7d84483855148e713386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Candle2_colormap.mat using Guid(e8a238b982fb7d84483855148e713386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1c8523d030a8e972e67a1a8c2eb87a') in 0.021588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Laterns and candles/Materials/Latern_glass1.mat
-  artifactKey: Guid(a9cef664c9823034db4a08c78926b38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Latern_glass1.mat using Guid(a9cef664c9823034db4a08c78926b38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9839c5046ffd5672cc877580d4614c49') in 0.025652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/Laterns and candles/Materials/Glass3.mat
-  artifactKey: Guid(dc9e1f70c9d234b4b8b4a257faeac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Glass3.mat using Guid(dc9e1f70c9d234b4b8b4a257faeac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa905c6c605c7bbf34913b266b08913') in 0.020755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Laterns and candles/Materials/green_flame.mat
-  artifactKey: Guid(5d52096ef5969654399fc74a1e5e38f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/green_flame.mat using Guid(5d52096ef5969654399fc74a1e5e38f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bb50ff241fdf73f258d053bc04d278') in 0.025731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Laterns and candles/Materials/CarvedLampPost.mat
-  artifactKey: Guid(77d10d81f215eb34bba1e5cb65e39a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/CarvedLampPost.mat using Guid(77d10d81f215eb34bba1e5cb65e39a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3879a8d72dab56a9eb8dabbeb0102267') in 0.020209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Laterns and candles/Materials/Candle1green_emission.mat
-  artifactKey: Guid(c1c9de58b363874419f5164aad3f6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Candle1green_emission.mat using Guid(c1c9de58b363874419f5164aad3f6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0599992b62a979d72446506c88adc1') in 0.018198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Laterns and candles/Materials/Glass2.mat
-  artifactKey: Guid(d42d8fdd97de9f546a90efec90ea8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Glass2.mat using Guid(d42d8fdd97de9f546a90efec90ea8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2bea296d75fdf9a310732013e8e235') in 0.023165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Laterns and candles/Materials/Lamp3_colormap.mat
-  artifactKey: Guid(e068aa98828fe244faa2219e58e0834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Lamp3_colormap.mat using Guid(e068aa98828fe244faa2219e58e0834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c8547b14ddd484e02f90ff3e24c4e') in 0.017312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Laterns and candles/Materials/Candle3_colormap.mat
-  artifactKey: Guid(768f45aaec716d3429b83b2b7e673f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Candle3_colormap.mat using Guid(768f45aaec716d3429b83b2b7e673f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24299b8e3c4efe1741133cf6cc0473c2') in 0.016235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Laterns and candles/Materials/CarvedLampPost2.mat
-  artifactKey: Guid(01417397b4060a84dabece89e51fb467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/CarvedLampPost2.mat using Guid(01417397b4060a84dabece89e51fb467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63335482c5fcd5af9083395b9a0a410') in 0.019266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Laterns and candles/Materials/chandelier.mat
-  artifactKey: Guid(ef9df8118d509b14380b0da9d330393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/chandelier.mat using Guid(ef9df8118d509b14380b0da9d330393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b960ede372ec79d902339c0ca636792') in 0.018065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Laterns and candles/Materials/Latern4_colormap.mat
-  artifactKey: Guid(de1e4e1a8ed19f9438342d79e0edf248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Latern4_colormap.mat using Guid(de1e4e1a8ed19f9438342d79e0edf248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aee2cd981c41a2fc5e388827a251647') in 0.016181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Laterns and candles/Materials/red_flame.mat
-  artifactKey: Guid(169561acafe59bb4a98af6cbfc772d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/red_flame.mat using Guid(169561acafe59bb4a98af6cbfc772d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715247797802615b4505549df0109a18') in 0.014574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Laterns and candles/Materials/Glass5.mat
-  artifactKey: Guid(214a8b1bce6e52a409816e8baa19bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Glass5.mat using Guid(214a8b1bce6e52a409816e8baa19bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8c2083e77af807c9c0360ca07acfbc') in 0.019074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Laterns and candles/Materials/lamp post.mat
-  artifactKey: Guid(e88cc3b41a43da64493fd04f91ae6c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/lamp post.mat using Guid(e88cc3b41a43da64493fd04f91ae6c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434946c40a51f307f9c04531504b4c56') in 0.018482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Laterns and candles/Materials/Candle2_blueEmission.mat
-  artifactKey: Guid(3d575510381c2ec4e901a80b63d9698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Candle2_blueEmission.mat using Guid(3d575510381c2ec4e901a80b63d9698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c5b997bbe9d8c2148fc6a4d16af90e') in 0.016750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Laterns and candles/Materials/Candle3_BlueEmission.mat
-  artifactKey: Guid(5ef5c719608100e479fe390189d3173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Candle3_BlueEmission.mat using Guid(5ef5c719608100e479fe390189d3173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a1ceca656867ca8628d4fb05b636cb') in 0.017609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Laterns and candles/Materials/Latern5.mat
-  artifactKey: Guid(c80049bc80d43e24da4915d1806290fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Latern5.mat using Guid(c80049bc80d43e24da4915d1806290fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6752c4889548f2be5560d0ef4a828dd') in 0.018901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Laterns and candles/Materials/LampPost_wall.mat
-  artifactKey: Guid(b48090b67b3c8b84b81fcc983fc98878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/LampPost_wall.mat using Guid(b48090b67b3c8b84b81fcc983fc98878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd972988cc87a34db76f1e3d68d09c13b') in 0.018474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Laterns and candles/Materials/lustre.mat
-  artifactKey: Guid(727eea6fd83da374cb05d321c4d90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/lustre.mat using Guid(727eea6fd83da374cb05d321c4d90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14ef1715eaa48f9b2280cf7fab09072') in 0.018507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Laterns and candles/Materials/Wall Lamp.mat
-  artifactKey: Guid(96a3109bf84a57d4fa28aee81c28dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Wall Lamp.mat using Guid(96a3109bf84a57d4fa28aee81c28dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de60a6e2cc654875cd9c88f24a12d267') in 0.025635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Laterns and candles/Materials/lattice.mat
-  artifactKey: Guid(d5e80fc50c6e73f48ac197429f573181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/lattice.mat using Guid(d5e80fc50c6e73f48ac197429f573181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac61e5d11b675dc5b909879e3604992') in 0.022182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/Laterns and candles/Materials/Candle2_greenEmission.mat
-  artifactKey: Guid(64cfed834ca3eb24d86a1b21b55000ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Materials/Candle2_greenEmission.mat using Guid(64cfed834ca3eb24d86a1b21b55000ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f4e89c6f311906fb76021decfaee28') in 0.018640 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005572 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.978 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1979ms)
-		BeginReloadAssembly (155ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1752ms)
-			LoadAssemblies (127ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (398ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (1037ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (848ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 4002 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 201.7 MB.
-System memory in use after: 201.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4724.
-Total: 5.124300 ms (FindLiveObjects: 0.326600 ms CreateObjectMapping: 0.397500 ms MarkObjects: 4.049200 ms  DeleteObjects: 0.349500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 52.148325 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern5.prefab
-  artifactKey: Guid(5cc22dee4f3a39f48bbb851c41003c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern5.prefab using Guid(5cc22dee4f3a39f48bbb851c41003c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e368ba469250f83d884877649e41374') in 0.108051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern4.prefab
-  artifactKey: Guid(263b26f2316871f46a4bda232a61ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern4.prefab using Guid(263b26f2316871f46a4bda232a61ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7c62f1c1353cfd2cc0947d189fce3c') in 0.021634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern3.prefab
-  artifactKey: Guid(d17bd81f00e4eb843a71e73358112786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern3.prefab using Guid(d17bd81f00e4eb843a71e73358112786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e90336c984376d82a72b5e58699fd0b') in 0.024335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern2.prefab
-  artifactKey: Guid(68f8cf3372c588f4a94bf2c9bd255d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern2.prefab using Guid(68f8cf3372c588f4a94bf2c9bd255d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e150dded90e331dee484b1bbc00d84f5') in 0.021041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Laterns and candles/Prefabs/Latern1.prefab
-  artifactKey: Guid(56c82061e6c4de742a208837848be55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Prefabs/Latern1.prefab using Guid(56c82061e6c4de742a208837848be55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e7d074576aa554fb5d3067ea75e8f5') in 0.020316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 139.628573 seconds.
-  path: Assets/Laterns and candles/Sprites/blue_flame.tif
-  artifactKey: Guid(9b530529fca8558449c2af2b412dbcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Sprites/blue_flame.tif using Guid(9b530529fca8558449c2af2b412dbcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cbaad0aa0588f25833a8f5212fa3f4') in 0.187999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Laterns and candles/Sprites/green_flame.tif
-  artifactKey: Guid(8098d30c44947294d839407359d24c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Sprites/green_flame.tif using Guid(8098d30c44947294d839407359d24c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6cb330aea3684d28c2f6ce88f7c5f') in 0.165701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Laterns and candles/Sprites/red_flame.tif
-  artifactKey: Guid(e467a7f7b7a4a714db7da4a6ada82425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Sprites/red_flame.tif using Guid(e467a7f7b7a4a714db7da4a6ada82425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1765661eb55dcec3ad1f7ba6af0efab') in 0.162187 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007118 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.008 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2008ms)
-		BeginReloadAssembly (164ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1767ms)
-			LoadAssemblies (152ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (405ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (1023ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (844ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.57 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 201.6 MB.
-System memory in use after: 201.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4729.
-Total: 4.679700 ms (FindLiveObjects: 0.360600 ms CreateObjectMapping: 0.237500 ms MarkObjects: 3.873900 ms  DeleteObjects: 0.206400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 21.828567 seconds.
-  path: Assets/Laterns and candles/Sprites/blue_flame.anim
-  artifactKey: Guid(5df4c21dc8168fa4abb4eb078855e2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Sprites/blue_flame.anim using Guid(5df4c21dc8168fa4abb4eb078855e2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10eb1b2148f3e3642e1078726ae6d7cb') in 0.038893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.001421 seconds.
-  path: Assets/Laterns and candles/Sprites/Materials
-  artifactKey: Guid(a1a1e75d2eacaa44db6a160551eccb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Sprites/Materials using Guid(a1a1e75d2eacaa44db6a160551eccb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e501fbb61749477c232867db33f874') in 0.003525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.036185 seconds.
-  path: Assets/Laterns and candles/Sprites/Materials/blue_flame.mat
-  artifactKey: Guid(502714f67d9e0374ca0908a54ec505b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Sprites/Materials/blue_flame.mat using Guid(502714f67d9e0374ca0908a54ec505b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b959ab705fcc8f4cc933ee677d370fff') in 0.054005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.907507 seconds.
-  path: Assets/Laterns and candles/Meshes/Candle1.fbx
-  artifactKey: Guid(11033fb50e55f4f4bb148c9b934959e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Candle1.fbx using Guid(11033fb50e55f4f4bb148c9b934959e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd8391917976b30ed5815ef2939d785') in 0.040731 seconds 
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type6 04.dae
+  artifactKey: Guid(c4534353dff9c6c468c490e0560f8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type6 04.dae using Guid(c4534353dff9c6c468c490e0560f8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747fdd996a9a7d60b959444085e15df9') in 0.017682 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000249 seconds.
-  path: Assets/Laterns and candles/Meshes/CarvedPost2_double.fbx
-  artifactKey: Guid(f25cee7770aa6f84a97ea2a137423107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/CarvedPost2_double.fbx using Guid(f25cee7770aa6f84a97ea2a137423107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4fa8428607aa499ad0fb6e78d24373') in 0.058948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Laterns and candles/Meshes/LampPost.fbx
-  artifactKey: Guid(1ed05b93464bb6242b1d0cf9e388ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/LampPost.fbx using Guid(1ed05b93464bb6242b1d0cf9e388ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03535e5634998cdfd2ead258c1cdc3e2') in 0.028937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Laterns and candles/Meshes/Latern2.fbx
-  artifactKey: Guid(2822a6c192bfe4644849c5e3d4bb4f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Latern2.fbx using Guid(2822a6c192bfe4644849c5e3d4bb4f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a6b945c861fd6db763a6cb2763f6ec') in 0.052007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Laterns and candles/Meshes/LampPost_double.fbx
-  artifactKey: Guid(e501831ad59a85f4bb7629bf22c658c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/LampPost_double.fbx using Guid(e501831ad59a85f4bb7629bf22c658c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e1f55cbccc8d75ea750dec6eb5699f') in 0.027086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Laterns and candles/Meshes/Latern4.fbx
-  artifactKey: Guid(66dd512dabeec684ab0f4b135d4a43ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Latern4.fbx using Guid(66dd512dabeec684ab0f4b135d4a43ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc986993d5ec19dd053f6b9283ba46a1') in 0.058280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Laterns and candles/Meshes/CarvedPost.fbx
-  artifactKey: Guid(1d7d476448a20da4e94fa3441f50757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/CarvedPost.fbx using Guid(1d7d476448a20da4e94fa3441f50757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35e23d37aec7d33c17c4ac2b2728521') in 0.028150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Laterns and candles/Meshes/Latern1.fbx
-  artifactKey: Guid(d78538bd679f6fe4b9bd7c6c1e9c8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Latern1.fbx using Guid(d78538bd679f6fe4b9bd7c6c1e9c8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebad3956255fb553b219d7613d2bf07e') in 0.056563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Laterns and candles/Meshes/Candle2.fbx
-  artifactKey: Guid(15808812b164aff4986246a5adb04396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Candle2.fbx using Guid(15808812b164aff4986246a5adb04396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cbdd64c3f15062890f68473f7bcb6e') in 0.024136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Laterns and candles/Meshes/Lustre.fbx
-  artifactKey: Guid(c501a8a7118966c4bb715d3a9efaa62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Lustre.fbx using Guid(c501a8a7118966c4bb715d3a9efaa62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae201bda90fe5e877cb437987c44b73') in 0.860663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Laterns and candles/Meshes/Latern5.fbx
-  artifactKey: Guid(92a5a5383e624784da2627a47a052328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Latern5.fbx using Guid(92a5a5383e624784da2627a47a052328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0afe9364b3dc079579cbcb9d741d6b') in 0.072337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Laterns and candles/Meshes/candlestick.fbx
-  artifactKey: Guid(084da560759559f4995810207469e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/candlestick.fbx using Guid(084da560759559f4995810207469e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320f967c19b3b4313f705d16cb324407') in 0.065233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Laterns and candles/Meshes/candlestick_wall.fbx
-  artifactKey: Guid(d1c8331cd64e7684298abc6c6ee000e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/candlestick_wall.fbx using Guid(d1c8331cd64e7684298abc6c6ee000e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe10f07bc82f64e5f3876e88ca13d2c') in 0.031643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Laterns and candles/Meshes/Candle3.fbx
-  artifactKey: Guid(21c30a3c7192a0649813ca3fe2cdb009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Candle3.fbx using Guid(21c30a3c7192a0649813ca3fe2cdb009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7baf237f1db94f9992bb1578462a506') in 0.030159 seconds 
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type5 03.dae
+  artifactKey: Guid(8b9e37193d32fc840b941d5ea3cf8aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type5 03.dae using Guid(8b9e37193d32fc840b941d5ea3cf8aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f64f559d2df1389425fb4f952de0dd') in 0.138144 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000210 seconds.
-  path: Assets/Laterns and candles/Meshes/LampPost_wall.fbx
-  artifactKey: Guid(00897a0dd899b104ebedcfc97838612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/LampPost_wall.fbx using Guid(00897a0dd899b104ebedcfc97838612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778edbba22f55a5dded34791846c7670') in 0.026332 seconds 
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type2 02.dae
+  artifactKey: Guid(815ec0c049d4ec849bd4960c32e13ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type2 02.dae using Guid(815ec0c049d4ec849bd4960c32e13ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6058c700f4650d22cba0cf18369a482') in 0.017393 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Laterns and candles/Meshes/Latern3.fbx
-  artifactKey: Guid(c124bcb1a14e7054b8c99e402a20ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/Latern3.fbx using Guid(c124bcb1a14e7054b8c99e402a20ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d739fbce5ef03ecd6486dffc93395d') in 0.049516 seconds 
+  Time since last request: 0.000267 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type3 01.dae
+  artifactKey: Guid(d01883e876066d54280ca7ceb187f173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type3 01.dae using Guid(d01883e876066d54280ca7ceb187f173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3512104abb16dc7d7c0c89694c1ecad1') in 0.018144 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Laterns and candles/Meshes/chandelier.fbx
-  artifactKey: Guid(33a9eb33812d0a245999a3128922713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/chandelier.fbx using Guid(33a9eb33812d0a245999a3128922713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76698666b4ced8ea00175de9500836a') in 0.021471 seconds 
+  Time since last request: 0.000337 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type1 03.dae
+  artifactKey: Guid(9d775005a3ddca74096b475e99b14c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type1 03.dae using Guid(9d775005a3ddca74096b475e99b14c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f0dcbe74b7c2c38b06a0a01ffa63fe') in 0.016305 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Laterns and candles/Meshes/ceiling chain.fbx
-  artifactKey: Guid(d119f9920a8205b45b1e51485a2163a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/ceiling chain.fbx using Guid(d119f9920a8205b45b1e51485a2163a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e04ecb01cedad3a0d1b6b758bdccf30') in 0.163970 seconds 
+  Time since last request: 0.000263 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type2 03.dae
+  artifactKey: Guid(a797bea746bba59439067b50859ce461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type2 03.dae using Guid(a797bea746bba59439067b50859ce461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201e21dcc5bc41057983286b059214ed') in 0.017464 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Laterns and candles/Meshes/CarvedPost2.fbx
-  artifactKey: Guid(4c09d887a9821bd4fbf5c56c4bb3477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Meshes/CarvedPost2.fbx using Guid(4c09d887a9821bd4fbf5c56c4bb3477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447188a6fdd627573b334f841d68ab8e') in 0.044084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.098764 seconds.
-  path: Assets/Laterns and candles/scripts
-  artifactKey: Guid(e2fcbeeb74fe9964ba6d8dde33d023ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/scripts using Guid(e2fcbeeb74fe9964ba6d8dde33d023ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71fb8c5a69ea2625cf796a5a7ae986f') in 0.007254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.936810 seconds.
-  path: Assets/Laterns and candles/scripts/CameraFacing.cs
-  artifactKey: Guid(03d835f862f58074b859165457db4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/scripts/CameraFacing.cs using Guid(03d835f862f58074b859165457db4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d419bee1b5929e15d075fcfec295d1') in 0.010926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.938405 seconds.
-  path: Assets/Laterns and candles/scripts/ExtendedFlycam.cs
-  artifactKey: Guid(ca793ce0507b19646ab8e031decc012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/scripts/ExtendedFlycam.cs using Guid(ca793ce0507b19646ab8e031decc012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8f30596d33b963f7486393e29baadb') in 0.006578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.341106 seconds.
-  path: Assets/Laterns and candles/Shaders
-  artifactKey: Guid(194c5f733c7534ed790e101791e86518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Shaders using Guid(194c5f733c7534ed790e101791e86518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0ebbc39806762cc45e792c54f30d17') in 0.006547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.542203 seconds.
-  path: Assets/Laterns and candles/Sprites
-  artifactKey: Guid(6563b584ab328e540a7915484e7f8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Sprites using Guid(6563b584ab328e540a7915484e7f8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f51ba44782755b880b06486365d53df') in 0.007294 seconds 
+  Time since last request: 0.000239 seconds.
+  path: Assets/BrokenVector/LowPolyRockPack/Models/Rock Type6 01.dae
+  artifactKey: Guid(5f0c6f2eeb60c374aad117bde2bd80a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRockPack/Models/Rock Type6 01.dae using Guid(5f0c6f2eeb60c374aad117bde2bd80a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5e11787493a17c4d0d18d1fce8d7ec') in 0.018222 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005922 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.082 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2084ms)
-		BeginReloadAssembly (198ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (1812ms)
-			LoadAssemblies (142ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (430ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (1032ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (842ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 201.8 MB.
-System memory in use after: 202.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4733.
-Total: 4.740200 ms (FindLiveObjects: 0.427800 ms CreateObjectMapping: 0.350500 ms MarkObjects: 3.737400 ms  DeleteObjects: 0.223600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 103.922791 seconds.
-  path: Assets/Laterns and candles/Sprites/blue_flame_0.controller
-  artifactKey: Guid(e13ea6e950164bc4699082df462930d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Sprites/blue_flame_0.controller using Guid(e13ea6e950164bc4699082df462930d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6053f0428462a35b9077749213e1bbc') in 0.046122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 155.553226 seconds.
-  path: Assets/Laterns and candles/Shaders/GlassStainedBumpDistort.shader
-  artifactKey: Guid(963484209d11fd7f110076aa44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/Shaders/GlassStainedBumpDistort.shader using Guid(963484209d11fd7f110076aa44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2f12f31b4de35f72fd542aee6a3981') in 0.008478 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.033851 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.785 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2785ms)
-		BeginReloadAssembly (214ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (2489ms)
-			LoadAssemblies (160ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (527ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (1565ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (330ms)
-				ProcessInitializeOnLoadAttributes (1192ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 201.8 MB.
-System memory in use after: 202.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4736.
-Total: 3.930200 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.207900 ms MarkObjects: 3.241800 ms  DeleteObjects: 0.146100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 18.325303 seconds.
-  path: Assets/Laterns and candles/textures
-  artifactKey: Guid(28d53266e7fa22e40b3508c609db47a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures using Guid(28d53266e7fa22e40b3508c609db47a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661c469dfafeb050e89ca52661b704e5') in 0.009869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Laterns and candles/textures/Lustre [Albedo].png
-  artifactKey: Guid(0735d87cd08486142912d8641d1f54d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Lustre [Albedo].png using Guid(0735d87cd08486142912d8641d1f54d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e459bea686962eefce80aeadf8486c3') in 0.067123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Laterns and candles/textures/Lustre [Normal].png
-  artifactKey: Guid(61b16d527330bdf4a9e1125e4fc15c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Lustre [Normal].png using Guid(61b16d527330bdf4a9e1125e4fc15c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2200cf44784e478ee59c5257b9d6e9c') in 0.021366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Laterns and candles/textures/Lattice [Specular].tif
-  artifactKey: Guid(a19f6398a10e9be489c7ccc6400c7877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Lattice [Specular].tif using Guid(a19f6398a10e9be489c7ccc6400c7877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e2e3fec5f96a36868bff263e0443ee') in 0.015889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Laterns and candles/textures/Lattice [Normal].png
-  artifactKey: Guid(6982785fa4d5649429b368fae2cece22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Lattice [Normal].png using Guid(6982785fa4d5649429b368fae2cece22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58deeef3382e01be2ad812314ca59c3') in 0.015857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Laterns and candles/textures/Lustre [Specular].tif
-  artifactKey: Guid(52ddc59f6dc19cc459accd3a4d9fd684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laterns and candles/textures/Lustre [Specular].tif using Guid(52ddc59f6dc19cc459accd3a4d9fd684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab49482fe396b5f02fafef6a27a524b1') in 0.020150 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006084 seconds.
+Registered in 0.005502 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1731,42 +315,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.820 seconds
+- Completed reload, in  1.753 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1821ms)
-		BeginReloadAssembly (173ms)
+	ReloadAssembly (1753ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1570ms)
-			LoadAssemblies (160ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1538ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (901ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (872ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (741ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (714ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 201.9 MB.
-System memory in use after: 202.0 MB.
+System memory in use before: 200.7 MB.
+System memory in use after: 200.8 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4740.
-Total: 4.388900 ms (FindLiveObjects: 0.298400 ms CreateObjectMapping: 0.220900 ms MarkObjects: 3.709900 ms  DeleteObjects: 0.158600 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4668.
+Total: 3.646600 ms (FindLiveObjects: 0.295200 ms CreateObjectMapping: 0.201100 ms MarkObjects: 2.993900 ms  DeleteObjects: 0.155700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
