@@ -14,7 +14,6 @@ public class LightManager : MonoBehaviour
     public float distance;
     public float distanceThreshold;
 
-    [Range(-1, 1)]
     public float normHRDelta;
     public float normThreshHigh;
     public float normThreshLow;
@@ -29,6 +28,8 @@ public class LightManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        normHRDelta = (float)UDPListener.deltaSigmoidBPM;
+
         pointLight.color = Color.white;
         pointLight.range = 100;
         pointLight.intensity = baseIntensity = 0.5f;
@@ -47,6 +48,8 @@ public class LightManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        normHRDelta = (float)UDPListener.deltaSigmoidBPM;
+
         if (normHRDelta > normThreshHigh)
         {
             if (changeColorTo(Color.red))
