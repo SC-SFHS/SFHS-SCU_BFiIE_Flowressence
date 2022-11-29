@@ -6,6 +6,7 @@ public class AudioDJ : MonoBehaviour
 {
     public static bool isMusicPlaying;
     public static System.String currentBiome;
+    public static System.String collidingObject = "Sphere";
 
     // Start is called before the first frame update
     void Start()

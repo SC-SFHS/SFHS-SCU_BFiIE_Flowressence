@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\WormInstantiator.cs" />
     <Compile Include="Assets\Normals.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
+    <Compile Include="Assets\Scripts\AudioDJ1.cs" />
     <Compile Include="Assets\Scripts\EmissionHRV.cs" />
     <Compile Include="Assets\Scripts\PathFollower.cs" />
     <Compile Include="Assets\Scripts\LightManager.cs" />
@@ -82,8 +83,10 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\CrystalMovement1.cs" />
     <Compile Include="Assets\Scripts\TimeManager.cs" />
+    <Compile Include="Assets\AudioDJ.cs" />
     <Compile Include="Assets\Scripts\UIScreen.cs" />
     <Compile Include="Assets\Scripts\ParticleFeedback.cs" />
+    <Compile Include="Assets\Scripts\Trigger.cs" />
     <Compile Include="Assets\Scripts\FadeControl.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathSceneTool.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathFollower.cs" />
@@ -91,10 +94,6 @@
     <Compile Include="Assets\PathCreator\Follower.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
     <Compile Include="Assets\GDT-Fade-Effect\GDTFadeEffect.cs" />
-    <Compile Include="Assets\Scripts\AudioDJ.cs" />
-    <Compile Include="Assets\Scripts\Trigger.cs" />
-    <Compile Include="Assets\AudioDJ.cs" />
-    <Compile Include="Assets\Scripts\movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />

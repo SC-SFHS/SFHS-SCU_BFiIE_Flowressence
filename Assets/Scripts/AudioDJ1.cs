@@ -2,19 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movement : MonoBehaviour
+public class AudioDJ1 : MonoBehaviour
 {
+    public static bool isMusicPlaying;
+    public static System.String currentBiome;
+    public static System.String collidingObject = "Lantern";
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        float xMovement = Input.GetAxis("Mouse X") / 10;
-        float yMovement = Input.GetAxis("Mouse Y") / 10;
-        transform.Translate(xMovement, yMovement, 0f);
+
     }
 }
