@@ -13,19 +13,19 @@ public class Trigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name.Equals(AudioDJ.collidingObject))
+        if (other.gameObject.name.Equals(AudioDJ1.collidingObject))
         {
             Debug.Log(other.gameObject.name + " has entered " + this.gameObject.name);
             audiosource.PlayOneShot(transitionClip, 0.7F);
-            AudioDJ.isMusicPlaying = true;
-            AudioDJ.currentBiome = this.gameObject.name;
+            AudioDJ1.isMusicPlaying = true;
+            AudioDJ1.currentBiome = this.gameObject.name;
         }
 
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.name.Equals(AudioDJ.collidingObject))
+        if (other.gameObject.name.Equals(AudioDJ1.collidingObject))
         {
             Debug.Log(other.gameObject.name + " is still in " + this.gameObject.name);
         }
@@ -34,7 +34,7 @@ public class Trigger : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name.Equals(AudioDJ.collidingObject))
+        if (other.gameObject.name.Equals(AudioDJ1.collidingObject))
         {
             audiosource.Stop();
             audiosource.PlayOneShot(musicSountrack, 0.7F);
@@ -54,7 +54,8 @@ public class Trigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (AudioDJ.currentBiome.Equals(this.gameObject.name))
+        Debug.Log("I am " + this.gameObject.name);
+        if (AudioDJ1.currentBiome.Equals(this.gameObject.name))
         {
             startMusic = true;
         }
