@@ -1551,3 +1551,90 @@ Received Import Request.
   path: Assets/Audio Files/dark ice - b audio.mp3
   artifactKey: Guid(6ad67c2a1fbdc4d31a2817f866828940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Audio Files/dark ice - b audio.mp3 using Guid(6ad67c2a1fbdc4d31a2817f866828940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c0c86d4d946f5a80cf27b3129e6f7') in 0.024798 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 14.20 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.65 ms.
+2022-11-30 00:55:22.909 Unity[68419:11188496] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000300af0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  7.675 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7705ms)
+		BeginReloadAssembly (1197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (70ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (468ms)
+		EndReloadAssembly (6331ms)
+			LoadAssemblies (450ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1145ms)
+			ReleaseScriptCaches (16ms)
+			RebuildScriptCaches (208ms)
+			SetupLoadedEditorAssemblies (3587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (16ms)
+				BeforeProcessingInitializeOnLoad (457ms)
+				ProcessInitializeOnLoadAttributes (3049ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (118ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.02 ms.
+Unloading 4007 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 381.1 MB.
+System memory in use after: 381.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5082.
+Total: 27.404904 ms (FindLiveObjects: 3.402713 ms CreateObjectMapping: 0.995049 ms MarkObjects: 17.702549 ms  DeleteObjects: 5.301124 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24840.151452 seconds.
+  path: Assets/Plugins/CW/LeanGUI/Examples/Sounds/Back.wav
+  artifactKey: Guid(a3723b260c560944ca45ec5b066bc871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/LeanGUI/Examples/Sounds/Back.wav using Guid(a3723b260c560944ca45ec5b066bc871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f0ded5092b49e53d9535ea5279d384') in 5.359173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/Random items/HoliznaCC0 - Too Brief A Time To Be Anything.mp3
+  artifactKey: Guid(4ed7cf0fcaf8ec04cbf1f5645c17b925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Random items/HoliznaCC0 - Too Brief A Time To Be Anything.mp3 using Guid(4ed7cf0fcaf8ec04cbf1f5645c17b925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c0a6e14bad783213db3da85c50694e') in 0.198608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001087 seconds.
+  path: Assets/Plugins/CW/LeanGUI/Examples/Sounds/Thud.wav
+  artifactKey: Guid(3cdf6946b7f8a1549ab339405d1c0146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/LeanGUI/Examples/Sounds/Thud.wav using Guid(3cdf6946b7f8a1549ab339405d1c0146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e874a58d4ba47f1a8bae08566c15772c') in 0.047166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000772 seconds.
+  path: Assets/Plugins/CW/LeanGUI/Examples/Sounds/Click.wav
+  artifactKey: Guid(622df6012652bdb498c7ec99b1b8a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW/LeanGUI/Examples/Sounds/Click.wav using Guid(622df6012652bdb498c7ec99b1b8a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fc1993c8fb9ddb0525765ec86bdb48') in 0.031292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.915904 seconds.
+  path: Assets/Audio Files/white noise cave 2.mp3
+  artifactKey: Guid(600263e498b9d4e6a84a0d918aa4519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Files/white noise cave 2.mp3 using Guid(600263e498b9d4e6a84a0d918aa4519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa1f9523c8971beb5482c68d113f9e1') in 0.017524 seconds 
