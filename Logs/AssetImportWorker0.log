@@ -1377,3 +1377,177 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.98 ms.
+2022-11-29 17:54:11.759 Unity[68419:11188496] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000036d730 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3177ms)
+		BeginReloadAssembly (1010ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (63ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (474ms)
+		EndReloadAssembly (2052ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (532ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1016ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (794ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
+Unloading 4007 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 371.7 MB.
+System memory in use after: 371.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5051.
+Total: 7.248007 ms (FindLiveObjects: 0.555639 ms CreateObjectMapping: 0.171071 ms MarkObjects: 6.291527 ms  DeleteObjects: 0.228911 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+2022-11-29 17:57:22.701 Unity[68419:11188496] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000031e220 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.980 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3981ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (3581ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (913ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (1772ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (312ms)
+				ProcessInitializeOnLoadAttributes (1420ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (71ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
+Unloading 4007 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 372.0 MB.
+System memory in use after: 372.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 5065.
+Total: 12.774019 ms (FindLiveObjects: 1.391035 ms CreateObjectMapping: 0.527671 ms MarkObjects: 10.536636 ms  DeleteObjects: 0.317145 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55546.804675 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Unity.XR.Interaction.Toolkit.asmdef
+  artifactKey: Guid(fe685ec1767f73d42b749ea8045bfe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Unity.XR.Interaction.Toolkit.asmdef using Guid(fe685ec1767f73d42b749ea8045bfe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e843c62a30a35a291bd3124029954d') in 2.555525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001902 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Editor/Unity.XR.Interaction.Toolkit.Editor.asmdef
+  artifactKey: Guid(190979c3ed6e41c448f5e9925429edf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Editor/Unity.XR.Interaction.Toolkit.Editor.asmdef using Guid(190979c3ed6e41c448f5e9925429edf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c39feb561bdfd34690fe1dcf1a7825') in 0.002840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.974939 seconds.
+  path: Assets/Audio Files/- Dark Tomb -  Cave Sounds  45 Minutes 🦇.mp3
+  artifactKey: Guid(a5d1644c978d64829b9ac0c17ffe2512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Files/- Dark Tomb -  Cave Sounds  45 Minutes 🦇.mp3 using Guid(a5d1644c978d64829b9ac0c17ffe2512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2350c7541e5509ba243b38600b45817d') in 0.940035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Audio Files/atmospheric-a audio.mp3
+  artifactKey: Guid(599ef1a6684dd3f40965cffef8a99b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Files/atmospheric-a audio.mp3 using Guid(599ef1a6684dd3f40965cffef8a99b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd607f34287654205aeb6a77e42bfdb8') in 0.014334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Audio Files/bensound-mass.mp3
+  artifactKey: Guid(168656fb3917844f6ad0fea9d1160abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Files/bensound-mass.mp3 using Guid(168656fb3917844f6ad0fea9d1160abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c210f2a1aa16446b1dc411c1d2ac86') in 0.016086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002019 seconds.
+  path: Assets/Audio Files/Ice Crash Crumble - Sound Effect for editing.mp3
+  artifactKey: Guid(1e93b389531f54386b828737853a562a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Files/Ice Crash Crumble - Sound Effect for editing.mp3 using Guid(1e93b389531f54386b828737853a562a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e61f6e71e0ab6978aebace0afc2f4f') in 0.013932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Audio Files/Classic Horror 1.mp3
+  artifactKey: Guid(914e58223d4cb400babca8856b7a7b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Files/Classic Horror 1.mp3 using Guid(914e58223d4cb400babca8856b7a7b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c4294b9cac19ac054f0d3f8c0aedc3') in 0.018075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Audio Files/Copy of HoliznaCC0 - Too Brief A Time To Be Anything.mp3
+  artifactKey: Guid(0180930bc8d03b84c9f5112a80f8eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Files/Copy of HoliznaCC0 - Too Brief A Time To Be Anything.mp3 using Guid(0180930bc8d03b84c9f5112a80f8eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3994a9a9bbecb94234f8af24a05da1c') in 0.009528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.407454 seconds.
+  path: Assets/Audio Files/atmsopher-b audio.mp3
+  artifactKey: Guid(ab952e0fa74914411a62a1f4837ec06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Files/atmsopher-b audio.mp3 using Guid(ab952e0fa74914411a62a1f4837ec06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f311928eb603153c942a9f560c9fb8d') in 0.071619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.701323 seconds.
+  path: Assets/Audio Files/dark ice - b audio.mp3
+  artifactKey: Guid(6ad67c2a1fbdc4d31a2817f866828940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Files/dark ice - b audio.mp3 using Guid(6ad67c2a1fbdc4d31a2817f866828940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c0c86d4d946f5a80cf27b3129e6f7') in 0.024798 seconds 
