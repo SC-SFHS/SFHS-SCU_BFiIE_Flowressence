@@ -686,76 +686,137 @@
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Searcher.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InputSystem">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.CoreUtils.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ShaderGraph.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Oculus.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Interaction.Toolkit">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TerrainTools">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TerrainTools.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.CoreUtils">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Oculus">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{FEE6C615-9435-B61C-99F5-D16F7B672624}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{01C6DD0A-8544-9A21-53F6-0B26915FA3C5}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{E0535130-4442-E2AA-959C-13EED7235CB6}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{6B726B9E-FF5F-0AAA-F4DE-C6D2CF660AA8}</Project>
-      <Name>Unity.Searcher.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{6FF741E7-080B-BFBF-3F91-3B5CE1E4C149}</Project>
-      <Name>UnityEditor.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{7BB9307F-81C8-2D06-FDF5-BAE298E1E6DB}</Project>
-      <Name>Unity.InputSystem</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{1956A594-89E4-696F-984C-E2DF9A4252D5}</Project>
-      <Name>Unity.Rider.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{A0D85B30-FC3B-0F8F-FAD7-71F62369BABD}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{486BC4FB-6E7A-CF47-19F5-4468D82482E9}</Project>
-      <Name>UnityEngine.UI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{AA3162A8-A6AE-4B1E-6033-C438C6DAD121}</Project>
-      <Name>UnityEngine.SpatialTracking</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="LeanTransition.csproj">
       <Project>{76000148-C8DC-8C69-53D3-C7ABD8A741E2}</Project>
       <Name>LeanTransition</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{61BC9D78-DC90-9765-FBAD-992308968E8B}</Project>
-      <Name>Unity.XR.CoreUtils.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{06661C71-9093-0D36-379B-BE3CDBF1F30A}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{8AD06631-1EF5-21ED-46A5-35FB6BB98F0D}</Project>
-      <Name>Cinemachine</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="PathCreatorEditor.csproj">
@@ -763,29 +824,9 @@
       <Name>PathCreatorEditor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{03CFC30D-29F7-7823-A762-D9647078778A}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
       <Project>{06DD79A9-3BD7-EB74-8A0F-52E0920E8D01}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{B3E4A78D-69A3-A190-90D5-B10591B770C0}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{9ED2D4BD-B155-FB00-E499-E94A4425B115}</Project>
-      <Name>Unity.XR.Management</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{45468178-C89E-1C22-12D1-74DA6B45EDFD}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="LeanCommon.csproj">
@@ -793,19 +834,9 @@
       <Name>LeanCommon</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
-      <Project>{D3AA4F4B-88AE-C6AA-CEED-E9074D074BF7}</Project>
-      <Name>Unity.XR.Oculus.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="LeanGUI.csproj">
       <Project>{CF38B483-2059-FEDD-C971-B93495B3B44F}</Project>
       <Name>LeanGUI</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TerrainTools.Editor.Tests.csproj">
-      <Project>{8EE64E80-EC92-B849-7683-8FD44556B4D7}</Project>
-      <Name>Unity.TerrainTools.Editor.Tests</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="LeanTransition.Editor.csproj">
@@ -818,59 +849,9 @@
       <Name>CW.Common</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{29ABCD88-3E5D-AC50-337D-32CCECD6C3FC}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{60E4421C-EA5A-6F0D-08F6-5971BAD27769}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{78C47BFF-4D68-9938-FEC1-668DBA0A843C}</Project>
-      <Name>Unity.XR.Management.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{90D01AF3-4C80-6E8D-41A1-538A8C379D13}</Project>
-      <Name>Unity.Timeline</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{BC54FFD7-F1D7-0CAF-ED98-367C38DF241A}</Project>
-      <Name>Unity.TextMeshPro</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{016EDE7A-2D0C-A944-A514-8C41FABE1FF3}</Project>
-      <Name>Unity.XR.Interaction.Toolkit</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
       <Project>{3838B438-7A56-627A-7856-A96BD652395F}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{1EEE1209-5398-288B-DCF1-98B658F58D38}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{F8C1F910-BD64-C468-A8FC-4CB852A30001}</Project>
-      <Name>Unity.Subsystem.Registration</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{49EC8ECB-0509-B3D0-1314-82BD7DFAF71D}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{F0DD1E5E-3C70-A782-ED6E-102D9B0AE878}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="PathCreator.csproj">
@@ -878,79 +859,9 @@
       <Name>PathCreator</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{252B3C13-9F00-9BC2-3D7D-FD476CC3BD0F}</Project>
-      <Name>Unity.Mathematics</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TerrainTools.csproj">
-      <Project>{4363E537-4E33-3ACC-980B-88F1B908EC57}</Project>
-      <Name>Unity.TerrainTools</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{2EC6731D-BD23-2F63-0AB5-661A6D5853C5}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{2418514A-5E8D-64B3-2DE0-B3EBC6095A79}</Project>
-      <Name>Unity.RenderPipelines.Universal.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{1556E1C3-417D-7481-6E8E-0A850E583564}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TerrainTools.Editor.csproj">
-      <Project>{963DF024-6A58-9460-7A66-493F382ACC6D}</Project>
-      <Name>Unity.TerrainTools.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{9FC80FB7-4839-F69F-6A3C-04086BA98136}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{376CDD0A-B607-FC10-1DC8-F9EE019AA199}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{F4D63460-6026-9C48-19D4-B4023C8AF06B}</Project>
-      <Name>Unity.XR.CoreUtils</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{08005BC0-89E7-28F2-DDF0-79C905BC8650}</Project>
-      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
       <Project>{1E405BC5-8EC1-ED74-6F56-B2B9438F4560}</Project>
       <Name>Unity.XR.Management.Samples</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj">
-      <Project>{2ADC05C2-E128-7259-D4E5-408EF4A02506}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Oculus.csproj">
-      <Project>{9E8E3722-47BE-A7AC-1A7E-2A52644B039D}</Project>
-      <Name>Unity.XR.Oculus</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{CC23E8C8-F77D-D115-9733-514A567DDA1F}</Project>
-      <Name>UnityEditor.SpatialTracking</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{2D44555D-7F22-389A-2EBA-78890CE551F9}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
