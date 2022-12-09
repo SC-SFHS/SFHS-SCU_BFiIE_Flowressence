@@ -46,9 +46,13 @@ public class PathFollower : MonoBehaviour
             leftHandJoystickValue = m_LeftHandLocomotionMove.action?.ReadValue<Vector2>() ?? Vector2.zero;
             if (Mathf.Abs(leftHandJoystickValue.y) > 0)
             {
-                distanceTraveled += Mathf.Sign(-leftHandJoystickValue.y) * speed * Time.deltaTime;
+                distanceTraveled += -leftHandJoystickValue.y * speed * Time.deltaTime;
                 if (distanceTraveled <= 0)
+                {
                     transform.position = pathCreator.path.GetPointAtDistance(distanceTraveled);
+                    // transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTraveled);
+                    // transform.rotation = Quaternion.Euler(0, transform.rotation.y, 0);
+                }
                 else
                 {
                     // prevents rig to go off path backward - keeps it restricted to start of path

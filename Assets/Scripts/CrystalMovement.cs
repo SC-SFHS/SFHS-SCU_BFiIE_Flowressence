@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class CrystalMovement : MonoBehaviour
 {
-    public List<GameObject> crystals = new List<GameObject>();
-
     public float speed;
     public float magnitude;
 
@@ -19,7 +17,7 @@ public class CrystalMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        foreach (GameObject crystal in crystals)
-            crystal.transform.localPosition = new Vector3(crystal.transform.position.x, 100 + Mathf.Sin(Time.time * Mathf.PI * speed), crystal.transform.position.z);
+        foreach (Transform child in transform)
+            child.transform.position = new Vector3(child.transform.position.x, child.transform.position.y + Mathf.Sin(Time.time * Mathf.PI * speed), child.transform.position.z);
     }
 }
