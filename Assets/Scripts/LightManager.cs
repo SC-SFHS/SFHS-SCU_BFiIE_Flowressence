@@ -10,15 +10,21 @@ public class LightManager : MonoBehaviour
     public XROrigin rig;
     public PathCreator lanternPath;
     public GameObject lantern;
+    public GameObject flame;
+    public SpriteRenderer flameColor;
 
     public float distance;
     public float distanceThreshold;
 
+    [Range(-1, 1)]
     public float normHRDelta;
     public float normThreshHigh;
     public float normThreshLow;
-
     public float baseIntensity;
+
+    public float red;
+    public float green;
+    public float blue;
 
     public float k;
 
@@ -28,14 +34,17 @@ public class LightManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        normHRDelta = (float)UDPListener.deltaSigmoidBPM;
+        // normHRDelta = (float)UDPListener.deltaSigmoidBPM;
+        flameColor = flame.GetComponent<SpriteRenderer>();
 
         pointLight.color = Color.white;
-        pointLight.range = 100;
-        pointLight.intensity = baseIntensity = 0.5f;
+        pointLight.range = 120;
+        pointLight.intensity = baseIntensity = 5f;
 
         normThreshHigh = 0.05f;
         normThreshLow = -0.02f;
+
+        red = green = blue = 0.0f;
 
         // constant of proportionality
         k = 5;
@@ -48,45 +57,50 @@ public class LightManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        normHRDelta = (float)UDPListener.deltaSigmoidBPM;
+        // normHRDelta = (float)UDPListener.deltaSigmoidBPM;
 
         if (normHRDelta > normThreshHigh)
         {
-            if (changeColorTo(Color.red))
-                pointLight.intensity = k * normHRDelta + baseIntensity;
+            increment(ref red, k * normHRDelta, 0.01f);
+            green = 0.0f;
+            blue = 0.0f;
+            increment(ref green, 0.0f, -0.09f);
+            increment(ref blue, 0.0f, -0.09f);
         }
         else if (normHRDelta < normThreshLow)
         {
-            if (changeColorTo(Color.blue))
-                pointLight.intensity = k * -normHRDelta + baseIntensity;
+            increment(ref red, 0.0f, -0.09f);
+            red = 0.0f;
+            increment(ref blue, -k * normHRDelta, 0.01f);
+            green = 0.0f;
+            increment(ref green, 0.0f, -0.09f);
         }
         else
-            changeColorTo(Color.white);
+        {
+            increment(ref red, 1.0f, 0.1f);
+            increment(ref green, 1.0f, 0.1f);
+            increment(ref blue, 1.0f, 0.1f);
+        }
+        pointLight.color = new Color(red, green, blue);
+        flameColor.color = new Color(red, green, blue);
 
         updatePosition();
     }
 
-    private bool changeColorTo(Color color)
+    private void increment(ref float color, float value, float incrementer)
     {
-        // first, fade intensity out to 0, at a rate proportional to the intensity (as intensity decreases, rate of change will also decrease)
-        if (pointLight.color != color && pointLight.intensity > 0)
-            pointLight.intensity = pointLight.intensity - pointLight.intensity * 0.01f - 0.01f;
-
-        // second, when the fade is complete (intensity = 0) set the point light's color to the desired color
-        if (pointLight.intensity == 0)
-            pointLight.color = color;
-
-        // third, once the new color has been set, raise the intensity back up
-        if (pointLight.color == color && pointLight.intensity < baseIntensity)
-            pointLight.intensity += 0.01f;
-
-        // lastly, if the intensity has been maxed out for the new color, return true
-        if (pointLight.color == color && pointLight.intensity >= baseIntensity)
-            return true;
-
-        return false;
+        if (color != value)
+        {
+            if ((color > value && incrementer > 0) || (color < value && incrementer < 0))
+                color -= incrementer;
+            else
+                color += incrementer;
+        }
+        if ((incrementer > 0 && color >= value) || (incrementer < 0 && color <= value))
+            color = value;
     }
 
+    // moves the lantern based on the rig's movement and position
     private void updatePosition()
     {
         distance = (pointLight.transform.position - rig.transform.position).magnitude;
