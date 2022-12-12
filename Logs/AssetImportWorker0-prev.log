@@ -22,375 +22,67 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54326
+56652
 Successfully changed project path to: /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence
 /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 209.56 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 9.67 ms.
+Refreshing native plugins compatible for Editor in 388.88 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 58.62 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Assets
 GfxDevice: creating device client; threaded=0
-2022-12-10 02:13:59.451 Unity[97812:5623808] iMac preferred device: AMD Radeon Pro 570 (high power)
-2022-12-10 02:13:59.451 Unity[97812:5623808] Metal devices available: 1
-2022-12-10 02:13:59.451 Unity[97812:5623808] 0: AMD Radeon Pro 570 (high power)
-2022-12-10 02:13:59.451 Unity[97812:5623808] Using device AMD Radeon Pro 570 (high power)
+2022-12-10 18:26:30.843 Unity[2180:5861658] iMac preferred device: AMD Radeon Pro 570 (high power)
+2022-12-10 18:26:30.843 Unity[2180:5861658] Metal devices available: 1
+2022-12-10 18:26:30.843 Unity[2180:5861658] 0: AMD Radeon Pro 570 (high power)
+2022-12-10 18:26:30.843 Unity[2180:5861658] Using device AMD Radeon Pro 570 (high power)
 Initializing Metal device caps: AMD Radeon Pro 570
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.004793 seconds.
+Registered in 0.003638 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.87 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.33 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  1.176 seconds
 Domain Reload Profiling:
-	ReloadAssembly (901ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (319ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (646ms)
-			LoadAssemblies (174ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (324ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
+			SetupTypeCache (267ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (299ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011416 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.46 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.36 ms.
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/libOculusXRPlugin
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/libOculusXRPlugin.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/libOculusXRPlugin.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/libOculusXRPlugin.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/OculusXRPlugin
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/libOculusXRPlugin
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/libOculusXRPlugin.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/libOculusXRPlugin.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/libOculusXRPlugin.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Frameworks/Mono/lib/libOculusXRPlugin
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.572 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2577ms)
-		BeginReloadAssembly (289ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (2216ms)
-			LoadAssemblies (316ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (481ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (1260ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (951ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Validating Project structure ... 0.034592 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.132934 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Initializing Unity extensions:
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/SFHS-SCU_BFiIE_Flowressence.sln because it has changed
-[C# Project] First difference on line 4
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/SFHS-SCU_BFiIE_Flowressence.sln:
-[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{AB82A321-DBBF-11F1-8499-2A725F79A125}"
-[C# Project]   005: EndProject
-[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeanTransition", "LeanTransition.csproj", "{76000148-C8DC-8C69-53D3-C7ABD8A741E2}"
-[C# Project]   007: EndProject
-[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW.Common", "CW.Common.csproj", "{31E4DAE9-4A91-5D38-0E68-DFEB47CF0DA1}"
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/SFHS-SCU_BFiIE_Flowressence.sln:
-[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit", "Unity.XR.Interaction.Toolkit.csproj", "{016EDE7A-2D0C-A944-A514-8C41FABE1FF3}"
-[C# Project]   005: EndProject
-[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{486BC4FB-6E7A-CF47-19F5-4468D82482E9}"
-[C# Project]   007: EndProject
-[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{AB82A321-DBBF-11F1-8499-2A725F79A125}"
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Assembly-CSharp.csproj because it has changed
-[C# Project] First difference on line 689
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Assembly-CSharp.csproj:
-[C# Project]   689:  <Reference Include="Unity.VSCode.Editor">
-[C# Project]   690:  <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-[C# Project]   691:  </Reference>
-[C# Project]   692:  <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-[C# Project]   693:  <HintPath>/Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Assembly-CSharp.csproj:
-[C# Project]   689:   </ItemGroup>
-[C# Project]   690:   <ItemGroup>
-[C# Project]   691:     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-[C# Project]   692:       <Project>{FEE6C615-9435-B61C-99F5-D16F7B672624}</Project>
-[C# Project]   693:       <Name>Unity.VSCode.Editor</Name>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanTransition.csproj because it has changed
-[C# Project] First difference on line 363
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanTransition.csproj:
-[C# Project]   363:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   364:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   365:  </Reference>
-[C# Project]   366:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   367:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanTransition.csproj:
-[C# Project]   363:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   364:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   365:  </Reference>
-[C# Project]   366:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   367:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/CW.Common.csproj because it has changed
-[C# Project] First difference on line 27
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/CW.Common.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_30;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;UNITY_POST_PROCESSING_STACK_V2;__INPUTSYSTEM__;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;DEVELOPMENT_BUILD</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/CW.Common.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_30;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;DEVELOPMENT_BUILD</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanGUI.csproj because it has changed
-[C# Project] First difference on line 312
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanGUI.csproj:
-[C# Project]   312:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   313:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   314:  </Reference>
-[C# Project]   315:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   316:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanGUI.csproj:
-[C# Project]   312:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   313:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   314:  </Reference>
-[C# Project]   315:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   316:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/PathCreator.csproj because it has changed
-[C# Project] First difference on line 293
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/PathCreator.csproj:
-[C# Project]   293:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   294:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   295:  </Reference>
-[C# Project]   296:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   297:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/PathCreator.csproj:
-[C# Project]   293:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   294:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   295:  </Reference>
-[C# Project]   296:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   297:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj because it has changed
-[C# Project] First difference on line 284
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj:
-[C# Project]   284:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   285:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   286:  </Reference>
-[C# Project]   287:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   288:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj:
-[C# Project]   284:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   285:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   286:  </Reference>
-[C# Project]   287:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   288:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanCommon.csproj because it has changed
-[C# Project] First difference on line 295
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanCommon.csproj:
-[C# Project]   295:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   296:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   297:  </Reference>
-[C# Project]   298:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   299:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanCommon.csproj:
-[C# Project]   295:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   296:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   297:  </Reference>
-[C# Project]   298:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   299:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Unity.XR.Management.Samples.csproj because it has changed
-[C# Project] First difference on line 285
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Unity.XR.Management.Samples.csproj:
-[C# Project]   285:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   287:  </Reference>
-[C# Project]   288:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   289:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Unity.XR.Management.Samples.csproj:
-[C# Project]   285:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   287:  </Reference>
-[C# Project]   288:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   289:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/PathCreatorEditor.csproj because it has changed
-[C# Project] First difference on line 286
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/PathCreatorEditor.csproj:
-[C# Project]   286:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   288:  </Reference>
-[C# Project]   289:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   290:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/PathCreatorEditor.csproj:
-[C# Project]   286:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   288:  </Reference>
-[C# Project]   289:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   290:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanTransition.Editor.csproj because it has changed
-[C# Project] First difference on line 284
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanTransition.Editor.csproj:
-[C# Project]   284:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   285:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   286:  </Reference>
-[C# Project]   287:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   288:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/LeanTransition.Editor.csproj:
-[C# Project]   284:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   285:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   286:  </Reference>
-[C# Project]   287:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   288:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Unity.XR.Management.Samples.Editor.csproj because it has changed
-[C# Project] First difference on line 286
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Unity.XR.Management.Samples.Editor.csproj:
-[C# Project]   286:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   288:  </Reference>
-[C# Project]   289:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   290:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Unity.XR.Management.Samples.Editor.csproj:
-[C# Project]   286:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   288:  </Reference>
-[C# Project]   289:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   290:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-[C# Project] Writing /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Assembly-CSharp-Editor.csproj because it has changed
-[C# Project] First difference on line 283
-
-[C# Project] Current /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Assembly-CSharp-Editor.csproj:
-[C# Project]   283:  <Reference Include="UnityEditor.Android.Extensions">
-[C# Project]   284:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-[C# Project]   285:  </Reference>
-[C# Project]   286:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-
-[C# Project] New /Users/linton/Documents/GitHub/SFHS-SCU_BFiIE_Flowressence/Assembly-CSharp-Editor.csproj:
-[C# Project]   283:  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-[C# Project]   284:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-[C# Project]   285:  </Reference>
-[C# Project]   286:  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-2022-12-10 02:14:24.733 Unity[97812:5623808] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000fd0e70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-12-10 02:14:24.738 Unity[97812:5623808] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000f2e3e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-========================================================================
-Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.32 ms.
-Unloading 4196 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 372.0 MB.
-System memory in use after: 369.8 MB.
-
-Unloading 398 unused Assets to reduce memory usage. Loaded Objects now: 4701.
-Total: 6.083013 ms (FindLiveObjects: 0.394118 ms CreateObjectMapping: 0.262320 ms MarkObjects: 4.731140 ms  DeleteObjects: 0.694570 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Registered in 0.004973 seconds.

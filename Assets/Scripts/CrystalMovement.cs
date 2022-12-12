@@ -18,6 +18,6 @@ public class CrystalMovement : MonoBehaviour
     void Update()
     {
         foreach (Transform child in transform)
-            child.transform.position = new Vector3(child.transform.position.x, child.transform.position.y + Mathf.Sin(Time.time * Mathf.PI * speed), child.transform.position.z);
+            child.transform.position = new Vector3(child.transform.position.x, child.transform.position.y + magnitude*Mathf.Sin(Time.time * Mathf.PI * speed), child.transform.position.z);
     }
 }
