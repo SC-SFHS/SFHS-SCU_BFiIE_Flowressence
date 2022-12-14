@@ -17,7 +17,7 @@ public class UIScreen : MonoBehaviour
     void Start()
     {
         // positioning the UI screen based on the path
-        canvas.transform.position = new Vector3(pathFollower.pathCreator.path.GetPointAtDistance(-1f)[0] - 10f, pathFollower.pathCreator.path.GetPointAtDistance(-1f)[1] + 3f, pathFollower.pathCreator.path.GetPointAtDistance(-1f)[2] + 1f);
+        // canvas.transform.position = new Vector3(pathFollower.pathCreator.path.GetPointAtDistance(-1f)[0] - 10f, pathFollower.pathCreator.path.GetPointAtDistance(-1f)[1] + 3f, pathFollower.pathCreator.path.GetPointAtDistance(-1f)[2] + 1f);
         button.onClick.AddListener(HideUIScreen);
     }
 

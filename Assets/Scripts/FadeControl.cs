@@ -12,6 +12,7 @@ public class FadeControl : MonoBehaviour
     public UIScreen uiScreen;
     private bool fadeFinished;
     public LocomotionSystem locomotionSystem;
+    public GameObject graph;
     
     void Start()
     {
@@ -36,12 +37,11 @@ public class FadeControl : MonoBehaviour
         gameObject.transform.rotation = Quaternion.Euler(0, -90, 0);
         // preventing any movement from joystick before scene is reloaded
         locomotionSystem.gameObject.SetActive(false);
-        // enabling UI Screen with buttons once user has returned to the start
-        uiScreen.canvas.SetActive(true);
         // enabling controller rays when user returns to start
-        uiScreen.ShowRayCaster();
+        graph.SetActive(true);
+        WindowGraph.showData = true;
         // waiting for a few seconds until scene is reloaded
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(20);
         // reloading scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

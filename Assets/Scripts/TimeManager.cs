@@ -19,6 +19,7 @@ public class TimeManager : MonoBehaviour
     public PathCreator pathCave;
     public PathCreator pathWhole;
     public GameObject waterfallGlitter;
+    public GameObject graph;
 
     void Start()
     {
@@ -33,15 +34,16 @@ public class TimeManager : MonoBehaviour
         gameStarted = false;
         gameFinished = false;
         waterfallGlitter.SetActive(false);
-        RenderSettings.fogDensity = 0.008f;
+        RenderSettings.fogDensity = 0.003f;
         RenderSettings.fog = true;
+        graph.SetActive(false);
     }
 
     void Update()
     {
         StartTime();
         TeleportAfterTime();
-        // EndScene();
+        EndScene();
     }
 
     void StartTime()
@@ -58,15 +60,15 @@ public class TimeManager : MonoBehaviour
     void TeleportAfterTime()
     {
         // assuming 5 minutes (300 seconds)
-        // if time elapsed is greater than 300 seconds AND the speed hasn't incremented to 10 km/hr yet AND the game has started
+        // if time elapsed is greater than 300 seconds AND the speed hasn't incremented to 50 km/hr yet AND the game has started
         if (timer.Elapsed.Seconds >= 300 && timeCheck && gameStarted)
         {
             pathFollower.speed += 0.01f;
             autoMove = true;
         }
 
-        // if the speed has reached 10 km/hr, program doesn't need to increment anymore
-        if (pathFollower.speed >= 10f)
+        // if the speed has reached 50 km/hr, program doesn't need to increment anymore
+        if (pathFollower.speed >= 50f)
             timeCheck = false;
 
         // if autonomous movement has been activated (user has run out of time)
@@ -77,25 +79,19 @@ public class TimeManager : MonoBehaviour
         }
     }
 
+    
+
     void EndScene()
     {
         // if the user has reached the end of the cave, decrease density of fog
-        if (gameObject.transform.position[0] <= caveEndCoord[0] && RenderSettings.fogDensity >= 0.001f)
+        if (WaterfallCollision.collided)
         {
             waterfallGlitter.SetActive(true);
-            RenderSettings.fogDensity -= 0.0001f;
+            RenderSettings.fogDensity = 0.001f;
         }
 
-        // if the user has reached the end of the cave and autonomous move is disabled (user has not run out of time yet)
-        if (gameObject.transform.position[0] <= caveEndCoord[0] && !autoMove)
-        {
-            if (pathFollower.speed > 7f)
-                pathFollower.speed -= 0.01f;
-            else if (pathFollower.speed < 7f)
-                pathFollower.speed += 0.01f;
-        }
-        // if the user has reached the end of the cavern (only comparing x and y coordinates of rig and path)
-        if (gameObject.transform.position[0] <= gameEndCoord[0] & gameObject.transform.position[1] <= gameEndCoord[1])
+        // if the user has reached the end of the cavern
+        if (EndCollision.endGameCollided)
         {
             autoMove = false;
             gameFinished = true;

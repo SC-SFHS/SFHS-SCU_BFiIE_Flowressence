@@ -10,9 +10,12 @@ public class Window_Graph : MonoBehaviour
     [SerializeField] private Sprite circleSprite;
     private RectTransform graphContainer;
     private RectTransform labelTemplateX;
-    public float x;
+    public static bool showData; //for testing purposes
     public TMPro.TMP_Text myText;
     public double RMSSD;
+
+
+    public static bool resetGraph;
 
 
     private void Awake()
@@ -40,18 +43,18 @@ public class Window_Graph : MonoBehaviour
         //float graphHeight = 1000; //figure out dynamics
         float yMaximum = 140f; //highest HR
         //float xSize = ((graphContainer.sizeDelta.x) / (float) valueList.Count) - graphContainer.sizeDelta.x; //learn to make dynamic based on size of list and dimension chosen
-        float xSize = ((float) graphContainer.sizeDelta.x / (valueList.Count -1));
+        float xSize = ((float)graphContainer.sizeDelta.x / (valueList.Count - 1));
         GameObject lastCircleGameObject = null;
         for (int i = 0; i < valueList.Count; i++)
         {
-           float xPosition = i * xSize; //will be in two lists instead...
-           float yPosition = (valueList[i] / yMaximum) * graphHeight; //normalize Value
-           GameObject circleGameObject =  CreateCircle(new Vector2(xPosition, yPosition));
-           if(lastCircleGameObject != null)
-           {
-              CreateDotConnection(lastCircleGameObject.GetComponent<RectTransform>().anchoredPosition, circleGameObject.GetComponent<RectTransform>().anchoredPosition);
-           }
-           lastCircleGameObject = circleGameObject;
+            float xPosition = i * xSize; //will be in two lists instead...
+            float yPosition = (valueList[i] / yMaximum) * graphHeight; //normalize Value
+            GameObject circleGameObject = CreateCircle(new Vector2(xPosition, yPosition));
+            if (lastCircleGameObject != null)
+            {
+                CreateDotConnection(lastCircleGameObject.GetComponent<RectTransform>().anchoredPosition, circleGameObject.GetComponent<RectTransform>().anchoredPosition);
+            }
+            lastCircleGameObject = circleGameObject;
         }
         //hard put this
         int seperatorCount = 10;
@@ -96,30 +99,46 @@ public class Window_Graph : MonoBehaviour
         {
             double currSum = Math.Pow(ListOfRMSDD[i - 1] - ListOfRMSDD[i], 2);
             returnRMSSD += currSum;
-            Debug.Log(returnRMSSD + "boom");
         }
         returnRMSSD = Math.Sqrt(returnRMSSD);
-        Debug.Log(returnRMSSD);
         return returnRMSSD;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        List<int> RMSSDList1 = new List<int>() { 744, 427, 498, 931};
+        List<int> RMSSDList1 = new List<int>() { 744, 427, 498, 931 };
         RMSSD = CalculateRMSDD(RMSSDList1);
+        showData = false;
+        resetGraph = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-
-       
-
-
-        if (x > 12) {
+        if (showData)
+        {
             List<int> valueList = new List<int>() { 50, 70, 68, 102, 100, 82, 100, 130, 120, 118, 117, 85, 78 };
             showGraph(valueList);
+            myText.text = "Your RMSDD Scores\nBiome 1: " + RMSSD + "\nBiome 2: " + 0 + "\nBiome 3: " + 0 + "\nBiome 4: " + 0;
+        }
+
+        if (resetGraph)
+        {
+            foreach (Transform child in graphContainer.transform)
+
+            {
+                if (child.name == "dotConnection" || child.name == "circle")
+                {
+
+                    Destroy(child.gameObject);
+                }
+                if (child.name == "XTemplate(Clone)")
+                {
+                    Destroy(child.gameObject);
+                }
+
+            }
             myText.text = "Your RMSDD Scores\nBiome 1: " + RMSSD + "\nBiome 2: " + 0 + "\nBiome 3: " + 0 + "\nBiome 4: " + 0;
         }
     }

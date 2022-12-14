@@ -38,8 +38,8 @@ public class LightManager : MonoBehaviour
         flameColor = flame.GetComponent<SpriteRenderer>();
 
         pointLight.color = Color.white;
-        pointLight.range = 120;
-        pointLight.intensity = baseIntensity = 5f;
+        pointLight.range = 80;
+        pointLight.intensity = baseIntensity = 3f;
 
         normThreshHigh = 0.05f;
         normThreshLow = -0.02f;
