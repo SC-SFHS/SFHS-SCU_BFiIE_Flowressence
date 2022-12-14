@@ -32,7 +32,7 @@ public class EmissionHRV : MonoBehaviour
             flag = false;
         }
 
-        Debug.Log("EMISSION" + emission);
+        //Debug.Log("EMISSION" + emission);
 
         if (emission == currEmission)
         {

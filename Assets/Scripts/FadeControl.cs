@@ -40,6 +40,7 @@ public class FadeControl : MonoBehaviour
         // enabling controller rays when user returns to start
         graph.SetActive(true);
         WindowGraph.showData = true;
+        Debug.Log("IS SET TO TRUE" + WindowGraph.showData);
         // waiting for a few seconds until scene is reloaded
         yield return new WaitForSeconds(20);
         // reloading scene

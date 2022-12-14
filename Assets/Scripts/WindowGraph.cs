@@ -109,7 +109,7 @@ public class WindowGraph : MonoBehaviour
     {
         List<int> RMSSDList1 = new List<int>() { 744, 427, 498, 931 };
         RMSSD = CalculateRMSDD(RMSSDList1);
-        showData = false;
+        showData = true;
         resetGraph = false;
     }
 
@@ -123,6 +123,7 @@ public class WindowGraph : MonoBehaviour
             List<int> valueList = new List<int>() { 50, 70, 68, 102, 100, 82, 100, 130, 120, 118, 117, 85, 78 };
             showGraph(valueList);
             myText.text = "Your RMSDD Scores\nBiome 1: " + RMSSD + "\nBiome 2: " + 0 + "\nBiome 3: " + 0 + "\nBiome 4: " + 0;
+            showData = false;
         }
 
         if (resetGraph)
