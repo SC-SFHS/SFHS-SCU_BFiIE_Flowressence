@@ -18,14 +18,14 @@ public class WormInstantiator : MonoBehaviour
     {
         foreach (PathCreator p in paths)
         {
-            amount = (int)Mathf.Round(p.path.length) / 6;
+            amount = (int)Mathf.Round(p.path.length) / 15;
             worms = new GameObject[amount];
             worms[0] = Instantiate(wormObject);
             float j = 0f;
 
             for (int i = 1; i < amount; i++)
             {
-                j -= Random.Range(5f, 8f);
+                j -= Random.Range(16f, 18f);
 
                 worms[i] = Instantiate(wormObject);
                 wormChild1 = Instantiate(wormChild1);
