@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +15,7 @@ public class WindowGraph : MonoBehaviour
     public double RMSSD2;
     public double RMSSD3;
     public double RMSSD4;
+    public double RMSSD5;
 
 
     public static bool resetGraph;
@@ -73,6 +73,8 @@ public class WindowGraph : MonoBehaviour
             labelX.transform.localScale = new Vector3(1, 1, 1);
         }
 
+
+
     }
 
     private void CreateDotConnection(Vector2 dotPositionA, Vector2 dotPositionB)
@@ -116,6 +118,7 @@ public class WindowGraph : MonoBehaviour
         RMSSD2 = CalculateRMSDD(UDPListener.IBIList2);
         RMSSD3 = CalculateRMSDD(UDPListener.IBIList3);
         RMSSD4 = CalculateRMSDD(UDPListener.IBIList4);
+        RMSSD5 = CalculateRMSDD(UDPListener.IBIList5);
         showData = false;
         resetGraph = false;
     }

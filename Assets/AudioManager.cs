@@ -13,6 +13,8 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager instance;
 
+    public static System.String currentBiome;
+
     private void Awake()
     {
         if (instance == null)
@@ -88,6 +90,10 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (AudioManager.currentBiome.Equals("EntranceBiomeA1")) UDPListener.currBiome = 1;
+        else if (AudioManager.currentBiome.Equals("BiomeB1")) UDPListener.currBiome = 2;
+        else if (AudioManager.currentBiome.Equals("BiomeA2")) UDPListener.currBiome = 3;
+        else if (AudioManager.currentBiome.Equals("BiomeB2")) UDPListener.currBiome = 4;
+        else if (AudioManager.currentBiome.Equals("BiomeA3EndScene")) UDPListener.currBiome = 5;
     }
 }

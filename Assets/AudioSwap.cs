@@ -14,8 +14,16 @@ public class AudioSwap : MonoBehaviour
             AudioManager.instance.SwapTrack(newTrack, startVolume);
             Debug.Log("lantern enter");
         }
+
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.name.Equals("Lantern"))
+        {
+            AudioManager.currentBiome = this.gameObject.name;
+        }
+    }
     private void OnTriggerExit(Collider other)
     {
         // other.CompareTag("Lantern")
@@ -24,11 +32,11 @@ public class AudioSwap : MonoBehaviour
             AudioManager.instance.ReturnToDefault();
             Debug.Log("lantern exit");
         }
+
     }
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
     // Update is called once per frame
