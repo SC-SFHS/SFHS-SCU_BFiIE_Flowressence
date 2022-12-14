@@ -24,7 +24,7 @@ public class HapticFeedback : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        normHRDelta = (float)UDPListener.deltaSigmoidBPM;
+        normHRDelta = (float)UDPListener.normHRDelta;
 
         normThreshHigh = 0.05f;
         normThreshLow = -0.02f;
@@ -39,7 +39,7 @@ public class HapticFeedback : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        normHRDelta = (float)UDPListener.deltaSigmoidBPM;
+        normHRDelta = (float)UDPListener.normHRDelta;
 
         if (normHRDelta < normThreshLow)
         {

@@ -45,7 +45,7 @@ public class EmissionHRV : MonoBehaviour
             if (count < numTimes)
             {
                 currEmission = (emission > currEmission) ? currEmission + emission / numTimes : currEmission - emission / numTimes;
-                Debug.Log("increment" + currEmission);
+               // Debug.Log("increment" + currEmission);
                 mat.SetFloat("_EmissionPower", currEmission);
                 count++;
             }

@@ -16,8 +16,8 @@ public class LightManager : MonoBehaviour
     public float distance;
     public float distanceThreshold;
 
-    [Range(-1, 1)]
-    public float normHRDelta;
+    //[Range(-1, 1)]
+    //public float normHRDelta;
     public float normThreshHigh;
     public float normThreshLow;
     public float baseIntensity;
@@ -59,19 +59,19 @@ public class LightManager : MonoBehaviour
     {
         // normHRDelta = (float)UDPListener.deltaSigmoidBPM;
 
-        if (normHRDelta > normThreshHigh)
+        if ((float)UDPListener.normHRDelta > normThreshHigh)
         {
-            increment(ref red, k * normHRDelta, 0.01f);
+            increment(ref red, k * (float)UDPListener.normHRDelta, 0.01f);
             green = 0.0f;
             blue = 0.0f;
             increment(ref green, 0.0f, -0.09f);
             increment(ref blue, 0.0f, -0.09f);
         }
-        else if (normHRDelta < normThreshLow)
+        else if ((float)UDPListener.normHRDelta < normThreshLow)
         {
             increment(ref red, 0.0f, -0.09f);
             red = 0.0f;
-            increment(ref blue, -k * normHRDelta, 0.01f);
+            increment(ref blue, -k * (float)UDPListener.normHRDelta, 0.01f);
             green = 0.0f;
             increment(ref green, 0.0f, -0.09f);
         }
