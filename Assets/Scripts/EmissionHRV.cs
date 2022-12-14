@@ -28,15 +28,15 @@ public class EmissionHRV : MonoBehaviour
         //emission = (float) HRCollector.sigmoidHeartRate * 10;
         if (flag)
         {
-            emission = HRCollector.testingCrystalVariability;
+            emission = (float)UDPListener.sigmoidBPM * 10;
             flag = false;
         }
 
-        //Debug.Log("EMISSION" + emission);
+        // Debug.Log("EMISSION" + emission);
 
         if (emission == currEmission)
         {
-            emission = HRCollector.testingCrystalVariability;
+            emission = (float)UDPListener.sigmoidBPM * 10;
         }
 
 
@@ -45,7 +45,7 @@ public class EmissionHRV : MonoBehaviour
             if (count < numTimes)
             {
                 currEmission = (emission > currEmission) ? currEmission + emission / numTimes : currEmission - emission / numTimes;
-               // Debug.Log("increment" + currEmission);
+                //Debug.Log("increment" + currEmission);
                 mat.SetFloat("_EmissionPower", currEmission);
                 count++;
             }

@@ -41,8 +41,8 @@ public class LightManager : MonoBehaviour
         pointLight.range = 80;
         pointLight.intensity = baseIntensity = 3f;
 
-        normThreshHigh = 0.05f;
-        normThreshLow = -0.02f;
+        normThreshHigh = 0.025f;
+        normThreshLow = -0.01f;
 
         red = green = blue = 0.0f;
 

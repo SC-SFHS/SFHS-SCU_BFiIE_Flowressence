@@ -12,7 +12,10 @@ public class WindowGraph : MonoBehaviour
     private RectTransform labelTemplateX;
     public static bool showData; //for testing purposes
     public TMPro.TMP_Text myText;
-    public double RMSSD;
+    public double RMSSD1;
+    public double RMSSD2;
+    public double RMSSD3;
+    public double RMSSD4;
 
 
     public static bool resetGraph;
@@ -37,7 +40,7 @@ public class WindowGraph : MonoBehaviour
         return gameObject;
     }
 
-    private void showGraph(List<int> valueList)
+    private void showGraph(List<Double> valueList)
     {
         float graphHeight = graphContainer.sizeDelta.y;
         //float graphHeight = 1000; //figure out dynamics
@@ -48,7 +51,7 @@ public class WindowGraph : MonoBehaviour
         for (int i = 0; i < valueList.Count; i++)
         {
             float xPosition = i * xSize; //will be in two lists instead...
-            float yPosition = (valueList[i] / yMaximum) * graphHeight; //normalize Value
+            float yPosition = (float)(valueList[i] / yMaximum) * graphHeight; //normalize Value
             GameObject circleGameObject = CreateCircle(new Vector2(xPosition, yPosition));
             if (lastCircleGameObject != null)
             {
@@ -99,6 +102,7 @@ public class WindowGraph : MonoBehaviour
         {
             double currSum = Math.Pow(ListOfRMSDD[i - 1] - ListOfRMSDD[i], 2);
             returnRMSSD += currSum;
+            Debug.Log(returnRMSSD + "boom");
         }
         returnRMSSD = Math.Sqrt(returnRMSSD);
         return returnRMSSD;
@@ -107,23 +111,23 @@ public class WindowGraph : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        List<int> RMSSDList1 = new List<int>() { 744, 427, 498, 931 };
-        RMSSD = CalculateRMSDD(RMSSDList1);
-        showData = true;
+        //List<int> RMSSDList1 = new List<int>() { 744, 427, 498, 931};
+        RMSSD1 = CalculateRMSDD(UDPListener.IBIList1);
+        RMSSD2 = CalculateRMSDD(UDPListener.IBIList2);
+        RMSSD3 = CalculateRMSDD(UDPListener.IBIList3);
+        RMSSD4 = CalculateRMSDD(UDPListener.IBIList4);
+        showData = false;
         resetGraph = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("testtesttest");
         if (showData)
         {
-            Debug.Log("GRAPH VALUES INITIATED");
-            List<int> valueList = new List<int>() { 50, 70, 68, 102, 100, 82, 100, 130, 120, 118, 117, 85, 78 };
-            showGraph(valueList);
-            myText.text = "Your RMSDD Scores\nBiome 1: " + RMSSD + "\nBiome 2: " + 0 + "\nBiome 3: " + 0 + "\nBiome 4: " + 0;
-            showData = false;
+            //List<Double> valueList = new List<Double>() { 50, 70, 68, 102, 100, 82, 100, 130, 120, 118, 117, 85, 78 };
+            showGraph(UDPListener.heartRateList);
+            myText.text = "Your RMSDD Scores\nBiome 1: " + RMSSD1 + "\nBiome 2: " + RMSSD2 + "\nBiome 3: " + RMSSD3 + "\nBiome 4: " + RMSSD4;
         }
 
         if (resetGraph)
@@ -142,7 +146,7 @@ public class WindowGraph : MonoBehaviour
                 }
 
             }
-            myText.text = "Your RMSDD Scores\nBiome 1: " + RMSSD + "\nBiome 2: " + 0 + "\nBiome 3: " + 0 + "\nBiome 4: " + 0;
+            myText.text = "Your RMSDD Scores\nBiome 1: " + RMSSD1 + "\nBiome 2: " + 0 + "\nBiome 3: " + 0 + "\nBiome 4: " + 0;
         }
     }
 }

@@ -26,8 +26,8 @@ public class HapticFeedback : MonoBehaviour
     {
         normHRDelta = (float)UDPListener.normHRDelta;
 
-        normThreshHigh = 0.05f;
-        normThreshLow = -0.02f;
+        normThreshHigh = 0.025f;
+        normThreshLow = -0.01f;
 
         lowHRIntensity = 0.2f;
         lowHRDuration = 0.1f;

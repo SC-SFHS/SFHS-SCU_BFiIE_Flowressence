@@ -62,6 +62,14 @@ public class UDPListener : MonoBehaviour
     string[] udpReceiveArr;
 
 
+    public bool isRecieved = false;
+
+    public float constant = 1;
+
+    public float idealHeartRate = 70;
+
+
+
     void Start()
 
     {
@@ -145,6 +153,15 @@ public class UDPListener : MonoBehaviour
             
             heartRate = Convert.ToDouble(udpReceiveArr[0]);
 
+            if(!isRecieved)
+            {
+                constant = idealHeartRate / (float) heartRate;
+                isRecieved = true;
+            }
+
+            heartRate *= constant;
+            Debug.Log("Adjusted for inflation " + heartRate + "constant is: " + constant);
+
             IBI = Convert.ToInt32(udpReceiveArr[1]);
 
             heartRateList.Add(heartRate);
@@ -159,9 +176,9 @@ public class UDPListener : MonoBehaviour
             if (currBiome == 4) IBIList4.Add(IBI);
 
 
-            if (heartRate > 140) sigmoidBPM = 140;
+            if (heartRate > 140) heartRate = 140;
 
-            else if (heartRate < 40) sigmoidBPM = 40;
+            else if (heartRate < 40) heartRate = 40;
 
             else sigmoidBPM = (1 / -0.75) * Math.Log(60 / heartRate);
 
@@ -178,7 +195,7 @@ public class UDPListener : MonoBehaviour
 
         // heartRate = Convert.ToDouble(udpReceiveString);
 
-        Debug.Log("heartrate = " + Encoding.ASCII.GetString(receivedBytes));
+        Debug.Log("raw heartrate = " + Encoding.ASCII.GetString(receivedBytes));
 
         // Debug.Log("int converted = " + BitConverter.ToInt32(receivedBytes, 0));
 
