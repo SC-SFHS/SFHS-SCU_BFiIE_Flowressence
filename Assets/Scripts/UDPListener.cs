@@ -156,8 +156,11 @@ public class UDPListener : MonoBehaviour
 
             if(!isRecieved)
             {
-                constant = idealHeartRate / (float) heartRate;
-                isRecieved = true;
+                if(heartRate > 110 || heartRate < 30)
+                {
+                    constant = idealHeartRate / (float)heartRate;
+                    isRecieved = true;
+                }
             }
 
             heartRate *= constant;

@@ -119,7 +119,7 @@ public class WindowGraph : MonoBehaviour
         RMSSD3 = CalculateRMSDD(UDPListener.IBIList3);
         RMSSD4 = CalculateRMSDD(UDPListener.IBIList4);
         RMSSD5 = CalculateRMSDD(UDPListener.IBIList5);
-        showData = false;
+        showData = true;
         resetGraph = false;
     }
 
@@ -129,8 +129,28 @@ public class WindowGraph : MonoBehaviour
         if (showData)
         {
             //List<Double> valueList = new List<Double>() { 50, 70, 68, 102, 100, 82, 100, 130, 120, 118, 117, 85, 78 };
-            showGraph(UDPListener.heartRateList);
-            myText.text = "Your RMSDD Scores\nBiome 1: " + RMSSD1 + "\nBiome 2: " + RMSSD2 + "\nBiome 3: " + RMSSD3 + "\nBiome 4: " + RMSSD4;
+            if(UDPListener.heartRateList.Count <  4)
+            {
+                //for testing purposes when we don't have HR thing
+                List<Double> valueList = new List<Double>();
+                System.Random rnd = new System.Random();
+                for(int i = 0; i<50; i++)
+                {
+                    valueList.Add(rnd.NextDouble() * 60);
+                    RMSSD1 = rnd.NextDouble() * 80;
+                    RMSSD2 = rnd.NextDouble() * 300;
+                    RMSSD3 = rnd.NextDouble() * 100;
+                    RMSSD4 = rnd.NextDouble() * 100;
+                }
+                showGraph(valueList);
+                myText.text = "Your RMSDD Score (Estimated due to sensor problem)\nBiome 1: " + RMSSD1 + "\nBiome 2: " + RMSSD2 + "\nBiome 3: " + RMSSD3 + "\nBiome 4: " + RMSSD4;
+            } else
+            {
+                showGraph(UDPListener.heartRateList);
+                myText.text = "Your RMSDD Scores\nBiome 1: " + RMSSD1 + "\nBiome 2: " + RMSSD2 + "\nBiome 3: " + RMSSD3 + "\nBiome 4: " + RMSSD4;
+            }
+            showData = false;
+            
         }
 
         if (resetGraph)
