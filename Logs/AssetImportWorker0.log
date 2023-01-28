@@ -1,0 +1,785 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32710 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/brian/OneDrive/Desktop/GitHub/BFiIE-Spring2022
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52280
+Successfully changed project path to: C:/Users/brian/OneDrive/Desktop/GitHub/BFiIE-Spring2022
+C:/Users/brian/OneDrive/Desktop/GitHub/BFiIE-Spring2022
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 102.95 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.85 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/brian/OneDrive/Desktop/GitHub/BFiIE-Spring2022/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5979 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002855 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 99.78 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Domain Reload Profiling:
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.75 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\brian\OneDrive\Desktop\GitHub\BFiIE-Spring2022\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1966ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1733ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1033ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (764ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4227 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.8 MB.
+System memory in use after: 214.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4718.
+Total: 5.340700 ms (FindLiveObjects: 0.462500 ms CreateObjectMapping: 0.382100 ms MarkObjects: 4.228500 ms  DeleteObjects: 0.266400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/XRPlatformControllerSetup.cs
+  artifactKey: Guid(e7987a4f9b79e754c951908fed65bc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRPlatformControllerSetup.cs using Guid(e7987a4f9b79e754c951908fed65bc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0276d40dbd7dd4b14b40efff81691dc2') in 0.069020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.792446 seconds.
+  path: Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/Textures/Landscape/Road3-3.png
+  artifactKey: Guid(8f8c87e3562d4e844bac7fd82bc6328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/Textures/Landscape/Road3-3.png using Guid(8f8c87e3562d4e844bac7fd82bc6328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6bf007a4f60ab32212c41c87e4aa5c') in 0.118043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.775515 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Demo
+  artifactKey: Guid(a95c3150ed947b840b7ed49cc87b9f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Demo using Guid(a95c3150ed947b840b7ed49cc87b9f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ffa704dfcc7ce29a9f06f8fb73e6ba') in 0.008084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048219 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Demo/LightingData.asset
+  artifactKey: Guid(d6b4ce11f2da424408280903532f182d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Demo/LightingData.asset using Guid(d6b4ce11f2da424408280903532f182d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ab958c032a881c6b040cb9b2e4f427') in 0.016995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(b936efb1702e99c4bb6c64771a3be7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Demo/ReflectionProbe-0.exr using Guid(b936efb1702e99c4bb6c64771a3be7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954b23375eaa6cd179ea5034076f43ef') in 0.069409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.174736 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Materials
+  artifactKey: Guid(cee8836e17f0e5649b0bff3faa9817dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Materials using Guid(cee8836e17f0e5649b0bff3faa9817dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8d6660d64b92dab682f90461bd8319') in 0.010386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.545092 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs
+  artifactKey: Guid(37158ec432af0504b8755265494933a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs using Guid(37158ec432af0504b8755265494933a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1405c20e12c6016dea1ab1335a0337') in 0.007160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.801218 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks
+  artifactKey: Guid(3e4613ad764defd46adce07c37fc7320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks using Guid(3e4613ad764defd46adce07c37fc7320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2aa22e572165d69bc8cb20b724ffed7') in 0.008274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.527456 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy
+  artifactKey: Guid(d5c9739d1e570674fa1bae1d208464f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy using Guid(d5c9739d1e570674fa1bae1d208464f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c6e476745d846bad8f58e54c2a942e') in 0.009552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.462191 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus
+  artifactKey: Guid(ba9ca44b9916d134daa757302ac30f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus using Guid(ba9ca44b9916d134daa757302ac30f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dc85410da1f9aae35323e8cb6b1457') in 0.008047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042829 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A1.prefab
+  artifactKey: Guid(5775df06d2aa8734dac07ed5ae941bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A1.prefab using Guid(5775df06d2aa8734dac07ed5ae941bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fa966ecd863a07337a2ab75fc01b7c') in 0.152590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A6.prefab
+  artifactKey: Guid(b0c053a7b51ec2d4b946c8a8c012c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A6.prefab using Guid(b0c053a7b51ec2d4b946c8a8c012c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a049bca0c7fc4a0b0f4119d4297feb') in 0.079790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A4.prefab
+  artifactKey: Guid(667963ca0cebe58408302f69699a5648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A4.prefab using Guid(667963ca0cebe58408302f69699a5648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46e5c40187ccef622d54e54ab529a9f') in 0.032815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Sharp_Rock_Group_1A1.prefab
+  artifactKey: Guid(c2fcbcf6690afed4b9d7b8d78eabc446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Sharp_Rock_Group_1A1.prefab using Guid(c2fcbcf6690afed4b9d7b8d78eabc446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a307c81b1cd4446682288c9abb03680') in 0.025056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A4.prefab
+  artifactKey: Guid(f069648dd330f1e438d35d8a8af15774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A4.prefab using Guid(f069648dd330f1e438d35d8a8af15774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c0d72f34ccd4bb1ed5d9d12e20bf83') in 0.032987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A5.prefab
+  artifactKey: Guid(20e6d5b42696bac4ca55887038e3ead4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A5.prefab using Guid(20e6d5b42696bac4ca55887038e3ead4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423a30aaa958c79fcbd4b8b0aeda6463') in 0.024568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A2.prefab
+  artifactKey: Guid(2c05e09b74a72704a9a16fc2e6a88726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A2.prefab using Guid(2c05e09b74a72704a9a16fc2e6a88726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72db813423b818f6cf179f54d9f2bbf') in 0.025201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A6.prefab
+  artifactKey: Guid(837a949d29b682c43be17bef97c59a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A6.prefab using Guid(837a949d29b682c43be17bef97c59a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba5800ddbdc7b3bdcb9d325684db265') in 0.022350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A4.prefab
+  artifactKey: Guid(2feaa9bca3f1e6c45b2a55dae6f354fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A4.prefab using Guid(2feaa9bca3f1e6c45b2a55dae6f354fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f3b5c6ac8d94c9dd17ae345ca017a3') in 0.062210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A1.prefab
+  artifactKey: Guid(5bb68b7c4ce434d4fa8b6ff8ff16f0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A1.prefab using Guid(5bb68b7c4ce434d4fa8b6ff8ff16f0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a16d33501625b06dbb84e7355c69d7f') in 0.021541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A4.prefab
+  artifactKey: Guid(b89ba00cb0cdf104fb3f21a20c9ffffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A4.prefab using Guid(b89ba00cb0cdf104fb3f21a20c9ffffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e34fd677f0edfb8bf2721accc31980') in 0.021341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A1.prefab
+  artifactKey: Guid(b4ff43de393731749b5f3de9c003dc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A1.prefab using Guid(b4ff43de393731749b5f3de9c003dc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49fea61334f422664f9695058ab92cb') in 0.023277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A2.prefab
+  artifactKey: Guid(e44683886124ef64a9e1a1b6274c5841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A2.prefab using Guid(e44683886124ef64a9e1a1b6274c5841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee3d69e3ea2a103e215bd7e7f11b7d7') in 0.021535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A3.prefab
+  artifactKey: Guid(73aff3b5acaaa944a903f773fd30d036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A3.prefab using Guid(73aff3b5acaaa944a903f773fd30d036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4aa3438ae84b0e749451c4be73682ce') in 0.023860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Plateau_1A1.prefab
+  artifactKey: Guid(3686f85f15e03d042bae4836a16385eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Plateau_1A1.prefab using Guid(3686f85f15e03d042bae4836a16385eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa01866dd7a7f0f3c7ca4b4e47d995a') in 0.023262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A5.prefab
+  artifactKey: Guid(67c8dd8d73701ec4a80627a4105f608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A5.prefab using Guid(67c8dd8d73701ec4a80627a4105f608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dde04faeb4c97b8e4f75d3786bac7b2') in 0.027749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000810 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A2.prefab
+  artifactKey: Guid(104b4a7cdfb511541a2a84a7de2c4d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A2.prefab using Guid(104b4a7cdfb511541a2a84a7de2c4d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c2e818c53e60359d12793cf5dbe90e') in 0.024333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A3.prefab
+  artifactKey: Guid(658d196d8c5e4f8418a36c9b51f7cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A3.prefab using Guid(658d196d8c5e4f8418a36c9b51f7cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99b0163e6fcb6a498816207b0249b38') in 0.040649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A3.prefab
+  artifactKey: Guid(09a672c53c2199240b9de30411a64031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A3.prefab using Guid(09a672c53c2199240b9de30411a64031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9784212974fcd7aaeb5f6e32710cf4b4') in 0.021918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A5.prefab
+  artifactKey: Guid(62b837c89bc01b94283fa29d360f8cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A5.prefab using Guid(62b837c89bc01b94283fa29d360f8cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a69a48f2bbdedfdb136b3c0989abcd') in 0.025125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A5.prefab
+  artifactKey: Guid(1e7a5d4cfae7be842ae0c2b72d148b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Plateau_1A5.prefab using Guid(1e7a5d4cfae7be842ae0c2b72d148b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9f26c349c5b320d9c616a272c4a1d9') in 0.034074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A3.prefab
+  artifactKey: Guid(fa4e57a19ee9c3f4b82072e910352b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Small_Sharp_Cliffs_1A3.prefab using Guid(fa4e57a19ee9c3f4b82072e910352b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b144d4b28e48b3f3a5ae84cbd71ae01d') in 0.026534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A1.prefab
+  artifactKey: Guid(21b8d8d8bbb27854b8f6e540d5b39e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A1.prefab using Guid(21b8d8d8bbb27854b8f6e540d5b39e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc0c21a4feacd4d192f20ac9c293a52') in 0.022937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A2.prefab
+  artifactKey: Guid(506d6b824fb5faa4a8c2992df541e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Flat_Rock_Group_1A2.prefab using Guid(506d6b824fb5faa4a8c2992df541e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd139bce46ca9f3498942d81730360a80') in 0.023963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Sharp_Rock_Group_1A2.prefab
+  artifactKey: Guid(4142d58151d0a7a46a1ff4b16e04e93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Sharp_Rock_Group_1A2.prefab using Guid(4142d58151d0a7a46a1ff4b16e04e93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a257c480c99c4426dbeca2d49e2107ae') in 0.023573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A7.prefab
+  artifactKey: Guid(827f7fb8b702cad46953b0c8939474c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Sharp_Cliffs_1A7.prefab using Guid(827f7fb8b702cad46953b0c8939474c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa25d2e93395e877008c4077bc960a1') in 0.024083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Sharp_Rock_Group_1A3.prefab
+  artifactKey: Guid(2d148edafe5cd1b4aabf8b8831158baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Sharp_Rock_Group_1A3.prefab using Guid(2d148edafe5cd1b4aabf8b8831158baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a02c68a0a9441e796a6fce97d576dc') in 0.034999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Plateau_1A2.prefab
+  artifactKey: Guid(8c0902e0bb18b8d4b9ae4b1d670b9321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Grassy/Cliffs and Plateaus/Large_Plateau_1A2.prefab using Guid(8c0902e0bb18b8d4b9ae4b1d670b9321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557cf2f637caef0ab992bef926149477') in 0.025719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.595440 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures
+  artifactKey: Guid(7545c1f735eb7c64db201dbc82c2bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures using Guid(7545c1f735eb7c64db201dbc82c2bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e4808886d3e25727df0ff19e6ddb06') in 0.006879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032226 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Flats_Smooth_2A1_AlbedoTransparency.png
+  artifactKey: Guid(0e1b14cd33cda214589a30abed8fd6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Flats_Smooth_2A1_AlbedoTransparency.png using Guid(0e1b14cd33cda214589a30abed8fd6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355cd96ea6972a8222773c302a63397d') in 0.017941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Oceanic_Smooth_2B1_AlbedoTransparency.png
+  artifactKey: Guid(8020f544ab2f97f47b1eff22724f0891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Oceanic_Smooth_2B1_AlbedoTransparency.png using Guid(8020f544ab2f97f47b1eff22724f0891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3d6f38b559bd0815e6fc8e34e3f8f8') in 0.032630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Sandy_Top_1A1.png
+  artifactKey: Guid(5c186f1eda635d94ab9f3e07f6f7d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Sandy_Top_1A1.png using Guid(5c186f1eda635d94ab9f3e07f6f7d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94fef918ec8236d1c747b1fd1805539') in 0.027697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Oceanic_Smooth_2A1_AlbedoTransparency.png
+  artifactKey: Guid(8aa68b91c09d72e4a974db7626473ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Oceanic_Smooth_2A1_AlbedoTransparency.png using Guid(8aa68b91c09d72e4a974db7626473ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01615ce6f93206ee6d481081c82a8f0d') in 0.034708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Rocky_Smooth_2A1_Normal.png
+  artifactKey: Guid(17a2a27480f649e46a9b6f0bc0b6f632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Rocky_Smooth_2A1_Normal.png using Guid(17a2a27480f649e46a9b6f0bc0b6f632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33939fba21ed6bc0161b22d5098aa14') in 0.037404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Flats_Smooth_2B1_AO.png
+  artifactKey: Guid(db00f7668c6acfa41ab50d20263578d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Flats_Smooth_2B1_AO.png using Guid(db00f7668c6acfa41ab50d20263578d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103596284ce47d624182f309c814f5a6') in 0.040433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Rocky_Smooth_2B1_Normal.png
+  artifactKey: Guid(1a3f36c2dd247bc499b4ed3df8e4bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Rocky_Smooth_2B1_Normal.png using Guid(1a3f36c2dd247bc499b4ed3df8e4bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6509684ce11f36b01e93d7333f6b1a') in 0.032806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Rocky_Smooth_2B1_AO.png
+  artifactKey: Guid(876fb2acc3e365e49a82b4399a523f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Rocky_Smooth_2B1_AO.png using Guid(876fb2acc3e365e49a82b4399a523f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7aa04a28c3da74886e6fe517cdc79c') in 0.027867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Rocky_Smooth_2A1_MetallicSmoothness.png
+  artifactKey: Guid(11f9a63cf7685fd468a281ddf626c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Rocky_Smooth_2A1_MetallicSmoothness.png using Guid(11f9a63cf7685fd468a281ddf626c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1471bb7460c8eaa77818947a3fdbb80f') in 0.035985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Flats_Smooth_2B1_MetallicSmoothness.png
+  artifactKey: Guid(ffce3e74fff818c40b032a8a186ed738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Flats_Smooth_2B1_MetallicSmoothness.png using Guid(ffce3e74fff818c40b032a8a186ed738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f2cb933d33b210008d232dadc89209') in 0.014618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Oceanic_Smooth_2A1_AO.png
+  artifactKey: Guid(e4d417a5d9faf2941b8708a26f53e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Oceanic_Smooth_2A1_AO.png using Guid(e4d417a5d9faf2941b8708a26f53e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc429f5eba16960761fd2c37da8e289') in 0.026206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low_Flats_1B1_MetallicSmoothness.png
+  artifactKey: Guid(a8ad90da469c57447936a5c9cbaa1f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low_Flats_1B1_MetallicSmoothness.png using Guid(a8ad90da469c57447936a5c9cbaa1f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5c3539cf0c876e07df8ce2c305cbd9') in 0.033738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low_Flats_1A1_AlbedoTransparency.png
+  artifactKey: Guid(178bab5ab2be67c4fbf2d64c16c7fdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low_Flats_1A1_AlbedoTransparency.png using Guid(178bab5ab2be67c4fbf2d64c16c7fdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4a802f9be26a30c8d5c88e0a0844ba') in 0.031013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low_Flats_1A1_AO.png
+  artifactKey: Guid(a1bb85d20fbf4a1499788b562b998300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low_Flats_1A1_AO.png using Guid(a1bb85d20fbf4a1499788b562b998300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2942b1e0cf9cf4c5f6aea3b7e8c93104') in 0.028134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Flats_Smooth_2A1_AO.png
+  artifactKey: Guid(0ed2483a1a26b2643bb5513436255179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Flats_Smooth_2A1_AO.png using Guid(0ed2483a1a26b2643bb5513436255179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60820960ebc52b5d8dafeefa67d0d12d') in 0.028709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Oceanic_Smooth_2A1_MetallicSmoothness.png
+  artifactKey: Guid(68e8bacf8a405934d8de5dbd89eabfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Oceanic_Smooth_2A1_MetallicSmoothness.png using Guid(68e8bacf8a405934d8de5dbd89eabfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2087213026f28ef88acb7a97c874d5a8') in 0.033725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Oceanic_Smooth_2B1_AO.png
+  artifactKey: Guid(a5387b0cb9e376847bcbd6050a2391e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Oceanic_Smooth_2B1_AO.png using Guid(a5387b0cb9e376847bcbd6050a2391e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879bd2b5fa58879e2facf146194f60dd') in 0.026987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Oceanic_Smooth_2B1_MetallicSmoothness.png
+  artifactKey: Guid(83793aecac2e912449735d284a4a5e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Oceanic_Smooth_2B1_MetallicSmoothness.png using Guid(83793aecac2e912449735d284a4a5e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee54c756478eb056f55b58e086479fc') in 0.035621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Flats_Smooth_2A1_MetallicSmoothness.png
+  artifactKey: Guid(4c4953592acd1d74b9fee610f8660b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Flats_Smooth_2A1_MetallicSmoothness.png using Guid(4c4953592acd1d74b9fee610f8660b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd512dfb077defa6f27f8ba68b7fe46a9') in 0.016554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low_Flats_1A1_Normal.png
+  artifactKey: Guid(d3bf8b9408984774d9e08077d9bb6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low_Flats_1A1_Normal.png using Guid(d3bf8b9408984774d9e08077d9bb6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1938e920e260be089890e810ebfaff94') in 0.036224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Rocky_Smooth_2B1_AlbedoTransparency.png
+  artifactKey: Guid(4706f9ae37175e04fb00f2b15058d59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Rocky_Smooth_2B1_AlbedoTransparency.png using Guid(4706f9ae37175e04fb00f2b15058d59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101b8c89c7781a5b79c5f952eb6c8525') in 0.028486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Grassy_Top_1A1.png
+  artifactKey: Guid(e2eca2b1f4d2384459284c95760d8678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Grassy_Top_1A1.png using Guid(e2eca2b1f4d2384459284c95760d8678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe8e9d6318f9ec3806ddc2193654172') in 0.015240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Flats_Smooth_2B1_Normal.png
+  artifactKey: Guid(c9780512815ce4041b71070e6497f9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Flats_Smooth_2B1_Normal.png using Guid(c9780512815ce4041b71070e6497f9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f00e587b107caa0a721dc729325ceac') in 0.021197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Oceanic_Smooth_2A1_Normal.png
+  artifactKey: Guid(990a3cf91a0517747a75f7ce83dfbbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Oceanic_Smooth_2A1_Normal.png using Guid(990a3cf91a0517747a75f7ce83dfbbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2221dc83faf1823b868dde3cc62b17') in 0.040867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Oceanic_Smooth_2B1_Normal.png
+  artifactKey: Guid(324a8b3db3e9e5748adf147f4b4d5089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Oceanic_Smooth_2B1_Normal.png using Guid(324a8b3db3e9e5748adf147f4b4d5089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71279ccfdc5dd1706995eee0b39ce48') in 0.039863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low_Flats_1A1_MetallicSmoothness.png
+  artifactKey: Guid(03ea5c1d1c5663c489df5f00237c1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low_Flats_1A1_MetallicSmoothness.png using Guid(03ea5c1d1c5663c489df5f00237c1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e05cfec3f2b219dad1c986c910cd5da') in 0.098083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low_Flats_1B1_Normal.png
+  artifactKey: Guid(c6425597fb4d41d4fa5d010d5f94ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low_Flats_1B1_Normal.png using Guid(c6425597fb4d41d4fa5d010d5f94ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6240d28b83cc3f25d942dd4248baae32') in 0.047710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Flats_Smooth_2A1_Normal.png
+  artifactKey: Guid(b74c1e8c0c2138d41b47b07814900a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_A_Low(Smooth)_Flats_Smooth_2A1_Normal.png using Guid(b74c1e8c0c2138d41b47b07814900a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef6db45e3b59a17fd570590a0228cd6') in 0.020365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Snowy_Top_1A1.png
+  artifactKey: Guid(91324e422eb81fe4c93da18e480dd26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Snowy_Top_1A1.png using Guid(91324e422eb81fe4c93da18e480dd26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d8282b4c3d85419e844da66f549c7a') in 0.024867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Snow_A_Low(Smooth)_Rocky_Smooth_2A1_AO.png
+  artifactKey: Guid(5619d4443fe0da14f958d420d2fa3fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Snow_A_Low(Smooth)_Rocky_Smooth_2A1_AO.png using Guid(5619d4443fe0da14f958d420d2fa3fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1caf066b4a114bf6de1b71b03fb4fa2') in 0.028443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000935 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Rocky_Smooth_2B1_MetallicSmoothness.png
+  artifactKey: Guid(6cc902b45759f5141ad1b1702a50dd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Rocky_Smooth_2B1_MetallicSmoothness.png using Guid(6cc902b45759f5141ad1b1702a50dd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7e0c199289a181874d14b64b926b55') in 0.042972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Snow_A_Low(Smooth)_Rocky_Smooth_2A1_AlbedoTransparency.png
+  artifactKey: Guid(c17c76f49f03ff649828c61f0201a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Snow_A_Low(Smooth)_Rocky_Smooth_2A1_AlbedoTransparency.png using Guid(c17c76f49f03ff649828c61f0201a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11049fa6cfe4357316f6f09c3e54efa') in 0.033575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Flats_Smooth_2B1_AlbedoTransparency.png
+  artifactKey: Guid(8791189f627dfe74099250e7d2383cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Textures/Flats_B_Low(Smooth)2_Flats_Smooth_2B1_AlbedoTransparency.png using Guid(8791189f627dfe74099250e7d2383cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8abdedbc9d329132b64ce9495dc60c3') in 0.021542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.365591 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard
+  artifactKey: Guid(ec1acc7b9c6340a41814595b1b7dbebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard using Guid(ec1acc7b9c6340a41814595b1b7dbebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de76869e025d9ac777a296fb61aa4d8a') in 0.007457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.664838 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces
+  artifactKey: Guid(31ff8ab2d2f7a784eabd036021d56acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces using Guid(31ff8ab2d2f7a784eabd036021d56acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2401c1486da3cd0670f01d828cdb14') in 0.008302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037089 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Flat_Rock_1A1.prefab
+  artifactKey: Guid(1cf30a5d21bbcb14881dfc92303f808e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Flat_Rock_1A1.prefab using Guid(1cf30a5d21bbcb14881dfc92303f808e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e485fd01696c62f7c6fd6a1553f370b') in 0.028317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A2.prefab
+  artifactKey: Guid(1d20e43dc0aee0f419e6cc2f263d0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A2.prefab using Guid(1d20e43dc0aee0f419e6cc2f263d0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4a637ff8a7fecffcfe0c5f6390c835') in 0.021348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A4.prefab
+  artifactKey: Guid(6e93fbd7414962e44a8bf6a261428d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A4.prefab using Guid(6e93fbd7414962e44a8bf6a261428d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6307dc85a706cf9edb2658854e199bf') in 0.020621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A3.prefab
+  artifactKey: Guid(de2879ba496b13541a7ea8b929546f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A3.prefab using Guid(de2879ba496b13541a7ea8b929546f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebf3bbcd3f21fec48b94e42be74c8f6') in 0.025369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A1.prefab
+  artifactKey: Guid(82f0157c7a7f1d644a20f2b147526ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A1.prefab using Guid(82f0157c7a7f1d644a20f2b147526ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18f04ab6e9723044ce0cf0f59c73d1e') in 0.021587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A6.prefab
+  artifactKey: Guid(df0ecb0e7ad64ee4aa305589d0bb007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A6.prefab using Guid(df0ecb0e7ad64ee4aa305589d0bb007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a799577c3d7049fda58fc5ef60bce9a7') in 0.020087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A7.prefab
+  artifactKey: Guid(3e4860eea3a52824cb5a0563a020ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A7.prefab using Guid(3e4860eea3a52824cb5a0563a020ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a82c80caf4ac7bf6006e0da14e60378') in 0.025073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A4.prefab
+  artifactKey: Guid(70c05c3d3bc0ddd4a8637888c911284b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A4.prefab using Guid(70c05c3d3bc0ddd4a8637888c911284b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585f7450c46be78e0f062ffc24c860a0') in 0.024638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A3.prefab
+  artifactKey: Guid(39e2f80c575749c45a41bf9964f25eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A3.prefab using Guid(39e2f80c575749c45a41bf9964f25eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2063cf168ecea1820f84c7b637ad5182') in 0.024463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A1.prefab
+  artifactKey: Guid(6220756a2ab00724b86d668132a75ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A1.prefab using Guid(6220756a2ab00724b86d668132a75ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f344b44fed51e0289cf6cd8caba48b') in 0.024903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A7.prefab
+  artifactKey: Guid(4ca815e06ad97d340b53bbb870c70f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A7.prefab using Guid(4ca815e06ad97d340b53bbb870c70f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4247e366aee57742627079b19f8c4e01') in 0.025853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A6.prefab
+  artifactKey: Guid(58ea62024c548394087b6ed5bebedaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A6.prefab using Guid(58ea62024c548394087b6ed5bebedaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbe47ce6223cb95008030a148d45f7f') in 0.025419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A5.prefab
+  artifactKey: Guid(4f75a6cae60d7724db3cf037a5143c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A5.prefab using Guid(4f75a6cae60d7724db3cf037a5143c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c89771c1a47b738c4a98cc30a9c2c7a') in 0.067886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A2.prefab
+  artifactKey: Guid(d1aa0d04ca2195c459e83c0eef0dc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A2.prefab using Guid(d1aa0d04ca2195c459e83c0eef0dc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9557b69fa71538bf43c4e67ed984d682') in 0.034537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A2.prefab
+  artifactKey: Guid(e6a5fdf5a38524a4186d70cc06c06b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A2.prefab using Guid(e6a5fdf5a38524a4186d70cc06c06b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bb71b326888bf6335baab54b3c713f') in 0.030619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A4.prefab
+  artifactKey: Guid(e028b797e83c7eb438425ba78ffebf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A4.prefab using Guid(e028b797e83c7eb438425ba78ffebf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600db58531a075893e6df4edcd7161dc') in 0.022890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Flat_Rock_1A3.prefab
+  artifactKey: Guid(dc9cc3ac0693b7e47b865d80404c7c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Flat_Rock_1A3.prefab using Guid(dc9cc3ac0693b7e47b865d80404c7c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f437f53b03aa023b2f6f102751e0c766') in 0.024418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A7.prefab
+  artifactKey: Guid(20891b6c7a2911c468b3e2e9dd9e775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A7.prefab using Guid(20891b6c7a2911c468b3e2e9dd9e775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2295a29a82bbbe0cd73d0d900b9d3a4f') in 0.025815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A5.prefab
+  artifactKey: Guid(0ccbba32bc851874ca3ab269ca38e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A5.prefab using Guid(0ccbba32bc851874ca3ab269ca38e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3565c863cd7085d32abeb48faf399c3e') in 0.028612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A6.prefab
+  artifactKey: Guid(985187b569508e94a8c189253e4de4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A6.prefab using Guid(985187b569508e94a8c189253e4de4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e67d8bf5c9d7ff7cf79acaf5888e03') in 0.028967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Flat_Rock_1A2.prefab
+  artifactKey: Guid(c67a9e020194aea449dd9d1e5bb3cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Flat_Rock_1A2.prefab using Guid(c67a9e020194aea449dd9d1e5bb3cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281b5564f97929c098e26274fed8e925') in 0.029175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A6.prefab
+  artifactKey: Guid(a6962a52ad9688e49b76a67c90aad5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A6.prefab using Guid(a6962a52ad9688e49b76a67c90aad5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f514b0aef153b4c9dde72e8dfeeb1e8c') in 0.029306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A2.prefab
+  artifactKey: Guid(6027532ef1aff4f4ca72029d763e9ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Rock_1A2.prefab using Guid(6027532ef1aff4f4ca72029d763e9ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ef97314a583df794f0df6ba8bddec1') in 0.027915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A1.prefab
+  artifactKey: Guid(1ddfc964dde44c34e9c9b5abfb2ef63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A1.prefab using Guid(1ddfc964dde44c34e9c9b5abfb2ef63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b569a59a5105961a41513d89160005') in 0.023399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Flat_Rock_1A4.prefab
+  artifactKey: Guid(d2aba578d3371c144a984c33fee401ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Flat_Rock_1A4.prefab using Guid(d2aba578d3371c144a984c33fee401ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acee168ec1f1616a379c6f3dae323cb1') in 0.023599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A7.prefab
+  artifactKey: Guid(abc0a5f9bc25b09469f081ad53f544ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A7.prefab using Guid(abc0a5f9bc25b09469f081ad53f544ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd974f2812c0169ab9837f77323161315') in 0.025864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A1.prefab
+  artifactKey: Guid(707b3042fa19e874aafe5cfa01869118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A1.prefab using Guid(707b3042fa19e874aafe5cfa01869118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e8e5c65f1ce6c0e5d38625db5e45e9') in 0.024153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A3.prefab
+  artifactKey: Guid(fe4e292374258e64d8bb7c0a45ac6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A3.prefab using Guid(fe4e292374258e64d8bb7c0a45ac6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77e151c0b7e2e7cda5fa78a06c54015') in 0.024454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A4.prefab
+  artifactKey: Guid(fe446fbbd12e06740a35e9a6bf3e57f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A4.prefab using Guid(fe446fbbd12e06740a35e9a6bf3e57f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5446b8c4263e37ccf570bd570e2988d1') in 0.024189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A5.prefab
+  artifactKey: Guid(4250708da7f16eb4fb90a290177d2cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Sharp_Rock_1A5.prefab using Guid(4250708da7f16eb4fb90a290177d2cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22db5c24dbe46e0be89c5b963b86f85') in 0.023235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A3.prefab
+  artifactKey: Guid(a426e2fe4f5667742b3430268d0073d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Small_Stone_1A3.prefab using Guid(a426e2fe4f5667742b3430268d0073d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9d906ae7d9a2d0ac091abe6dfe657d') in 0.025265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A5.prefab
+  artifactKey: Guid(be3bceacc3d5c7441bfc166c56e2d0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aquarius_Stylized_Poly_Rocks/Prefabs/Base Rocks/Standard/Single Pieces/Large_Rock_1A5.prefab using Guid(be3bceacc3d5c7441bfc166c56e2d0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a8829ac8d09517150789382edeaffa') in 0.025005 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
